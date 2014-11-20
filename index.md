@@ -3,6 +3,8 @@ layout: default
 title: Maptime Seattle
 ---
 
+<h1 id="tutorial" class="tutorial-title">Maptime Seattle</h1>
+
 ![Seattle skyline](/img/4850319902_2613f2e28e_b.jpg)
 
 MaptimeSEA is the Seattle branch of the international Maptime community. Together, we learn and explore mapping technologies through tutorials and other meetups. We organize and teach under these major principles:
