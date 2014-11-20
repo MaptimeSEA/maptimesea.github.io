@@ -44,7 +44,7 @@ Map tiles are the basemap of your page. You can see them in action on the [open 
 
 <p class="collapse-button">More about map tiles</p>
 <div class="collapse">
-  <p>Something about how tiles are created, and a nod to vector tiles.</p>
+  <p>The Mapbox <a href="https://www.mapbox.com/foundations/how-web-maps-work/" target="_blank">"How do webmaps work?"</a> writeup is really great. They explain how tiles are created and why they are great. It's important to note that making a map with tiles isn't the only way to do it either. Take a look at <a href="http://d3js.org">d3js.org</a> to learn about vector-based web cartography.</p>
 </div>
 
 ## Data
@@ -53,7 +53,7 @@ Geographic data come in many formats, such as Shapefiles if you're familiar with
 
 <p class="collapse-button">More about Geojson and spatial data</p>
 <div class="collapse">
-  <p>Talk about geojson standardization, and some other formats used in the web</p>
+  <p>GeoJSON is the standard web format for geospatial information. It is based on JSON, which is an object readable data format for Javascript. GeoJSON takes this and essentially standardizes the nomenclature for spatial information, such as latitude and longitude. Take a look at the <a href="http://geojson.org/">GeoJSON specification</a> to learn more.</p>
 </div>
 
 # LET'S GET STARTED
