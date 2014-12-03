@@ -21,6 +21,8 @@ MaptimeSEA is the Seattle branch of the international Maptime community. Togethe
 
 **Email**. Questions? Send us an email at `seattle@maptime.io` to get in touch.
 
+**Survey**. Our tutorials are structured around what you want to learn. Fill out our survey out even if you haven't attended a meeting to express what you're interested in learning! [bit.ly/maptimesea_survey](http://bit.ly/maptimesea_survey)
+
 #Our Tutorials
 
 We are trying our best to post tutorials so anybody can learn from them. We'll be using [resources](http://maptime.io/lessons-resources/) from [MaptimeHQ](http://twitter.com/MaptimeHQ) as well as writing our own.

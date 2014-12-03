@@ -115,6 +115,10 @@ If you are seeing your new file show up, you've successfully created a GeoJSON a
 
 Once your changes have been merged, you will officially be a contributor to the MaptimeSEA/geojson repository! Wahoo!
 
+## Fin.
+
+Hope that was helpful! Please fill out our survey when you are done even if you couldn't attend the meeting. We want to make sure the MaptimeSEA tutorials are teaching what **you** want to learn. [bit.ly/maptimesea_survey](http://bit.ly/maptimesea_survey)
+
 
 
 
