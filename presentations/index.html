@@ -1,0 +1,31 @@
+<html>
+  <head><title>Testing Object vs. Value function passing</head>
+  <body>
+    <script>
+    var object = {
+      "value1": 3,
+      "value2": 4
+    }
+    
+    passObjectVals(object.value1 / object.value2);
+    passFullObject(object);
+
+    function passFullObject(a) {
+      if (a.value1 + a.value2 == 6) {
+        console.log(true);
+      } else {
+        console.log(false);
+      }
+    }
+
+    function passObjectVals(a) {
+      if (a == 6) {
+        console.log(true);
+      } else {
+        console.log(false);
+      }
+    }
+    
+    </script>
+  </body>
+</html>
