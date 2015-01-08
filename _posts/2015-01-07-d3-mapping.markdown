@@ -121,7 +121,7 @@ When you define a projection, you tell D3 how to transform your data from spheri
 
 When D3 renders your SVG, it has to translate geo coordinates to pixel coordinates on your screen. This functionality is called a *path generator*. In this block, we store our path generator in the variable *path* so we can access it through out our code.
 
-At this point, all that you've done is created an empty SVG on your page. Now that our **document** is ready, we need **data**.
+At this point, all you have is an empty SVG on your page. Now that our **document** is ready, we need **data**.
 
 ## STEP 3: Grab map data
 
@@ -147,7 +147,7 @@ When you complete this step, you will have a map. Below your path generator, ins
 	});
 ```
 
-This chunk of code goes through *us.json* and adds each feature to the SVG on your page. This is a great time to *Inspect Element* on your web page or dig into the GeoJSON. As you can see, your SVG has an element (shape) for each feature in your GeoJSON. With a little extra digging, you will find that feature attributes in the source data are preserved in your visualization. See how data drives this document?
+This chunk of code goes through *us.json* and adds each feature to the SVG on your page. This is a great time to *Inspect Element* on your web page or dig into the GeoJSON. As you can see, your SVG has a "path" element (shape) for each feature in your GeoJSON. With a little extra digging, you will find that feature attributes in the source data are preserved in your visualization. See how data drives this document?
 
 **Congratulations!** You built a web map in D3.js!
 
