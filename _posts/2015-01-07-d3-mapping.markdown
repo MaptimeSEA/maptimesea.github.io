@@ -153,7 +153,7 @@ This chunk of code goes through *us.json* and adds each feature to the SVG on yo
 
 ## STEP 5: Challenge
 
-1. **Center the map**. Hint: look at the [docs](https://github.com/mbostock/d3/wiki/Geo-Projections#center). What is a natural place to add this information?
+1. **Center the projection**. Hint: look at the [docs](https://github.com/mbostock/d3/wiki/Geo-Projections#center). What is a natural place to add this information?
 2. **Change the scale**. Hint: where did we set scale again?
 3. **Change the projection**. Dump that mercator! Hint: search "mercator()" and try [something else](https://github.com/mbostock/d3/wiki/Geo-Projections)
 4. **Find the data**. Use your JS console to access a element data. Hint: it involves a [selection](https://github.com/mbostock/d3/wiki/Selections)
