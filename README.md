@@ -1,5 +1,4 @@
-Maptime Seattle
-===============
+#[Maptime Seattle](http://maptimesea.github.io)
 
 ![Seattle skyline](img/4850319902_2613f2e28e_b.jpg)
 
