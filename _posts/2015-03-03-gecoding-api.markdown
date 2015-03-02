@@ -11,9 +11,9 @@ Geocoding is not a new technology. The concept of determining the most likely ge
 
 With the introduction web maps and user's searching for locations, the geocoding process had to be created as a web tool as well and no longer could be done in stand-alone software on the desktop. This required the browser to be able send a query of an address to a geocoder and have that return information back to the webpage with the likeliest locations for the query. To do this effectively, webmaps needed to access a geocoder via an **API**.
 
-# APPLICATION PROGRAMMING INTERFACE (API)
+# What is an API?
 
-Those three words are pretty confusing. Worry not! APIs serve a very basic purpose: *accept a query and return data that matches the query.* APIs and their queries are generally accessible via URLs at a website. For example, you can send a query to `api.example.com` by passing specific parameters in the URL:
+API: **Application Programming Interface**. Those three words are pretty confusing. Worry not! APIs serve a very basic purpose: *accept a query and return data that matches the query.* APIs and their queries are generally accessible via URLs at a website. For example, you can send a query to `api.example.com` by passing specific parameters in the URL:
 
 ```
 http://api.example.com?query=hello&format=json
@@ -46,13 +46,97 @@ Take a look at the Census's page with more information about the their geocoder'
 
 With the above URL concept, we'll look at how to build a web page that makes a query to the URL and returns geographic information that we could put on a map.
 
-# TUTORIAL TIME
+# Build a Geocoder
 
-## Zero: HTML Starter
+## HTML Boilerplate
 
-## One: Making a call to an API (Census Bureau)
+To get started, we'll need a quick HTML boilerpate for us to write some HTML and Javascript. We'll use the template from our introduction to web mapping tutorial.
 
-## Two: Input field for an address
+<script src="https://gist.github.com/powersa/36be23aaa647c25c3236.js"></script>
 
-## Three: Retrieve latitude & longitude values
+To view that page in your browser, you can find the file on your computer and either double click it, or right click and "open with" whichever browser you prefer.
+
+## Making a call to an API
+
+To make a call to an API, we need to use a special function to make an HTTP request. In our case, we're going to use the `$.ajax()` function from the jQuery library, which allows us to put together a call to an API quite easily. 
+
+*Note: There are many javascript libraries that include HTTP request functions and do it quite well. You can also do this in regular javascript, but for the sake of this tutorial the jQuery implementation makes this process much easier.*
+
+<aside><strong>Protip:</strong> You can view the results in your browser simply by visiting the URL! <a href="http://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=500%20Yale%20Avenue%20North,%20Seattle,%20WA%2098109&benchmark=4&format=jsonp">Click here to check it out.</a></aside>
+
+In your `<script></script>` tags let's add the `&.ajax()` function with the proper parameters. First, you'll want to specify the `url` that you want to request information from (this is the Census's URL described above). Second the `dataType` should be written as `jsonp`. The final two options are `success` and `error`. A successful response from the URL will append all of the information to the callback variable `response`. If the response errors out, you'll see a specified error in your console.
+
+```javascript
+$.ajax({
+    url: 'YOUR URL',
+    dataType: 'jsonp',
+    success: function(response) {
+        console.log(response);
+    },
+    error: function(error) {
+        console.log(error);
+    }
+});
+```
+
+**What's a console?** Good question! Your browser (Chrome, Safari, Firefox) has a "console" that allows us to send information to via javascript so we can test our work. Open up your developer console with the example script below to see the response from the Census geocoder.
+
+<script src="https://gist.github.com/svmatthews/0811545938dd1f68595e.js"></script>
+
+The example above uses the `&.ajax()` function directly when the page loads. You'll notice a bit of a delay before something happens because your browser is *waiting* for the Census to send a response to your browser. Once your browser receives the response, it will spit it out into your console so you can see the data. You should see something like this, if you were to expand the fields:
+
+![console log of census address object](/img/tut_geocoding-censusobject.gif)
+
+## Input field for an address
+
+Okay, the above is neat. But no one is going to want to go to a website and have the same address geocoded each time. Let's build in the functionality for the user to input an address, *then* make the call to the Census API.
+
+This requires an `<input>` element in our HTML. Two of them, to be precise. One for the actual text input of an address, the other as a *submit* button. Below is the code you should add after your `<body>` tag:
+
+```HTML
+<input type="text" id="address">
+<input type="submit" value="GEOCODE!" onclick="geocode();">
+```
+
+If you notice that `geocode()` function above, you might be wondering where that comes from. Well, we need to add it to our javascript below as a wrapper around the `&.ajax()` function. This will be executed only when the user clicks the `GEOCODE!` button. In order to grab the value from the text field, we'll have to access that element's ID using `document.getElementById('address')` and pass it through our `url` parameter. Let's replace the variable `address`'s value with this new function instead. Here's the javascript wrapper:
+
+```javascript
+function geocode() {
+    var address = document.getElementById('address').value;
+    $.ajax({
+        // ...
+    });
+}
+```
+
+Below is the full example that you can copy and run in your browser. Again, the response will show in your console once you enter an address and press the Geocode button.
+
+<script src="https://gist.github.com/svmatthews/da2d6e700563b360948d.js"></script>
+
+## Retrieve latitude & longitude values
+
+Now that we have a cool little web application working, let's turn our attention to the most important part... the data! In the GIF above, you may have noticed that the response from the Census geocoder inclues the all-important `coordinates` information. In order to access this info to use in our application, we'll have to use Javascript's [**dot notation**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors). The response object is like a river of information, branching into new rivers and streams. Let's break down how to dive in by looking at the three key pieces:
+
+![console log of census address object](/img/tut_geocoding-censusconsole.png)
+
+* **`addressMatches`**: The geocoder will return a response based on the most accurate address information it can find. This doesn't mean that there is **only one** result for a search, though. If you aren't specific enough in your search (i.e. 1235 Maple Dr.) the gecoder will respond with an array of the most likely results, which will be here. The first (`0`) result is the likeliest of possibilities, which is what we'll use in our application.
+* **`addressComponents`**: This is the proper breakdown of the address's parameters. You'll see there is a space for each potential value in an address, such as `city` or `streetName`. This object is included *within* the `addressMatches` object.
+* **`coordinates`**: Finally! Latitude and longitude (`x` & `y`) coordates. This object is also located *within* the `addressMatches` object.
+
+In order to access the `coordinates` we'll have to canoe our way down the object stream starting with the `response` variable we defined in our `success` function. *Remember, we're grabbing the FIRST address returned, which is the `0`th object in the `addressMatches` array.*
+
+```javascript
+var latitude = response.result.addressMatches[0].coordinates.x;
+var longitude = response.result.addressMatches[0].coordinates.y;
+```
+
+Here's the working example that prints the latitude and longitude to the console in your browser:
+
+<script src="https://gist.github.com/svmatthews/2f2fe8dc9892ebaa0f1c.js"></script>
+
+# What's next?
+
+Now that we have `latitude` and `longitude` defined in variables, we can pass that information to anything we want, such as the Leaflet mapping library! Here's a project that takes the above work and creates a new point marker on the map. Feel free to contribute to the project on github!
+
+
 
