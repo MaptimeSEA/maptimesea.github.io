@@ -50,7 +50,7 @@ With the above URL concept, we'll look at how to build a web page that transform
 
 ## HTML Boilerplate
 
-To get started, we need a simple HTML boilerpate to hold some HTML and Javascript. We'll use the template from our introduction to web mapping tutorial. Download to boilerplate or save it to a file that follows the naming convention.
+To get started, we need a simple HTML boilerpate to hold our HTML and Javascript. We'll use the template from our introduction to web mapping tutorial. Download the boilerplate or save it to a file that follows the same naming convention.
 
 <script src="https://gist.github.com/powersa/36be23aaa647c25c3236.js"></script>
 
