@@ -60,11 +60,18 @@ To view that page in your browser, find the file on your computer and right clic
 
 To make a call to an API, we will use a special function to make an [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) request. In our case, we're going to use the `$.ajax()` function from the jQuery library, which allows us to form a call quite easily.
 
-*Note: There are many javascript libraries that include HTTP request functions and do it quite well. You can also do this in regular javascript, but for the sake of this tutorial the jQuery implementation makes this process much easier.*
-
 <aside><strong>Protip:</strong> You can view the results in your browser simply by visiting the URL! <a href="http://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=500%20Yale%20Avenue%20North,%20Seattle,%20WA%2098109&benchmark=4&format=jsonp">Click here to check it out.</a></aside>
 
-In your `<script></script>` tags let's add the `&.ajax()` function with the proper parameters. First, you'll specify the `url` that you want to request information from (this is the Census URL described above). Second the `dataType` should be written as `jsonp`. The final two options are `success` and `error`. A successful response from the URL will append all of the information to the callback variable `response`. If the response errors out, you'll see a specified error in your console.
+*Note: There are many javascript libraries that include HTTP request functions and do it quite well. You can also do this in regular javascript, but for the sake of this tutorial the jQuery implementation makes this process much easier.*
+
+Access the jQuery library in your webpage by adding
+
+```html
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+```
+above the `<style>` tag.
+
+Between your `<script></script>` tags, add the `$.ajax()` function:
 
 ```javascript
 $.ajax({
@@ -79,17 +86,21 @@ $.ajax({
 });
 ```
 
-**What's a console?** Good question! Your browser (Chrome, Safari, Firefox) has a "console" that allows us to send information via javascript so we can test our work. Open up your developer console with the example script below to see the response from the Census geocoder.
+Before you reload your page, update *YOUR URL* with the [example](http://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1225+Prestwick+Terrace+Mahtomedi+MN&benchmark=4&format=jsonp) from above. Notice that the `dataType` is set to `jsonp` to avoid nasty cross origin issues.
+
+The final two options are `success` and `error`. A successful response will return the callback variable `response`, which we then print to the console. If the response errors out, an error message is returned and we print that instead.
+
+**What's a console?** Good question! Your browser (Chrome, Safari, Firefox) has a "console" that allows you to print information via javascript (among other things) so we can test our work. Open up your developer console (hit F12 then select *console*), then load the page you just built or the example below. See the response from the Census geocoder?
 
 <script src="https://gist.github.com/svmatthews/0811545938dd1f68595e.js"></script>
 
-The example above uses the `&.ajax()` function directly when the page loads. You'll notice a bit of a delay before something happens because your browser is *waiting* for the Census to send a response to your browser. Once your browser receives the response, it will spit it out into your console so you can see the data. You should see something like this, if you were to expand the fields:
+Our example runs the `$.ajax()` function directly when the page loads. You'll notice a brief delay before something happens. Your browser is *waiting* for a response from the Census, just like your grandparents anticipate your next letter. Once your browser receives the response, it will spit it out to your console so you can see the data. You will see something like this when you expand the fields:
 
 ![console log of census address object](/img/tut_geocoding-censusobject.gif)
 
 ## Input field for an address
 
-Okay, the above is neat. But no one is going to want to go to a website and have the same address geocoded each time. Let's build in the functionality for the user to input an address, *then* make the call to the Census API.
+Okay, the above is neat. But do we want a website that geocodes the same address every time? NO WAY! Let's build in the functionality for the user to input an address, *then* make the call to the Census API.
 
 This requires an `<input>` element in our HTML. Two of them, to be precise. One for the actual text input of an address, the other as a *submit* button. Below is the code you should add after your `<body>` tag:
 
@@ -98,7 +109,7 @@ This requires an `<input>` element in our HTML. Two of them, to be precise. One 
 <input type="submit" value="GEOCODE!" onclick="geocode();">
 ```
 
-If you notice that `geocode()` function above, you might be wondering where that comes from. Well, we need to add it to our javascript below as a wrapper around the `&.ajax()` function. This will be executed only when the user clicks the `GEOCODE!` button. In order to grab the value from the text field, we'll have to access that element's ID using `document.getElementById('address')` and pass it through our `url` parameter. Let's replace the variable `address`'s value with this new function instead. Here's the javascript wrapper:
+Notice that `geocode()` function above? You might be wondering where that comes from... Well, we need to add it to our javascript below as a wrapper around the `&.ajax()` function. This will be executed only when the user clicks the `GEOCODE!` button. In order to grab the value from the text field, we'll have to access that element's ID using `document.getElementById('address')` and pass it through our `url` parameter. Let's replace the value of the `address` variable with this new function instead. Here's the javascript wrapper:
 
 ```javascript
 function geocode() {
@@ -109,19 +120,19 @@ function geocode() {
 }
 ```
 
-Below is the full example that you can copy and run in your browser. Again, the response will show in your console once you enter an address and press the Geocode button.
+Below is the full example that you can copy and run in your browser. Again, the response will show in your console once you enter an address and press the *Geocode* button.
 
 <script src="https://gist.github.com/svmatthews/da2d6e700563b360948d.js"></script>
 
 ## Retrieve latitude & longitude values
 
-Now that we have a cool little web application working, let's turn our attention to the most important part... the data! In the GIF above, you may have noticed that the response from the Census geocoder inclues the all-important `coordinates` information. In order to access this info to use in our application, we'll have to use Javascript's [**dot notation**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors). The response object is like a river of information, branching into new rivers and streams. Let's break down how to dive in by looking at the three key pieces:
+Now that we have a cool little web application, let's turn our attention to the most important part... the data! In the GIF above, you may have noticed that the response from the Census geocoder includes the all-important `coordinates` information. To access this info in our app, we'll have to use Javascript's [**dot notation**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_Accessors). The response object is like a lake of data, branching into new rivers and streams. Let's break down how to dive in by looking at the three key pieces:
 
 ![console log of census address object](/img/tut_geocoding-censusconsole.png)
 
-* **`addressMatches`**: The geocoder will return a response based on the most accurate address information it can find. This doesn't mean that there is **only one** result for a search, though. If you aren't specific enough in your search (i.e. 1235 Maple Dr.) the gecoder will respond with an array of the most likely results, which will be here. The first (`0`) result is the likeliest of possibilities, which is what we'll use in our application.
-* **`addressComponents`**: This is the proper breakdown of the address's parameters. You'll see there is a space for each potential value in an address, such as `city` or `streetName`. This object is included *within* the `addressMatches` object.
-* **`coordinates`**: Finally! Latitude and longitude (`x` & `y`) coordates. This object is also located *within* the `addressMatches` object.
+* **`addressMatches`**: The geocoder will return a response based on the most accurate address information it can find. This doesn't mean that there is **only one** result for a search, though. If you aren't specific enough in your search (i.e. 1235 Maple Dr.) the geocoder will respond with an array of the most likely results. The first (`0`) result is the likeliest of possibilities, which is what we'll use in our application.
+* **`addressComponents`**: This is the proper breakdown of the address parameter. You'll see there is a space for each potential value in an address, such as `city` or `streetName`. This object is included *within* the `addressMatches` object.
+* **`coordinates`**: Finally! Latitude and longitude (`x` & `y`) coordinates. This object is also located *within* the `addressMatches` object.
 
 In order to access the `coordinates` we'll have to canoe our way down the object stream starting with the `response` variable we defined in our `success` function. *Remember, we're grabbing the FIRST address returned, which is the `0`th object in the `addressMatches` array.*
 
