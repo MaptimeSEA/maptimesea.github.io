@@ -48,28 +48,21 @@ With the above URL concept, we'll look at how to build a web page that transform
 
 # Build a Geocoder
 
-## HTML Boilerplate
-
-To get started, we need a simple HTML boilerpate to hold our HTML and Javascript. We'll use the template from our introduction to web mapping tutorial. Download the boilerplate or save it to a file that follows the same naming convention.
-
-<script src="https://gist.github.com/powersa/36be23aaa647c25c3236.js"></script>
-
-To view that page in your browser, find the file on your computer and right click it to "open with" whichever browser you prefer.
+To get started, grab an [HTML boilerplate](https://gist.github.com/powersa/36be23aaa647c25c3236) from some of our other meetings and save it to a `.html` file. To view that page in your browser, find the file on your computer and right click it to "open with" whichever browser you prefer.
 
 ## Making a call to an API
 
-To make a call to an API, we will use a special function to make an [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) request. In our case, we're going to use the `$.ajax()` function from the jQuery library, which allows us to form a call quite easily.
+To make a call to an API, we will use a special function to make an [HTTP](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) request. In our case, we're going to use the `$.ajax()` function from the [jQuery](http://jquery.com/) library, which allows us to form a call quite easily.
 
 <aside><strong>Protip:</strong> You can view the results in your browser simply by visiting the URL! <a href="http://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=500%20Yale%20Avenue%20North,%20Seattle,%20WA%2098109&benchmark=4&format=jsonp">Click here to check it out.</a></aside>
 
 *Note: There are many javascript libraries that include HTTP request functions and do it quite well. You can also do this in regular javascript, but for the sake of this tutorial the jQuery implementation makes this process much easier.*
 
-Access the jQuery library in your webpage by adding
+Access the jQuery library in your webpage by adding the following within the `<head>` of your file:
 
 ```html
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 ```
-above the `<style>` tag.
 
 Between your `<script></script>` tags, add the `$.ajax()` function:
 
@@ -147,4 +140,4 @@ Here's the working example that prints the latitude and longitude to the console
 
 # What's next?
 
-Now that we have `latitude` and `longitude` defined in variables, we can pass that information to anything we want, such as the Leaflet mapping library! Here's a project that takes the above work and creates a new point marker on the map. Feel free to contribute to the project on github!
+Now that we have `latitude` and `longitude` defined in variables, we can pass that information to anything we want, such as the Leaflet mapping library! [Here's a project](https://github.com/MaptimeSEA/geocoder) that takes the above work and creates a new point marker on the map. Feel free to contribute to the project on github!
