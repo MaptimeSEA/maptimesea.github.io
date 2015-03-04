@@ -40,9 +40,9 @@ Like the `example.com` URL above, the Census has their own URL to access their g
 * **http://geocoding.geo.census.gov/geocoder/locations/onelineaddress** - this is the URL endpoint where we send information. The `onelineaddress` is a special endpoint that allows us to send a single string address through the geocoder without breaking the data into distinct parts (i.e. street number, street name, city, state, etc.).
 * **?address=1225+Prestwick+Terrace+Mahtomedi+MN** - this is the address query we send to the geocoding API.
 * **benchmark=4** - the benchmark parameter is the address dataset you'd like to access. Number `4` is ID for the most recent dataset from the Census.
-* **format=jsonp** - `jsonp` is the data type that we'd like to have returned for this address. Because we retrieve results from a URL different from our own, the `jsonp` data type allows us to bypass [Cross Origin Issues](CROSS ORIGIN LINK).
+* **format=jsonp** - `jsonp` is the data type that we'd like to have returned for this address. Because we retrieve results from a URL different from our own, the `jsonp` data type allows us to bypass [Cross Origin Issues](https://jvaneyck.wordpress.com/2014/01/07/cross-domain-requests-in-javascript/).
 
-Take a look at the Census page with more information about the their geocoder's optional parameters that allow you to tune your requests.
+Take a look at the Census page with [more information](http://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.pdf) about the their geocoder's optional parameters that allow you to tune your requests.
 
 With the above URL concept, we'll look at how to build a web page that transforms a query into a URL that returns geographic information to put on our map.
 
