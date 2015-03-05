@@ -64,7 +64,7 @@ Access the jQuery library in your webpage by adding the following within the `<h
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 ```
 
-Between your `<script></script>` tags, add the `$.ajax()` function:
+Between your `<script></script>` tags that are within the '<body>' of your file, add the `$.ajax()` function:
 
 ```javascript
 $.ajax({
@@ -130,8 +130,8 @@ Now that we have a cool little web application, let's turn our attention to the 
 In order to access the `coordinates` we'll have to canoe our way down the object stream starting with the `response` variable we defined in our `success` function. *Remember, we're grabbing the FIRST address returned, which is the `0`th object in the `addressMatches` array.*
 
 ```javascript
-var latitude = response.result.addressMatches[0].coordinates.x;
-var longitude = response.result.addressMatches[0].coordinates.y;
+var latitude = response.result.addressMatches[0].coordinates.y;
+var longitude = response.result.addressMatches[0].coordinates.x;
 ```
 
 Here's the working example that prints the latitude and longitude to the console in your browser:
