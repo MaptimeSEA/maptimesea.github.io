@@ -125,7 +125,7 @@ Now that we have a cool little web application, let's turn our attention to the 
 
 * **`addressMatches`**: The geocoder will return a response based on the most accurate address information it can find. This doesn't mean that there is **only one** result for a search, though. If you aren't specific enough in your search (i.e. 1235 Maple Dr.) the geocoder will respond with an array of the most likely results. The first (`0`) result is the likeliest of possibilities, which is what we'll use in our application.
 * **`addressComponents`**: This is the proper breakdown of the address parameter. You'll see there is a space for each potential value in an address, such as `city` or `streetName`. This object is included *within* the `addressMatches` object.
-* **`coordinates`**: Finally! Latitude and longitude (`x` & `y`) coordinates. This object is also located *within* the `addressMatches` object.
+* **`coordinates`**: Finally! Latitude(y) and longitude(x) (`x` & `y`) coordinates. This object is also located *within* the `addressMatches` object.
 
 In order to access the `coordinates` we'll have to canoe our way down the object stream starting with the `response` variable we defined in our `success` function. *Remember, we're grabbing the FIRST address returned, which is the `0`th object in the `addressMatches` array.*
 
