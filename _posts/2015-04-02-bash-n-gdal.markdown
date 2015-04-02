@@ -70,7 +70,6 @@ Commands
 
 If you don't have a terminal already set up, check out one of these EC2 box's:
 - http://ec2-54-187-116-103.us-west-2.compute.amazonaws.com:8080
-- http://ec2-54-149-5-136.us-west-2.compute.amazonaws.com:8080
 - http://ec2-54-191-110-231.us-west-2.compute.amazonaws.com:8080
 
 
