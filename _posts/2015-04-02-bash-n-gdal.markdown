@@ -86,26 +86,57 @@ GDAL is a massive suite of tools. We aren't going to get through all of them tod
 Project 1: Hillshades
 ---------------------
 
-1. Download the data.
-2. Build a VRT with `gdalbuildvrt`
-3. Build a Geotiff with `gdal_translate`
-4. Generate a Hillshade with `gdaldem hillshade`
-5. Build a color relief with `gdaldem color-relief`
-6. Build a slope shade with `gdaldem slope-shade`
-7. Mush everything together with `gdal_merge`
-8. Clip your file
-  - By bounding box: `gdalwarp -te`
-  - By outline: `gdalwarp -cutline`
+### Convert our `.img` to a `.tif`
+
+```
+gdal_translate -of GTIFF ned19_n47x75_w122x50_wa_puget_sound_2000.img output.tif
+```
+
+### Reproject it to `EPSG:4326`
+
+```
+gdalwarp -s_srs EPSG:4269 \                                      maptime/git/master !
+-t_srs EPSG:4326 \
+-r bilinear \
+output.tif reprojected.tif
+```
+
+### Clip it to a a bounding box
+
+```
+gdalwarp -te -122.359886 47.574962 -122.287960 47.630231 reprojected.tif clipped_by_bb.tif
+```
+
+### Clip it to a shapefile
+
+```
+gdalwarp -cutline ../arboretum.shp -crop_to_cutline output.tif clipped_by_park.tif
+```
+
+### Generate a Hillshade
+
+```
+gdaldem hillshade -of PNG clipped_by_park.tif hillshade.png
+```
+
+### Build a color relief`
+
+```
+gdaldem color-relief clipped_by_park.tif color-ramp.txt color-relief.tif
+```
+
 
 Project 2: Automate the process with `make`
 -------------------------------------------
 Bundle all of those commands together into a single Makefile than you can execute. Check out [Why Use Make](http://bost.ocks.org/mike/make/)
+
 
 Project 3: Mosaic Landsat imagery with Landsat-util and GDAL
 ------------------------------------------------------------
 - Download [landsat-util](https://github.com/developmentseed/landsat-util)
 - Create a few Landsat composites
 - Mosaic them together with GDAL
+
 
 Project 4: Change detection with GIFS
 -------------------------------------
@@ -119,3 +150,4 @@ See Also:
 - [GDAL Cheat Sheet](https://github.com/dwtkns/gdal-cheat-sheet/blob/master/README.md)
 - [Joe Larson's Landsat Animations](http://joelarson.com/landsat/2014/12/07/landsat-animation/)
 - [Pansharpening with GDAL](http://blog.remotesensing.io/2013/04/pansharpening-using-a-handy-gdal-tool/)
+- [BBoxfinder](http://bboxfinder.com)
