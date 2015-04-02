@@ -52,7 +52,7 @@ Getting started:
 
 You'll get more out of this if you work with a partner. They can help you move forward if you're stuck, and regardless of how much experience you have, you'll pick something up by watching how someone else works. __If you're stuck for longer than 5 minutes, ask.__
 
-__[Grab the data](https://github.com/jacquestardie/gdal-walkthrough)__
+__[Grab the data](ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/NED/19/IMG/ned19_n47x75_w122x50_wa_puget_sound_2000.zip)__
 
 
 Commands
