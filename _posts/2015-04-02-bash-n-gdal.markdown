@@ -72,8 +72,6 @@ If you don't have a terminal already set up, check out one of these EC2 box's:
 - http://ec2-54-187-116-103.us-west-2.compute.amazonaws.com:8080
 - http://ec2-54-149-5-136.us-west-2.compute.amazonaws.com:8080
 - http://ec2-54-191-110-231.us-west-2.compute.amazonaws.com:8080
-- http://ec2-54-187-189-112.us-west-2.compute.amazonaws.com:8080
-- http://ec2-54-186-237-4.us-west-2.compute.amazonaws.com:8080
 
 
 You'll be root, so, you can do whatever you want. You can mine BTC's if you want, but I'll be deleting these boxes right after we finish :D
