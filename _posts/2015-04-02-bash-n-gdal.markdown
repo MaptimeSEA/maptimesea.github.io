@@ -45,7 +45,6 @@ Objectives:
 3. Create a mosaic of Landsat imagery using `landsat-util` and `gdal`.
 4. Change detection using raster math AKA how to make GIFs in the command line.
 
-The actual goal is to push your boundaries a little bit...
 
 
 Getting started:
@@ -58,8 +57,8 @@ You'll get more out of this if you work with a partner. They can help you move f
 `ftp://rockyftp.cr.usgs.gov/vdelivery/Datasets/Staged/NED/19/IMG/ned19_n47x75_w122x50_wa_puget_sound_2000.zip`
 
 
-Commands
---------
+Bash Commands
+-------------
 
 - `ls` - What's around you.
 - `pwd` - Where you are.
@@ -70,30 +69,36 @@ Commands
 - Other convenience methods?
 
 If you don't have a terminal already set up, check out one of these EC2 box's:
-
-- [1](http://ec2-54-187-116-103.us-west-2.compute.amazonaws.com:8080)
-- [2](http://ec2-54-191-110-231.us-west-2.compute.amazonaws.com:8080)
+- http://ec2-54-187-116-103.us-west-2.compute.amazonaws.com:8080
+- http://ec2-54-191-110-231.us-west-2.compute.amazonaws.com:8080
 
 
 You'll be root, so, you can do whatever you want. You can mine BTC's if you want, but I'll be deleting these boxes right after we finish :D
 
 
-GDAL why?
+GDAL commands
 ---------
 
 GDAL is a massive suite of tools. We aren't going to get through all of them today, but we'll at least see what sorts of things it can be useful for, and you'll learn how to find more information if you need.
 
+Take a look through the following two pages to see what's possible:
+- [GDAL cheatsheet](https://github.com/dwtkns/gdal-cheat-sheet)
+- [GDAL Cookbook](https://pcjericks.github.io/py-gdalogr-cookbook/)
 
 Project 1: Hillshades
 ---------------------
 
 ### Convert our `.img` to a `.tif`
 
+Convert file formats with:
+
 ```
 gdal_translate -of GTIFF ned19_n47x75_w122x50_wa_puget_sound_2000.img output.tif
 ```
 
 ### Reproject it to `EPSG:4326`
+
+Change projections with:
 
 ```
 gdalwarp -s_srs EPSG:4269 \                                      maptime/git/master !
