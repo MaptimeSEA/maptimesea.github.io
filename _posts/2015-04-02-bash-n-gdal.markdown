@@ -45,6 +45,7 @@ Objectives:
 3. Create a mosaic of Landsat imagery using `landsat-util` and `gdal`.
 4. Change detection using raster math AKA how to make GIFs in the command line.
 
+The actual goal is to push your boundaries a little bit...
 
 
 Getting started:
@@ -69,8 +70,9 @@ Commands
 - Other convenience methods?
 
 If you don't have a terminal already set up, check out one of these EC2 box's:
-- http://ec2-54-187-116-103.us-west-2.compute.amazonaws.com:8080
-- http://ec2-54-191-110-231.us-west-2.compute.amazonaws.com:8080
+
+- [1](http://ec2-54-187-116-103.us-west-2.compute.amazonaws.com:8080)
+- [2](http://ec2-54-191-110-231.us-west-2.compute.amazonaws.com:8080)
 
 
 You'll be root, so, you can do whatever you want. You can mine BTC's if you want, but I'll be deleting these boxes right after we finish :D
