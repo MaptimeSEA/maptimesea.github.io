@@ -32,7 +32,12 @@ The data used for this tutorial comes from the [Pronto Cycle Share Current Stati
 The station attributes present in this data feed are documented [here](https://www.prontocycleshare.com/assets/pdf/JSON.pdf). In the compiled dataset, we have a record for each station, with each attribute, every minute.
 
 ## Sample questions
-Let's fill this in together.
+* Average Number of Bikes Available
+* Change in time in available bikes
+* Elevation
+* How current is the data?
+* Can we draw paths (as the crow flies) for bike paths
+* Other?
 
 # Setup
 If you don't already have an account, visit the [signup page](https://cartodb.com/signup) and create one. Once you're in, you will land on a page that looks something like this:
