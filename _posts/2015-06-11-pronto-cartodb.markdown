@@ -3,8 +3,6 @@ layout: tut
 title: "Bike Maps with CartoDB"
 ---
 
-
-
 We're going to map data from [Pronto Cycle Share](https://www.prontocycleshare.com/), a Seattle bike share program, with a tool called [CartoDB](https://cartodb.com/). You don't need to ride a bike to do this tutorial. Oh, and if you've never made a map or web map, that's cool too.
 
 We aren't going to show you how to make one type of map in this tutorial. Instead, we'll show you how to get access to CartoDB, connect to data and explain what the provided data means. At that point, the rest is up to you and your fellow mappers to define what types of maps you want to make. Share and collaborate! **Email seattle@maptime.io with a link to your map, code snippet or screenshot and we'll add it to the examples on this page.**
@@ -18,18 +16,23 @@ The motto at CartoDB is "Maps for the Web, made easy". Making maps is not easy, 
 # Objectives
 1. Support fellow mappers
 2. Have a good time
-3. Grok the data
+3. [Grok](http://en.wikipedia.org/wiki/Grok) the data
 4. Setup CartoDB
 5. Connect to data
 6. Explore and visualize
 7. Show and tell
 
 # Grok Data
-Before we get started, we need to understand the data we have so we can frame questions we want to answer with it.
+Before we get started, we need to understand the data at our disposal. This will help us frame questions. We could find that the way the data, as it exists in its current states, limits the maps we can make. That's okay. Feel free to think about what the data *should* look like. How might you get from **A** to **B**? There are no bad questions. If you get stuck, share your idea and others might have an angle. If you are doing this tutorial along get in touch with [@MaptimeSEA](https://twitter.com/MaptimeSEA).
 
 ## Origin
+The data used for this tutorial comes from the [Pronto Cycle Share Current Station Data feed](https://www.prontocycleshare.com/resources#data). This data feed presents real time attributes about each Pronto Station. We queried this data every minute for a few days and then processed those json files into a comma separated file. If you want to know more about how we did that, check out [MaptimeSEA/prontodata](https://github.com/MaptimeSEA/prontodata). Also, checkout the flattened files in [data_processed](https://github.com/MaptimeSEA/prontodata/tree/master/data_processed).
 
 ## Fields
+The station attributes present in this data feed are documented [here](https://www.prontocycleshare.com/assets/pdf/JSON.pdf). In the compiled dataset, we have a record for each station, with each attribute, every minute.
+
+## Sample questions
+Let's fill this in together.
 
 # Setup
 If you don't already have an account, visit the [signup page](https://cartodb.com/signup) and create one. Once you're in, you will land on a page that looks something like this:
@@ -52,11 +55,7 @@ BOOM! You've got data yes you do. This is what it might look like:
 ![datain](/img/tut_carto_05.png)
 
 ## Off to the Races
-We've got data. Let's go.
-
-# Explore
-
-
-## Suggestions
+We've got data. Let's go. PS - link to more data if it'll help you make maps.
 
 # Our Work
+Let's use this space to document some of the maps we made. Send a static copy of your map with a description of what it shows and we'll plug it in to this section.
