@@ -25,4 +25,10 @@ The goal is to have everyone choose a cell and draw that part of the grid using 
 ![](/img/tut_handdrawn_IMG_1393.jpg)
 ![](/img/tut_handdrawn_IMG_1397.jpg)
 
+# Collective shape from memory
+
+This is a small quick project. We asked people to quickly draw an outline of the state of Minnesota, with intentions to overlay them all together.
+
+![mn](/img/tut_handdrawn_mn.png)
+
 
