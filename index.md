@@ -26,3 +26,5 @@ MaptimeSEA is the Seattle branch of the international Maptime community. Togethe
 #Our Tutorials
 
 We are trying our best to post tutorials so anybody can learn from them. We'll be using [resources](http://maptime.io/lessons-resources/) from [MaptimeHQ](http://twitter.com/MaptimeHQ) as well as writing our own.
+
+Interested in leading a tutorial? Great! Take a look at our [instructor guidelines](/guidelines) and send us a message.
