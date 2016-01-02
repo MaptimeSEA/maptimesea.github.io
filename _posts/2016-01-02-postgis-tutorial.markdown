@@ -1,3 +1,8 @@
+---
+layout: tut
+title: "Spatial Analysis with PostGIS"
+---
+
 # MapTime Seattle Postgres/PostGIS Lab
 
 ### Connection Information
