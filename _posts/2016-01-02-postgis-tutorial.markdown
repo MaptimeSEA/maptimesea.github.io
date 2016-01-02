@@ -3,7 +3,12 @@ layout: tut
 title: "Spatial Analysis with PostGIS"
 ---
 
-# MapTime Seattle Postgres/PostGIS Lab
+In this session we'll get acquainted with pgAdmin and do some spatial analysis with a PostGIS Database. 
+
+Thank you to [Clayton Parker Coleman] (https://github.com/parkercoleman) for providing this tutorial!
+
+
+# Connect to the database
 
 ### Connection Information
 
@@ -15,6 +20,8 @@ Port: 5432
 Username: maptime
 Password: mapsRfun504
 ````
+
+# Get familiar with pgAdmin
 
 ### pgAdmin Overview
 
@@ -54,6 +61,7 @@ Once we have our SQL window open, we're ready to begin.  To run a query, click t
 
 ![](http://i.imgur.com/jmmlq8l.png) 
 
+# Exercises
 
 ### Warm up
 
@@ -81,6 +89,8 @@ Once again we're interested in the geo.states\_ne table, and just to limit the a
 We'll need to know a bit more about the table we're working with.  The states\_ne table has information about states all over the world, not just states in America.  The country each state is part of is in the 'admin' column.  We'll need to use the WHERE clause, and limit values in the 'admin' column to the United States (hint: to limit our results, we'll need to spell out 'United States' exactly as it appears in the states\_ne table, which is 'United States of America')
 
 [Problem 0c Solution](https://gist.github.com/parkercoleman/12abca972317654c5f13)
+
+# Advanced Exercises
 
 ### Problem 1: What is the area of the state of Washington?  How does it compare to the areas of other states?
 
