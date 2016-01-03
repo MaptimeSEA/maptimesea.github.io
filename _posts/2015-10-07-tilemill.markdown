@@ -1,0 +1,10 @@
+---
+layout: tut
+title: "Tilemill"
+---
+
+In this session [Christy](http://christyheaton.github.io/) gave a [lesson](https://drive.google.com/file/d/0B9K68TCuaX4eWl9jOWVickl1SU0/view?usp=sharing) on web map tiles including several exercises. Then we did a [workshop](https://drive.google.com/file/d/0B9K68TCuaX4eTmR4RExUSG1SaUE/view?usp=sharing) creating and styling our own tiles using TileMill.
+
+We tiled the night away!
+
+![tiling night away](/img/tut_tilemill_group.jpg)
