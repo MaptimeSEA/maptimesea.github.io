@@ -230,3 +230,9 @@ Theres one more caveat though, the ports table doesn't tell us which country it 
 Finally, once we've gotten our list of American ports and their distance to the coast, we'll need to order it.
 
 [Problem 5 Solution](https://gist.github.com/parkercoleman/51cd5efca20d430ac5b7)
+
+## Tech talks
+Paul Ramsey is one of the core devs on PostGIS. He gives very good talks on the subject. Here are three archived on YouTube.
+- [PostGIS Feature Frenzy](https://www.youtube.com/watch?v=QhDlVl18Pws)
+- [Breakout Session Presented by Paul Ramsey of CartoDB at PGConf Silicon Valley 2015](https://www.youtube.com/watch?v=GSuZP89UdGs)
+- [Magical PostGIS in three brief movements](https://www.youtube.com/watch?v=Y0SBkjcyXOc)
