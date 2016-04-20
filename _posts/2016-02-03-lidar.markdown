@@ -1,0 +1,9 @@
+---
+layout: tut
+title: "Introduction to LiDAR"
+---
+
+In this session, [Caileigh](https://www.linkedin.com/in/caileighshoot) gave a quick intro to [LiDAR](https://docs.google.com/a/uw.edu/presentation/d/1yJN6XCSkaMdDjecK9QzGCmcjegu6FZXqNzpQG2stvws/edit?usp=sharing).            
+Then we went through a [tutorial](https://docs.google.com/a/uw.edu/document/d/15RWbJMlbStcyxkLmS6IryELYqhyAjNVloX2EFG6TX3E/edit?usp=sharing) on Earth Explorer and Fusion for LiDAR visualization. 
+
+Thanks to [Caileigh Shoot](https://www.linkedin.com/in/caileighshoot) for teaching this workshop!
