@@ -7,7 +7,7 @@ In honor of May being Missing Maps month, we hosted a Humanitarian Open Street M
 
 We were lucky enough to be joined by people from the local Missing Maps chapter. We all worked on the HOT OSM task 1789, in Western Swaziland. We focused on mapping just buildings, making them nice and clean using the auto-square option, and tagging them appropriately. You can find the slides [here](https://drive.google.com/file/d/0B9K68TCuaX4ebU5rdVlyT3JJSVZxclZtemxCdF9QWEtralI0/view?usp=sharing).
 
-![alt text](img/mapping.PNG)
+![alt text](img/mapping.jpg "mapping")
 
 ### Best Practices:
 
@@ -29,4 +29,4 @@ Missing Maps for providing pizza!
 
 King County for the use of their space!
 
-![alt text](img/pizza.PNG)
+![alt text](img/pizza.jpg "pizza")
