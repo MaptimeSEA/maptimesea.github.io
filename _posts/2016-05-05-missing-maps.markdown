@@ -3,9 +3,9 @@ layout: tut
 title: "Missing Maps"
 ---
 
-In honor of May being Missing Maps month, we hosted a Humanitarian Open Street Map Mapathon.
+In honor of May being Missing Maps month, we hosted a [Humanitarian Open Street Map](https://hotosm.org/) Mapathon!
 
-We were lucky enough to be joined by people from the local Missing Maps chapter. We all worked on the HOT OSM task 1789, in Western Swaziland. We focused on mapping just buildings, making them nice and clean using the auto-square option, and tagging them appropriately. You can find the slides [here](https://drive.google.com/file/d/0B9K68TCuaX4ebU5rdVlyT3JJSVZxclZtemxCdF9QWEtralI0/view?usp=sharing).
+We were led by the great folks at the local Missing Maps chapter. They provided a [tutorial](https://drive.google.com/file/d/0B9K68TCuaX4ebU5rdVlyT3JJSVZxclZtemxCdF9QWEtralI0/view?usp=sharing) on getting started and then we mapped the night away. We all worked on the HOT OSM task 1789, in Western Swaziland. Check out pictures of our event [here](https://www.flickr.com/photos/maptime/sets/72157668173054552)!
 
 ![mapping](/img/mapping.jpg)
 
