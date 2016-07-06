@@ -10,7 +10,7 @@ title: "Introduction to Git & GitHub"
 * We will be using the Command Line Interface version of Git, not the GUI. (because Sam doesn't know the GUI - not because it isn't great).
 * Who has used Git before? Why? How?
 
-#### GitHub and social coding
+# GitHub and social coding
 
 Git is a way to share, edit, and discuss code. GitHub makes this **so much** easier. There are a lot of major and minor projects tracked with Git, like [Linux](https://github.com/torvalds/linux), [Apple's Swift language](https://github.com/apple/swift), and even this [Maptime Seattle website](https://github.com/maptimesea/maptimesea.github.io).
 
@@ -24,14 +24,13 @@ Our goals today:
 
 1. Open the Git Dictionary
 2. Git on the command line
-2. Standard Git workflow (personal)
-3. Standard Git workflow (organization)
-3. Create a personal project on GitHub
-4. Work on a maptime organization project
-5. Handle nasty merge conflicts
+1. Tutorial: personal workflow
+1. Tutorial: branching
+1. Tutorial: fork & pull
+1. Tutorial: merge conflicts
 6. Introduce GitHub pages (if time permits)
 
-#### Git vocabulary quest
+# Git vocabulary quest
 
 For the majority of this tutorial, I'll reference Git & GitHub interchangably. They are very different, but I'm tired of constantly saying "Git and GitHub".
 
@@ -78,7 +77,7 @@ Tutorial Specific Dictionary
 
 You'll notice changes on your GitHub page! But what if you didn't want to push changes directly into the `master` branch? What if you were experimenting with something new and wanted to push it up to GitHub for someone to see, but not commit directly to the main project?
 
-#### Git workflow: organization (ish)
+#### Git workflow: branching
 
 1. Back to your local computer, create a new branch with `git checkout -b new-branch-name`. This command `-b` creates a new branch AND checks it out.
 2. You can list all branches and see which branch you are currently on with `git branch`
