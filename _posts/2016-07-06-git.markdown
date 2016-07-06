@@ -1,0 +1,118 @@
+---
+layout: tut
+title: "Introduction to Git & GitHub"
+---
+
+#### Before we start
+
+* Does everyone have a GitHub account created?
+* Does everyone have Git installed on their computer?
+* We will be using the Command Line Interface version of Git, not the GUI. (because Sam doesn't know the GUI - not because it isn't great).
+* Who has used Git before? Why? How?
+
+#### GitHub and social coding
+
+Git is a way to share, edit, and discuss code. GitHub makes this **so much** easier. There are a lot of major and minor projects tracked with Git, like [Linux](https://github.com/torvalds/linux), [Apple's Swift language](https://github.com/apple/swift), and even this [Maptime Seattle website](https://github.com/maptimesea/maptimesea.github.io).
+
+Before we start, it's important to remember:
+
+> Git is an active workflow.
+
+There are many ways to accomplish the same thing with Git & GitHub.
+
+Our goals today:
+
+1. Open the Git Dictionary
+2. Git on the command line
+2. Standard Git workflow (personal)
+3. Standard Git workflow (organization)
+3. Create a personal project on GitHub
+4. Work on a maptime organization project
+5. Handle nasty merge conflicts
+6. Introduce GitHub pages (if time permits)
+
+#### Git vocabulary quest
+
+For the majority of this tutorial, I'll reference Git & GitHub interchangably. They are very different, but I'm tired of constantly saying "Git and GitHub".
+
+* **Git**: version control software that can be installed on your computer. It comes with a command line interface accessed with the `git` command. Git tracks line changes in your code (added a line, changed a line, removed a line). This means it doesn't track binary files well!
+* **Version control**: recording changes in history. Everything from new lines to new files.
+* **Command line interface** (CLI): the Neo's Matrix part of your computer, a textual representation of the contents of your local computer
+* **GitHub**: a private company that has built a web interface for Git-based projects and introduced a much more community-oriented means of writing and discussing programming projects.
+* **Permissions & organizations**: each GitHub repository is typically under your username or an organization's name (a collection of GitHub users). Only people with persmission to edit code are allowed. You can always edit the code in your own repository.
+
+Git Dictionary
+
+* **Repository**: a project on GitHub
+* **Local**: your computer and the contents on it
+* **Remote**: the non-local store for your project's files (typically a GitHub repository, but can be other things like a private server). You can have multiple remotes, but the standard is to name your primary remote `origin`.
+* **Fork**: a copy of another project, allowing you to make edits without touching the original project. This copies from the original remote into a new remote on GitHub.
+* **Clone**: a direct clone of a project on your local computer. You can clone any repository (even if you don't have the proper permissions, but you won't be able to make changes to the project's remote if you don't have permissions).
+* **Branch**: a specific "scope" of your project. The "main" branch is typically referred to as `master`. You can have an infinite number of branches to avoid making changes to master.
+* **Commit**: a summary of a number of edits to a project, marked as a single node in a Git history
+* **Push**: put all of the commits you have on your local to your remote
+* **Pull**: grab all of the recent changes to a remote project that you don't have on your local computer.
+* **Pull request**: request another repository or project (that you do not have permissions to edit) to pull in your changes (series of commits).
+* **Issue**: A GitHubian way to track bugs, ideas, thoughts, and conversation.
+* **README**: The first file every repository should include, describing what the project is, how to use/install it, and how to contribute.
+* **Markdown**: the standard formatter for writing text on GitHub.
+
+Tutorial Specific Dictionary
+
+* **GeoJSON**: a geographic data format formatted as JSON (JavaScript Object Notation). GeoJSON plays well with Git & GitHub since it is a textual data format (non-binary).
+* **geojson.io**: a nifty website for creating GeoJSON.
+* **Rabbit hole**: a place where you all hopefully take us down by asking awesome, crazy questions. Interuptions are totally allowed. Ask away!
+
+#### Introduction to the command line
+
+#### Git workflow: personal
+
+1. **Create** a personal project on GitHub (name it whatever you want)
+2. Open your command line and **clone** the new repository onto your local computer `git clone repo`
+3. **Add a new file** called `README.md` and write something
+4. Check the status of your Git project with `git status`
+4. begin tracking the new file in Git by adding it. `git add README.md`.
+5. Check the status again to see the difference `git status`
+6. **Commit** the file with `git commit -m 'your message'`
+7. **Push** the changes to your remote with `git push origin master`.
+
+You'll notice changes on your GitHub page! But what if you didn't want to push changes directly into the `master` branch? What if you were experimenting with something new and wanted to push it up to GitHub for someone to see, but not commit directly to the main project?
+
+#### Git workflow: organization (ish)
+
+1. Back to your local computer, create a new branch with `git checkout -b new-branch-name`. This command `-b` creates a new branch AND checks it out.
+2. You can list all branches and see which branch you are currently on with `git branch`
+3. Make some changes and add those changes with `git add README.md` (or if you are adding a new file)
+4. Commit those changes with `git commit -m 'my cool new feature experiment'`
+5. Push those changes to a new branch on your remote with `git push origin new-branch-name`
+6. Create a **pull request** on GitHub and write up the changes you made!
+
+In an organizational setting, this will notify project maintainers of your changes and give everyone a chance to review and comment on the pull request. Others can pull this code into their local, make changes, and push up to the same branch, which will update the pull request accordingly.
+
+#### Git workflow: fork and pull
+
+Sometimes you won't have the ability to add a new branch to a project because you aren't listed as a maintainer. You can still contribute!
+
+1. Fork a repository you want contribute to
+2. Clone your fork to your local machine `git clone https://...`
+3. Make changes
+4. Push up to your remote fork
+5. Go to the main repository and create a pull request from your fork into the main project (you won't be able to merge this, only a maintainer can merge)
+
+Let's try this same workflow with the maptimesea `geojson` repository. Follow the steps here: https://github.com/maptimesea/geojson#geojson
+
+#### Fixing a merge conflict
+
+Remember, Git is **active**! If things are broken, you've gotta fix them. Most of the time, this comes down to "merge conflicts". This typically means the code that you have doesn't match the changes of the code in a remote, and if you were to merge your code in, you'd lose someone elses work. The best way to learn how to fix a merge conflict is to see one, and try fixing it.
+
+With the same geojson repository fork, add a location the `EVERYBODY.geojson` file and make a pull request again. This time, we'll all be adding to the exact same file, insted of unique files.
+
+Depending on which pull request is merged first (before yours), you'll likely see a message from GitHub that your fork cannot be automatically merged into the MaptimeSEA repository because it is missing commits. Here's how to remedy:
+
+1. Get all of the changes from the primary repo (called `upstream`) with `git fetch upstream`
+2. Merge all of the upstream `master` branch changes into your fork's `master` with `git merge upstream/master`.
+3. You may see a merge conflict! That's okay - we can fix this. Open `EVERYBODY.geojson` and you'll notice some odd lines like `>>>>>>>> head` or something similar. This is showing you what the primary file looks like, and what your current file looks like, and why they can't be automatically merged. 
+4. Manually fix the file to include all additions to the GeoJSON file (This is where being active and intentional about your code is important. It is up to you to know what code should be included).
+5. Once updated, run `git add EVERYBODY.geojson`
+6. Commit the file again `git commit -m 'fixing merge conflicts'`
+7. Push to your fork's master branch `git push origin master` and you'll see the pull request automatically update with your changes.
