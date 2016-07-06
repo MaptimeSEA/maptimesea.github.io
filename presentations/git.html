@@ -1,0 +1,263 @@
+<!DOCTYPE html><html><head><title></title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><style type='text/css'>
+body {
+  font-family:'Helvetica';
+  letter-spacing:-5px;
+  background:#333;
+  background-size:100%;
+  color:#ddd;
+  margin:0;
+  padding:0;
+  font-weight:bold;
+}
+
+h1, h2, h3, p {
+  margin:0;
+}
+
+em, a {
+  font-style:normal;
+}
+
+em {
+  text-decoration: underline;
+}
+
+a {
+  background:#F012BE;
+  color:white;
+  text-decoration:none;
+}
+
+img {
+  width:100%;
+}
+
+.blue {
+  color: #0074D9;
+}
+.purple {
+  color: #B10DC9;
+}
+.lime {
+  color: #01FF70;
+}
+.title {
+  color: #ff8d86;
+}
+.dark {
+  color: #333;
+}
+
+small {
+  font-size: 0.5em;
+  font-weight: 100;
+}
+
+strong {
+  color: #FF851B
+}
+code {
+  font-weight: 100;
+  color: #7FDBFF;
+}
+
+div {
+  cursor:pointer;
+  cursor:hand;
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:75px;
+  line-height:97%;
+}
+
+div.center {
+  text-align:center;
+}
+
+div.imageText {
+  text-shadow:0px 0px 10px rgba(0,0,0,1);
+}
+
+
+notes {
+    display:none;
+}
+/* normally not good, but ok in context of full screen directional navigation */
+:focus {
+    outline: 0;
+}
+</style><script type='text/javascript'>
+window.onload = function() {
+  var s = document.getElementsByTagName('div'), ti, i;
+  for (i = 0; i < s.length; i++) s[i].setAttribute('tabindex', 0);
+  if (!s.length) return;
+  var big = window.big = { current: 0, forward: fwd, reverse: rev, go: go, length: s.length };
+  function resize() {
+    var w = window.innerWidth, h = window.innerHeight, e = s[big.current];
+    e.style.fontSize = h + 'px';
+    function pass(cinch, start) {
+      for (var i = start; i > 0 && (e.offsetWidth > w || e.offsetHeight > h); i -= cinch) {
+        e.style.fontSize = i + 'px';
+      }
+      return i + cinch;
+    }
+    pass(2, pass(5, pass(10, h - 2)));
+    e.style.marginTop = (h - e.offsetHeight) / 2 + 'px';
+  }
+  function go(n) {
+    big.current = n;
+    var e = s[n], t = parseInt(e.getAttribute('data-timeToNext') || 0, 10),
+      notes = e.getElementsByTagName('notes');
+    document.body.className = e.getAttribute('data-bodyclass') || '';
+    for (i = 0; i < s.length; i++) s[i].style.display = 'none';
+    e.style.display = 'inline';
+    e.focus();
+    for (i = 0; typeof console === 'object' && i < notes.length; i++) console.log('%c%s: %s', 'padding:5px;font-family:serif;font-size:18px;line-height:150%;', n, notes[i].innerHTML.trim());
+    if (e.firstChild && e.firstChild.nodeName === 'IMG') {
+      document.body.style.backgroundImage = 'url("' + e.firstChild.src + '")';
+      e.firstChild.style.display = 'none';
+      if ('classList' in e) e.classList.add('imageText');
+    } else {
+      document.body.style.backgroundImage = '';
+      document.body.style.backgroundColor = e.style.backgroundColor;
+    }
+    if (ti !== undefined) window.clearInterval(ti);
+    if (t > 0) ti = window.setTimeout(fwd, t * 1000);
+    resize();
+    if (window.location.hash !== n) window.location.hash = n;
+    document.title = e.textContent || e.innerText;
+  }
+  document.onclick = function() { go(++big.current % s.length); };
+  function fwd() { go(Math.min(s.length - 1, ++big.current)); }
+  function rev() { go(Math.max(0, --big.current)); }
+  document.onkeydown = function(e) {
+    if (e.which === 39 || e.which === 34 || e.which === 40) fwd();
+    if (e.which === 37 || e.which === 33 || e.which === 38) rev();
+  };
+  document.ontouchstart = function(e) {
+    var x0 = e.changedTouches[0].pageX;
+    document.ontouchend = function(e2) {
+      var x1 = e2.changedTouches[0].pageX;
+      if (x1 - x0 < 0) fwd();
+      if (x1 - x0 > 0) rev();
+    };
+  };
+  function parse_hash() {
+    return Math.max(Math.min(s.length - 1,
+      parseInt(window.location.hash.substring(1), 10)), 0);
+  }
+  if (window.location.hash) big.current = parse_hash() || big.current;
+  window.onhashchange = function() {
+    i = parse_hash();
+    if (i !== big.current) go(i);
+  };
+  window.onresize = resize;
+  go(big.current);
+};
+</script></head><body>
+<div class="title">Welcome!</div>
+<div>I'm Sam. I work for <a href="https://www.mapbox.com">Mapbox</a> and help organize <a href="http://cugos.org">CUGOS</a>.</div>
+<div>You can follow this presentation at <a href="http://maptimesea.github.io/presentations/git.html">maptimesea.github.io/presentations/git.html</a></div>
+<div>The tutorial is at <a href="http://maptimesea.github.io/2016/07/06/git.html">maptimesea.github.io/2016/07/06/git.html</a></div>
+<div class="title">Before we get started...</div>
+<div>Does everyone have a <strong>GitHub account</strong> created?</div>
+<div>Does everyone have <code>git</code> installed on their computer?</div>
+<div>We will be using the Command Line Interface version of Git, not the GUI.<br><small>(because Sam doesn't know the GUI - not because it isn't great).</small></div>
+<div>Who has used Git before? Why? How?</div>
+<div class="imageText"><img src="http://markmiyashita.com/assets/images/github_pages/github_homepage.jpg"><strong>Git</strong> & <strong>GitHub</strong> are for sharing, editing, and discussing code.</div>
+<div>- <a href="https://github.com/torvalds/linux">Linux</a><br>- Apple's <a href="https://github.com/apple/swift">Swift</a><br>- MaptimeSEA <a href="https://github.com/maptimesea/maptimesea.github.io">website</a>.</div>
+<div>Git is an <strong>active</strong> workflow.</div>
+<div class="title">Our goals today ...</div>
+<div>1.<br>Git vocab quest</div>
+<div>2.<br><code>git</code> & the command line</div>
+<div>3. Workflow tutorials<br>- personal<br>- organizational<br>- fork & pull<br>- merge conflicts</div>
+<div>4.<br>GitHub pages <small>(if time permits)</small></div>
+
+<div class="title">Git vocab quest</div>
+<div><strong>Git</strong><br> version control software installed on your computer. Tracks line changes. <br><small>(doesn't track binary files well)</small></div>
+<div><strong>Version control</strong><br> recording changes in history. Everything from new lines to new files.</div>
+<div><strong>Terminal /<br>Command line</strong><br>a textual representation of the contents of your local computer.</div>
+<div><strong>Command line interface (CLI)</strong><br>A tool that is used via the command line, like <code>git</code></div>
+<div><strong>GitHub</strong><br> a private company that has built a web interface for Git-based projects</div>
+<div><strong>Repository</strong><br> a project on GitHub</div>
+<div><strong>Permissions & organizations</strong><br>Only users with persmission to edit code are allowed. You can always edit the code in your own repository.</div>
+<div><strong>Local</strong><br> your computer and the contents on it</div>
+<div><strong>Remote</strong><br> the non-local store for your project's files, the standard is to name your primary remote <code>origin</code>.</div>
+<div><strong>Fork</strong><br> a direct copy of another repository, with a new set of permissions just for you.</div>
+<div><strong>Clone</strong><br> a direct clone of a project on your local computer. <br><small>You can clone any repository, including forks.</small></div>
+<div><strong>Branch</strong><br> a specific "scope" of your project. The "main" branch is typically referred to as <code>master</code>.</div>
+<div><strong>Commit</strong><br> a summary of a number of edits to a project, marked as a single node in a Git history</div>
+<div><strong>Push</strong><br> put all of the commits you have on your local to your remote</div>
+<div><strong>Pull</strong><br> grab all of the recent changes to a remote project that you don't have on your local computer.</div>
+<div><strong>Pull rquest</strong><br> request a series of commits to be pulled into a branch (typically <code>master</code>).<br><small>Required if you do not have sufficient permissions</small></div>
+<div><strong>Issue</strong><br> A GitHubian way to track bugs, ideas, thoughts, and conversation.</div>
+<div><strong>README.md</strong><br> The first file every repository should include, describing what the project is, how to use/install it, and how to contribute.</div>
+<div><strong>Markdown (<code>.md</code>)</strong><br> the standard formatter for writing text on GitHub.</div>
+<div class="title">Some tutorial-specific terms</div>
+<div><strong>GeoJSON</strong><br> a geographic data format as JSON (JavaScript Object Notation). GeoJSON plays well with Git & GitHub since it is a textual data format (non-binary).</div>
+<div><strong>geojson.io</strong><br> a nifty website for creating GeoJSON.</div>
+<div><img src="http://bigalmanack.com/wp-content/uploads/2015/12/entrepreneur-rabbit_hole.jpg"><strong>Rabbit hole</strong><br>a place where you all hopefully take us down by asking awesome, crazy questions. Interuptions are totally allowed. Ask away!</div>
+
+<div class="title">GitHub and GeoJSON are good friends.</div>
+<div class="dark"><img src="https://cloud.githubusercontent.com/assets/1943001/16635908/b82fe898-4389-11e6-93d9-fc6ca8765e68.png">GeoJSON renders on a Mapbox map directly on github.com!</div>
+
+<div class="title">The Command Line</div>
+<div>Macs are good, anyone a PC wiz?</div>
+<div>Open your terminal</div>
+<div>List your files<br><code>ls</code></div>
+<div>Change directory<br><code>cd</code></div>
+<div>Create a new directory<br><code>mkdir</code></div>
+<div>Create a new file<br><code>touch</code></div>
+<div>Git command<br><code>git</code></div>
+<div>Start a new Git project<br><code>git init</code></div>
+<div>A Git repository will have a file called <code>.git</code> which is typically hidden from your file finder</div>
+<div>Add a remote to your git project<br><small><code>git remote add &lt;name&gt; &lt;url&gt;</code></small></div>
+<div>Add a file/change<br><code>git add &lt;file&gt;</code></div>
+<div>Commit all added changes<br><code>git commit</code></div>
+<div>Push commits to remote<br><code>git push origin &lt;branch&gt;</code></div>
+
+<div class="title">Tutorial:<br>Personal Workflow</div>
+<div>1.<br> <strong>Create</strong> a personal project on GitHub (name it whatever you want)</div>
+<div>2.<br> Open your command line and <strong>clone</strong> the new repository onto your local computer<br><code>git clone repo-url</code></div>
+<div>3.<br> <strong>Add a new file</strong> called <code>README.md</code> and write something</div>
+<div>4.<br> Check the status of your Git project with<br><code>git status</code></div>
+<div>4.<br> begin tracking the new file in Git by adding it.<br><code>git add README.md</code>.</div>
+<div>5.<br> Check the status again to see the difference<br><code>git status</code></div>
+<div>6.<br> <strong>Commit</strong> the file with <br><small><code>git commit -m 'your message'</code></small></div>
+<div>7.<br> <strong>Push</strong> the changes to your remote with<br><small><code>git push origin master</code></small>.</div>
+
+<div class="title">Tutorial: Organizational Workflow</div>
+<div>1.<br> Back to your local computer, create a <strong>new branch</strong> with<br><small><code>git checkout -b new-branch-name</code></small></div>
+<div>2.<br> You can <strong>list all branches</strong> and see which branch you are currently on with <code>git branch</code></div>
+<div>3.<br> Make some changes and add those changes with <code>git add README.md</code></div>
+<div>4.<br> <strong>Commit</strong> those changes with<br><small><code>git commit -m 'your message'</code></small></div>
+<div>5.<br> <strong>Push</strong> those changes to a new branch on your remote with<br><small><code>git push origin new-branch-name</code></small></div>
+<div>6.<br> Create a <strong>pull request</strong> on GitHub and write up the changes you made!</div>
+
+<div class="title">Tutorial: Fork & Pull</div>
+<div class=""><a href="https://github.com/maptimesea/geojson">github.com/maptimesea/geojson</a></div>
+<div>1.<br> <strong>Fork</strong> a repository you want contribute to</div>
+<div>2.<br> <strong>Clone your fork</strong> to your local machine <code>git clone repo-url</code></div>
+<div>3.<br> Make changes</div>
+<div>4.<br> Push up to your remote fork</div>
+<div>5.<br> Go to your forked repository and create a <strong>pull request</strong> to the main project (called "upstream")</div>
+
+<div class="title">Tutorial: Merge conflicts</div>
+<div>1.<br> With the same fork, add a location the <code>EVERYBODY.geojson</code> file and make a pull request again.</div>
+<div>2.<br> Get all of the changes from the primary repo (called <code>upstream</code>) with <code>git fetch upstream</code></div>
+<div>3.<br> Merge all of the upstream <code>master</code> branch changes into your fork's <code>master</code> with <code>git merge upstream/master</code>.</div>
+<div>4.<br> You may see a merge conflict! That's okay - we can fix this. Open <code>EVERYBODY.geojson</code> and you'll notice some odd lines like <code>>>>>>>>> head</code> or something similar. This is showing you what the primary file looks like, and what your current file looks like, and why they can't be automatically merged. </div>
+<div>5.<br> Manually fix the file to include all additions to the GeoJSON file</div>
+<div>6.<br> Once updated, run <code>git add EVERYBODY.geojson</code></div>
+<div>7.<br> Commit the file again <code>git commit -m 'fixing merge conflicts'</code></div>
+<div>8.<br> Push to your fork's master branch <code>git push origin master</code> and you'll see the pull request automatically update with your changes.</div>
+
+<div class="title">GitHub Pages</div>
+<div>Host your own website via GitHub!</div>
+<div>Create a repository with<br><code><em>username</em>.github.io</code><br>as the name.<br><small>This can be the <code>master</code> branch.</small></div>
+<div>Other repositories require a branch to be named<br><code>gh-pages</code></div>
+
+<div><strong>Thanks!</strong><br><a href="https://twitter.com/vancematthews">@vancematthews</a><br><span class="blue">sam@mapbox.com</span><br>github.com/mapsam</div>
+
+</body></html>
