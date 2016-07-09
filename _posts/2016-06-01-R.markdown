@@ -1,4 +1,9 @@
-# Introduction to R programming for geospatial data.
+---
+layout: tut
+title: "Intro to R programming for geospatial data"
+---
+
+
 Full materials for this Maptime lesson are available at 
 https://github.com/davemfish/maptime-r
 
