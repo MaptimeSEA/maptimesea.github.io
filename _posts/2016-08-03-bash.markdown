@@ -38,7 +38,7 @@ The Internet is chock full of advice on how to get the job done with Bash. Half 
 
 As you get comfortable on the command line, add `--help` as an argument to your command or do `man <command>` to see what's possible.
 
-If you leave today wanting more, checkout [BASH Programming - Introduction HOW-TO|http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html] and [Bash Guide for Beginners|http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html] for logical next steps.
+If you leave today wanting more, checkout [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html) and [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html) for logical next steps.
 
 # Navigation
 
