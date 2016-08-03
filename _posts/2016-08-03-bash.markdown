@@ -19,6 +19,7 @@ Where does Bash fit in? Well, it's one version of a command line. There are many
 During the session today, we'll learn how to:
 
 1. Access the command line
+1. Help!
 2. Navigation
 3. Make things
 4. Move things
@@ -30,6 +31,14 @@ During the session today, we'll learn how to:
 # Access
 
 Go to where you search for software on your computer. On a mac this will be spotlight. In windows this is the start menu. Search `terminal`. Pop that open.
+
+# Help!
+
+The Internet is chock full of advice on how to get the job done with Bash. Half the struggle is learning how to formulate the question. Stick with it.
+
+As you get comfortable on the command line, add `--help` as an argument to your command or do `man <command>` to see what's possible.
+
+If you leave today wanting more, checkout [BASH Programming - Introduction HOW-TO|http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html] and [Bash Guide for Beginners|http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html] for logical next steps.
 
 # Navigation
 
