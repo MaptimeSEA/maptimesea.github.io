@@ -191,7 +191,7 @@ That gives us just the first line. This is a pretty good place to start as we ho
 head -n1 culture-space.csv | tr -s , \\t
 ```
 
-Whoops, we just used our first pipe. `|` allows you to direct the [stdout|https://en.wikipedia.org/wiki/Standard_streams] of one command to the stdin of another command. We get the first line of culture-space.csv then send it to `tr` which replaces commas with tabs. Commas hurt my eyes, this makes the header more readable for me. We can assume that all subsequent lines will be split on the same columns.
+Whoops, we just used our first pipe. `|` allows you to direct the [stdout](https://en.wikipedia.org/wiki/Standard_streams) of one command to the stdin of another command. We get the first line of culture-space.csv then send it to `tr` which replaces commas with tabs. Commas hurt my eyes, this makes the header more readable for me. We can assume that all subsequent lines will be split on the same columns.
 
 ## tail
 
