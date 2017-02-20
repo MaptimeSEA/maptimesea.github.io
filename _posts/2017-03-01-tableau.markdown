@@ -1,6 +1,6 @@
 ---
 layout: tut
-title: "Introduction to Bash"
+title: "Introduction to Tableau"
 ---
 
 # Before we begin...
