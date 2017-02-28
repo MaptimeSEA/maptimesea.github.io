@@ -11,18 +11,26 @@ title: "Introduction to Tableau"
 
 Tableau is a tool for exploring data. The first thing we need then is Data. Download the following data sources:
 
-* datasource 1
-* datasource 2
+* [Neighborhood Boundaries (Zillow)](https://www.zillow.com/howto/api/neighborhood-boundaries.htm)
+* [Neighborhood House Price Data](https://www.zillow.com/research/data/#bulk)
 
 # Interacting with Tableau
 
 ## Bring in the data
 
 1. Open Tableau Public
-2. Drag data into Tableau
-3. 
+2. Click 'Text File'
+3. Navigate to the Neighborhood House Price Data
+4. Drag Neighborhood_MedianListingPrice_1Bedroom.csv to view
+5. Use Shift + Click to select all of the columns that look like dates
+6. Right click and select Pivot
+7. Rename Pivot Field Names to "Date"
+8. Rename Pivot Field Values to "Median Listing Price per Sq Ft"
+9. Click on the Sheet 1 tab at bottom
 
 ## Create a viz
+
+1. Double-click on 
 
 ## Create another viz
 
@@ -54,6 +62,15 @@ Let's explore that second option in more detail
 ## Missing Heirarchy
 
 ## Edit Locations
+
+# IFTTT (if you are interested)
+
+1. Download IFTTT to your phone
+2. Search 'track your current location in a spreadsheet'
+3. Select 'Turn on'
+4. Follow the directions here to add the IFTTT widget to your Today View https://ifttt.com/help/applets-with-widgets
+5. 
+
 
 
 # Conclusion
