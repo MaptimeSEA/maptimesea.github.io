@@ -18,16 +18,18 @@ title: "Introduction to Tableau"
 Tableau is a data visualization program.
 
 Example: [Redfin](https://www.redfin.com/blog/data-center)
+
 Example: [Brexit](https://public.tableau.com/profile/solbrigm#!/vizhome/BrexitResults/EUReferendumResults)
+
 Example: [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/kagglehousing/DashboardAction)
 
 ## Interacting with Tableau
 1. Download workbook from [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/kagglehousing/DashboardAction)
 2. Open Workbook in Tableau Public
 3. Pause for defintions:
-** Marks Card: Chart type
-** Show Me
-** Shelfs: Rows, Columns, Color, Size
+    * Marks Card: Chart type
+    * Show Me
+    * Shelfs: Rows, Columns, Color, Size
 
 ## Challenge 1
 The Price by ZipCode sheet is not very good currently. Can you make it better?
