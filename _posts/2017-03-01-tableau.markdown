@@ -5,7 +5,7 @@ title: "Introduction to Tableau"
 
 # Before we begin...
 
-* Do you have the most recent version of Tableau Public installed? Did you download it TODAY???? We just updated and the new spatial features are more than worth it. [Click to download](https://public.tableau.com/s/download?source=cta)
+* Do you have the most recent version of Tableau Public installed? Did you download it TODAY???? We just updated and the new spatial features are more than worth it. [Click to download](https://public.tableau.com/en-us/s/download/thanks)
 
 * Download [Neighborhood House Price Data](https://www.zillow.com/research/data/#bulk)
 
@@ -18,9 +18,43 @@ title: "Introduction to Tableau"
 Tableau is a data visualization program.
 
 Example: [Redfin](https://www.redfin.com/blog/data-center)
+Example: [Brexit](https://public.tableau.com/profile/solbrigm#!/vizhome/BrexitResults/EUReferendumResults)
 Example: [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/kagglehousing/DashboardAction)
 
-# Interacting with Tableau
+## Interacting with Tableau
+1. Download workbook from [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/kagglehousing/DashboardAction)
+2. Open Workbook in Tableau Public
+3. Pause for defintions:
+** Marks Card: Chart type
+** Show Me
+** Shelfs: Rows, Columns, Color, Size
+
+## Challenge 1
+The Price by ZipCode sheet is not very good currently. Can you make it better?
+
+## More Interacting
+* Filters
+* Filter Formating
+* Pages Shelf
+
+## Dashboards
+* Basic Dashboard creation
+* Dashboard Filter
+* Filter controls
+
+## Challenge 2
+Add filters and dashboard actions to the Price Distibution dash to find the price distribution of 1-3 bedroom, 1-2 bathroom in south side of Seattle
+
+## Calculated Fields
+* Analysis > Create Calculated Field
+* Parameters
+
+## Challenge 3
+The Cost per sqft Dash tries to show how the cost per sqft changes depending on zip code. Clicking on a zip code in the map highlights marks in scatter plot below. However, it would be much better if the zip codes were colored by average cost per sq ft instead of just median price. Create a calculated field to compute price per sqft, and color the map using that instead.
+
+
+
+
 
 ## Bring in the data
 
