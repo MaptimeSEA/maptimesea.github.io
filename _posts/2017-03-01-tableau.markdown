@@ -5,14 +5,20 @@ title: "Introduction to Tableau"
 
 # Before we begin...
 
-* Do you have the most recent version of Tableau Public installed? [Click to download](https://public.tableau.com/s/download?source=cta)
+* Do you have the most recent version of Tableau Public installed? Did you download it TODAY???? We just updated and the new spatial features are more than worth it. [Click to download](https://public.tableau.com/s/download?source=cta)
 
-## Getting Data
+* Download [Neighborhood House Price Data](https://www.zillow.com/research/data/#bulk)
 
-Tableau is a tool for exploring data. The first thing we need then is Data. Download the following data sources:
+* Download [Neighborhood Boundaries (Zillow)](https://www.zillow.com/howto/api/neighborhood-boundaries.htm)
 
-* [Neighborhood Boundaries (Zillow)](https://www.zillow.com/howto/api/neighborhood-boundaries.htm)
-* [Neighborhood House Price Data](https://www.zillow.com/research/data/#bulk)
+* Download [Seattle Neighborhoods](https://data.seattle.gov/dataset/data-seattle-gov-GIS-shapefile-datasets/f7tb-rnup/data)
+
+# About Tableau
+
+Tableau is a data visualization program.
+
+Example: [Redfin](https://www.redfin.com/blog/data-center)
+Example: [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/kagglehousing/DashboardAction)
 
 # Interacting with Tableau
 
@@ -35,6 +41,8 @@ Tableau is a tool for exploring data. The first thing we need then is Data. Down
 ## Create another viz
 
 ## Combine the two vizes in a dashboard
+
+## Group (custom territories)
 
 ## Create a calculated field
 
@@ -65,11 +73,20 @@ Let's explore that second option in more detail
 
 # IFTTT (if you are interested)
 
+## Create the sheet
+
 1. Download IFTTT to your phone
-2. Search 'track your current location in a spreadsheet'
-3. Select 'Turn on'
-4. Follow the directions here to add the IFTTT widget to your Today View https://ifttt.com/help/applets-with-widgets
-5. 
+2. Sign up with a google account (allowing us to connect to google drive)
+3. Search 'track your current location in a spreadsheet'
+4. Select 'Turn on'
+5. Follow the directions here to add the IFTTT widget to your Today View https://ifttt.com/help/applets-with-widgets
+6. Push the button!
+7. Verify in Google Sheets that a sheet titled 'location' has been created.
+
+## Connect in Tableau
+
+1. 
+
 
 
 
