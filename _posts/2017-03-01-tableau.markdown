@@ -31,7 +31,7 @@ Example: [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/
     * Show Me
     * Shelfs: Rows, Columns, Color, Size
 
-## Challenge 1
+### Challenge 1
 The Price by ZipCode sheet is not very good currently. Can you make it better?
 
 ## More Interacting
@@ -44,70 +44,72 @@ The Price by ZipCode sheet is not very good currently. Can you make it better?
 * Dashboard Filter
 * Filter controls
 
-## Challenge 2
+### Challenge 2
 Add filters and dashboard actions to the Price Distibution dash to find the price distribution of 1-3 bedroom, 1-2 bathroom in south side of Seattle
+
+## Dashboards2
+* Dashboard actions Dialog
+
+### Challenge 3
+* The Cost per sqft Dash tries to show how the cost per sqft changes depending on zip code. However, whenever it filters the data below, it is very jolting. Use teh Dashboard > Actions menu to create a highlight action instead of a filter action.
 
 ## Calculated Fields
 * Analysis > Create Calculated Field
 * Parameters
 
-## Challenge 3
-The Cost per sqft Dash tries to show how the cost per sqft changes depending on zip code. Clicking on a zip code in the map highlights marks in scatter plot below. However, it would be much better if the zip codes were colored by average cost per sq ft instead of just median price. Create a calculated field to compute price per sqft, and color the map using that instead.
+### Challenge 4
+* It would be much better if the zip codes were colored by average cost per sq ft, to make a more unified message. Create a calculated field to compute price per sqft, and color the map using that instead. Advanced: Also create a new sheet that displays the price per sqft, and create a filter action from the Map to the new sheet so that it displays the correct value for a selected zipcode.
+
+# Part 2: Mapping Specifically
+
+## Geographic Field Types
+
+* Automatically Recognized Fields: City, County, State
+* Not Recognized: Metro
+* Edit Locations, 'Ambiguous'
+* Geographic Hierarchies (Geometry Field)
+
+### Challenge 5
+* Create a State > Country > City hierarchy on the Zillow data.
+* Create a map of their Geometries, and filter down to just Seattle Neighborhoods
 
 
+## Aggregate Geometries???
+* Add Size Rank to the color shelf... Why is it all just one color?
+* Custom Territories
 
 
+# OPTION 1: Data Prep
+
+* [Neighborhood Zillow Data](https://www.zillow.com/research/data/#bulk)
+    * Click Neighborhood
+    * The dataset is Neighborhood_Zri_AllHomes.csv
+* [Neighborhood Boundaries](https://www.zillow.com/howto/api/neighborhood-boundaries.htm)
+    * Click Washington Neighborhood Boundaries
 
 ## Bring in the data
+* Drag and Drop... Woo
+* Blending
+* Joins: Inner, Outer, Left, Right
+* Pivot
 
-1. Open Tableau Public
-2. Click 'Text File'
-3. Navigate to the Neighborhood House Price Data
-4. Drag Neighborhood_MedianListingPrice_1Bedroom.csv to view
-5. Use Shift + Click to select all of the columns that look like dates
-6. Right click and select Pivot
-7. Rename Pivot Field Names to "Date"
-8. Rename Pivot Field Values to "Median Listing Price per Sq Ft"
-9. Click on the Sheet 1 tab at bottom
 
-## Create a viz
+# OPTION 2: Background Map Formatting
 
-1. Double-click on 
+## Built In Options
+http://onlinehelp.tableau.com/current/pro/desktop/en-us/maps_options.html
+* Map Styles
+* Data Layers 
+* Demographic Layers
+* Super Advanced: Background Yellow http://www.tableaufit.com/maps/
 
-## Create another viz
+## WMS
+* A WMS that just works: http://ows.terrestris.de/osm/service?
+* A WMS that needs a fancy file: http://allanwalkerit.tumblr.com/post/112518842182/alternative-basemaps-for-tableau
+* Also mapbox.
 
-## Combine the two vizes in a dashboard
 
-## Group (custom territories)
-
-## Create a calculated field
-
-# Combining data
-
-## Edit datasource
-
-## Explanation of joins
-
-## Bring in another datasource
-
-## Create another viz
-
-## Blend/Dashboard action
-
-# Summary of ways to map:
-
-1. Bring in spatial data
-2. Bring in commonly recognized spatial data (zipcodes, states, congressional districts...)
-
-Let's explore that second option in more detail
-
-## Geographic Role
-
-## Missing Heirarchy
-
-## Edit Locations
-
-# IFTTT (if you are interested)
+## OPTION 3: IFTTT 
 
 ## Create the sheet
 
