@@ -11,8 +11,6 @@ title: "Introduction to Tableau"
 
 * Download [Neighborhood Boundaries (Zillow)](https://www.zillow.com/howto/api/neighborhood-boundaries.htm)
 
-* Download [Seattle Neighborhoods](https://data.seattle.gov/dataset/data-seattle-gov-GIS-shapefile-datasets/f7tb-rnup/data)
-
 # About Tableau
 
 Tableau is a data visualization program.
@@ -51,7 +49,7 @@ Add filters and dashboard actions to the Price Distibution dash to find the pric
 * Dashboard actions Dialog
 
 ### Challenge 3
-* The Cost per sqft Dash tries to show how the cost per sqft changes depending on zip code. However, whenever it filters the data below, it is very jolting. Use teh Dashboard > Actions menu to create a highlight action instead of a filter action.
+* The Cost per sqft Dash tries to show how the cost per sqft changes depending on zip code. However, whenever it filters the data below, it is very jolting. Use the Dashboard > Actions menu to create a highlight action instead of a filter action.
 
 ## Calculated Fields
 * Analysis > Create Calculated Field
@@ -120,12 +118,6 @@ http://onlinehelp.tableau.com/current/pro/desktop/en-us/maps_options.html
 5. Follow the directions here to add the IFTTT widget to your Today View https://ifttt.com/help/applets-with-widgets
 6. Push the button!
 7. Verify in Google Sheets that a sheet titled 'location' has been created.
-
-## Connect in Tableau
-
-1. 
-
-
 
 
 # Conclusion
