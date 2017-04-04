@@ -284,8 +284,6 @@ Your result should look something like this:
 
 ### [2nd Challenge Solution Here](https://github.com/Ryshackleton/d3_maptime/blob/master/html/01_hello-d3_challenge2_solution.html)
 
-**Further Reading on Selections and Data Binding**: [How Selections Work](https://bost.ocks.org/mike/selection/), [Thinking With Joins](https://bost.ocks.org/mike/join/), and [The Original Three Little Circles Tutorial](https://bost.ocks.org/mike/circles/)
-
 ### Advanced Challenge, if you have extra time: Add Transition Effects
 Check out [this simple example of a transition](https://bl.ocks.org/d3noob/c3cbb8af554eb848d09ab97306bb5583), or [this thorough explanation of transitions](http://chimera.labs.oreilly.com/books/1230000000345/ch09.html#_transitions) and see if you can transition from one state to another.  You probably want to have your code triggered by a button so you can see the transition happen. To add a button, add the following snippet to your script (not the html), then add all of the code we've written (plus your transitioning code) inside the `function myFunction()`.
 
@@ -379,6 +377,9 @@ You may notice that I have started [chaining methods](http://alignedleft.com/tut
     // here's your data to plot!
     var myData = [ 20, 60, 100, 300 ];
 ```
+
+**Further Reading on Selections and Data Binding**: [How Selections Work](https://bost.ocks.org/mike/selection/), [Thinking With Joins](https://bost.ocks.org/mike/join/), and [The Original Three Little Circles Tutorial](https://bost.ocks.org/mike/circles/)
+
 #### Starting with the myScatterPlot.html file you created above, **add** some circles to create your first scatterplot.
 #### (Hint, find the second to last (or last) code block in the **Creating Elements** section of the tutorial, and then figure out how to modify the `function(d) { return d; }` section of the code to return the data values in the proper format)
 * cx: myData
