@@ -159,6 +159,7 @@ Like nouns, adjectives, and verbs, the web (in its simplest form) is made of HTM
 </body>
 </html>
 ```
+
 Notice that we have already included the D3.js script (version 4) at the top of the page inside the `<head>` tag.
 
 ```HTML
@@ -175,6 +176,7 @@ I have also included the SVG we discussed above inside the `<body>` tag, which w
     <circle cx="120" cy="60" r="10"></circle>
   </svg>
 ```
+
 #### Open hello-d3.html in a web browser.  You should see something like this:
 <img src="https://ryshackleton.github.io/d3_maptime/img/threeLittleCircles.svg">
 
@@ -199,6 +201,7 @@ D3 has really easy shorthand for selecting objects in webpages.  First, we'll as
   
   var svg = body.select("svg"); // select the <svg> that lies within the <body>
 ```
+
 You just did your first D3 Selection!  Notice that we only selected ONE object with .select().  To select multiple objects, try .selectAll() as as shown below:
 
 #### Add this line of code to your hello-d3.html to select ALL of the circle objects in the SVG
@@ -211,6 +214,7 @@ Not very exciting, but this will provide us with a little intro to how to debug 
 
 #### Find the  Developer Tools for debugging your code by doing the following:
 To see the contents of the variables "body", "svg", or "circle"
+
 1. go back to your web browser showing hello-d3.html
 1. right click on one of the circles
 1. select "Inspect" or "Inspect Element", which shows you the source code for that element in the page
@@ -220,12 +224,14 @@ To see the contents of the variables "body", "svg", or "circle"
 ```JavaScript
 > dt {_groups: Array[1], _parents: Array[1]}
 ```
+
 You can **expand the dropdown arrows** and see the contents of the circle object.  This is a handy way to get behind the scenes of your JavaScript code.  You can also access the console directly from inside your code by adding things like:
 
 ```JavaScript
 console.log("Here's my svg at step 1:");
 console.log(svg);
 ```
+
 The console will also show you errors in your code, but I'm sure you'll never have any of those...
 
 ### 1st Challenge, 15 minutes: Change the Color and Size of the SVG elements
@@ -268,12 +274,14 @@ After we've *bound* the data, we can *retrieve* the data to set attributes on th
 	var myData = [ 20, 60, 100 ];
 ```
 **NEED A HINT? You can start by just copying the first few lines of code in the Binding Data section of the tutorial into your script**
+
 ```JavaScript
 	circle.data([32, 57, 112]);
 	circle.attr("cx", function(d) {
   				return d;
 			   });
 ```
+
 Then replace the `[32, 57, 112]` with `myData`, and change the `"cx"` to `"cy"`.
 
 Your result should look something like this:
@@ -298,6 +306,7 @@ Check out [this simple example of a transition](https://bl.ocks.org/d3noob/c3cbb
       // add your transitioning code here
     }
 ```
+
 **Further Reading on Transitions**:  [Mike's tutorial on Transitions](https://bost.ocks.org/mike/transition/), [Chained Transitions](https://bl.ocks.org/mbostock/1125997), [Crazy transform Transitions](https://bl.ocks.org/mbostock/1345853).
 
 ### [Advanced Challenge Solution Here](https://github.com/Ryshackleton/d3_maptime/blob/master/html/01_hello-d3_challenge3_advanced_solution.html)
@@ -308,6 +317,7 @@ We don't need no stinking `<svg>`'s in our `<body>`!!  D3 can create them on the
 
 #### Copy the code to below to your text editor, and SAVE to a file called `myScatterPlot.html`.
 Notice that there's no SVG in the `<body>`: just the script, which uses D3 to create the SVG from scratch!
+
 ```HTML
 <!doctype html>
 <html lang="en">
@@ -356,7 +366,9 @@ Notice that there's no SVG in the `<body>`: just the script, which uses D3 to cr
   </script>
 </body>
 </html>
+
 ```
+
 #### Your job (in the challenge below) will be to finish the rest of the script to add some circles and make a scatterplot. 
 Have a look at the JavaScript code above: This line selects the `<body>` tag and appends an `<svg>` to it.
 
@@ -364,6 +376,7 @@ Have a look at the JavaScript code above: This line selects the `<body>` tag and
 	var svg = d3.select("body")
 	            .append("svg");
 ```
+
 When we append() to the `<body>` element, D3 just adds a new `<svg>` just below the script that we're actually writing.  Yeah, you heard that right: **we're writing code to edit the document that we're working on**....#MINDBLOWN.
 
 The next lines just adds attributes and styles to the SVG in the same way we were doing to the circles in the [tutorial](https://strongriley.github.io/d3/tutorial/circle.html).  [Here's the full documentation](https://www.w3.org/TR/SVG/styling.html) for styling SVG elements for reference.
@@ -382,11 +395,13 @@ You may notice that I have started [chaining methods](http://alignedleft.com/tut
 
 #### Starting with the myScatterPlot.html file you created above, **add** some circles to create your first scatterplot.
 #### (Hint, find the second to last (or last) code block in the **Creating Elements** section of the tutorial, and then figure out how to modify the `function(d) { return d; }` section of the code to return the data values in the proper format)
+
 * cx: myData
 * cy: myData / 2
 * radius ("r"): square root of myData (use JavaScript's Math.sqrt() function)
 
 You can add the following styles if you have time, or add your own styles.
+
 * fill: "rgb(255, 255, 0)"
 * stroke: "black"
 * stroke-width: 1
@@ -405,9 +420,11 @@ OK, enough of this plotting boring arrays of meaningless data.  Let's plot somet
 The [United States Geological Survey (USGS) publishes GeoJSON feeds of recent earthquakes on their website](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php), so we can get longitude, latitude, depth, magnitude, etc, of just about any earthquake ever recorded by human intstruments.  The data format will be [GeoJSON](http://geojson.org/), which will be a bit more complicated to reference, but is still just an array of data features. 
 
 Where before we had `var myData = [ 20, 60, 100 ];`, now we'll have something like:
+
 ```JavaScript
 	var myData = [ {/* object with data */ }, {/* object with data */ }, {/* object with data */ } ];
 ```
+
 Each block `{ }` will be parsed into a *JavaScript object*, which could hold arrays of sub-data. [Have a look here for the basic formats and JSON data structures if you need help](https://www.w3schools.com/js/js_json_datatypes.asp).
 
 The code below shows an abridged version of the USGS data format with three earthquake "features".  I have deleted a lot of attributes and reformatted the tabs so you can see where the coordinate data "lives" in the GeoJSON data structure.  To see the whole feed of all global earthquakes in the past day, [click here](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson), or [click here a nicely formatted example of 3 earthquakes](https://github.com/Ryshackleton/d3_maptime/blob/master/data/sampleQuakeData.json?short_path=a7c888c)
@@ -499,7 +516,8 @@ The first `console.log("Number of quakes = " + parsedJSON.metadata.count);` refe
 ### 4th Challenge, 15 minutes: Extract that data from the GeoJSON!!!
 #### Copy and paste [the html below](https://github.com/Ryshackleton/d3_maptime/blob/master/html/myEarthquakeMap.html) to a file called `myEarthquakeMap.html`.
 
-This script does the following, some of which should look familiar!
+This script does the following, some of which should look familiar
+
 1. The first few lines create an SVG in the body with some size and style attributes
 1. The d3.json(...) send the JSON request from the URL to get the GeoJSON data
 1. The lines inside the `function(parsedJSON) { }` block creates some circles on the SVG with their cx, cy = [0,0]
@@ -582,6 +600,7 @@ Then try to print data you want to the console using console.log().  You should 
 </body>
 </html>
 ```
+
 When you're done, you should just see some earthquakes in your SVG. Their locations will be different depending on today's earthquakes!
 
 <img src="https://ryshackleton.github.io/d3_maptime/img/challenge4_solution.svg">
@@ -599,11 +618,13 @@ When you define a projection, you tell D3 how to transform your data from spheri
 We can choose from all kinds of projections: [Azimuthal](https://github.com/d3/d3-geo/blob/master/README.md#azimuthal-projections), [Cylindrical](https://github.com/d3/d3-geo/blob/master/README.md#cylindrical-projections), [Conic](https://github.com/d3/d3-geo/blob/master/README.md#conic-projections), [Composite](https://github.com/d3/d3-geo/blob/master/README.md#composite-projections).  Clicking on the images in the documentation links you to [bl.ocks.org examples](https://bl.ocks.org/mbostock/3757119) that show the projection scales to get you started.
 
 Generally we **set up the projection ahead of time, then USE it to project all of the data**. Here's an example of an equirectangular projection:
+
 ```JavaScript
     var projection = d3.geoEquirectangular() // in D3 version 3, this will be d3.geo.equirectangular() -- notice the difference!
         .scale(height / Math.PI)
         .translate([width / 2, height / 2]);
 ```
+
 The .scale() and .translate() are basically like zooming and panning around in x,y space.  Generally you can look at an [existing example](https://bl.ocks.org/mbostock/3711652) to figure out what the scale should be, and then try your own scaling and translation from there.
 
 Notice that the [d3.projection object is also a function](https://github.com/d3/d3-geo/blob/master/README.md#_projection), meaning, you can pass it an arary of [longitude,latitude] like this: `projection([longitude,latitude])` and it will return an [x,y] array.
@@ -616,11 +637,13 @@ For our parsed JSON example, we can project like this:
       var x = projection( d.geometry.coordinates )[0];
       var y = projection( d.geometry.coordinates )[1];
 ```
+
 What the hell is that???? Let's break it down:
 1. We call projection( [longitude, latitude] ) on our earthquake coordinate array (as it turns out, D3 will just ignore the 3rd "depth" coordinate)
 2. projection() returns an [x,y] array, and we refer to the first element of the array with [0] to get x, and the second element [1] to get y
 
 We could rewrite it like this to be more explicit
+
 ```JavaScript
 	var lat_long = d.geometry.coordinates; // get the lat long array
 	var x_y = projection(lat_long); // project to an [x,y] array
@@ -629,6 +652,7 @@ We could rewrite it like this to be more explicit
 ```
 
 ### 5th Challenge, 15 minutes: Add the projection code shown below to our [un-projected scatterplot example](https://github.com/Ryshackleton/d3_maptime/blob/master/html/03_myEarthquakeMap_challenge5_start.html)! Define the projection just below where you defined the width and height:
+
 ```JavaScript
     var width = 700,
         height = 500;
@@ -638,7 +662,9 @@ We could rewrite it like this to be more explicit
         .scale(height / Math.PI)
         .translate([width / 2, height / 2]);
 ```
+
 #### And then modify the function where we assign the "cx" and "cy" attributes like this:
+
 ```JavaScript
           .attr("cx", function(d) { //-- this 'd' refers to A FEATURE in the array
                     var x = projection( d.geometry.coordinates ) [0];
@@ -651,10 +677,13 @@ We could rewrite it like this to be more explicit
 ```
 
 #### We can add a quick and dirty scaling of the circle sizes to earthquake magnitudes like this:
+
 ```JavaScript
           .attr("r", function(d){ return d.properties.mag > 0 ? 1.5 * d.properties.mag : 0; } )
 ```
+
 #### To get *really fancy*, we can ANIMATE the earthquakes by adding some transition effects just above where we set the radius
+
 ```JavaScript
           .transition()
           .duration(500)
@@ -662,6 +691,7 @@ We could rewrite it like this to be more explicit
           .ease(d3.easeElastic)
           .attr("r", function(d){ return d.properties.mag > 0 ? 1.5 * d.properties.mag : 0; } )
 ```
+
 This code requests a [transition to occur for each](http://bl.ocks.org/Kcnarf/9e4813ba03ef34beac6e) earthquake, in sequence. The `.delay(function(d,i){ return i*100; })` line really does most of the work here, telling D3 to wait a few milliseconds between each transition (i is the index in the parsedJSON.features) array.  The [.duration() controls how fast the transition happens](https://bl.ocks.org/d3noob/c3cbb8af554eb848d09ab97306bb5583).  The [.ease() controls the rate of change of the transition](http://bl.ocks.org/hunzy/9929724), which in this case makes the earthquake pop a little beyond the radius, then get smaller.
 
 ### [5th Challenge Solution Here](https://github.com/Ryshackleton/d3_maptime/blob/master/html/03_myEarthquakeMap_challenge5_solution.html)
@@ -673,7 +703,8 @@ When you complete this step, you will have a map to "back up" your earthquake da
 
 ### 6th Challenge, 15 minutes or less: Copy and Paste the following block of code JUST ABOVE THE closing `</script>` tag near the bottom of your html file
 
-Refresh your map. Then sit back, bask in the glory, and then we'll talk about how it all works!
+Refresh your map. Then sit back, bask in the glory, and then we'll talk about how it all works
+
 ```JS
     function drawCountryBoundaries() {
       // define the path generator (this should really be at the top)
@@ -702,6 +733,7 @@ Refresh your map. Then sit back, bask in the glory, and then we'll talk about ho
     }
     drawCountryBoundaries();
 ```
+
 ### [6th Challenge Solution Here](https://github.com/Ryshackleton/d3_maptime/blob/master/html/03_myEarthquakeMap_challenge6_solution.html)
 
 ### [6th Challenge Live Solution](https://bl.ocks.org/Ryshackleton/52c97ff17236c2accccdadc47b122228)
@@ -711,19 +743,23 @@ Map should look vaguely like this, although the earthquake locations will be dif
 
 #### Projection for lines
 When D3 renders lines as SVG, it has to translate a vector format containing vertices ([longitude,latitude]) and line segments in (GeoJSON), to [SVG path instructions](https://www.w3schools.com/graphics/svg_path.asp) in X,Y space, which are the the rough equivalent of *"move to x,y, draw a line to x1,y1, move horizontally by 10 pixels, draw a horizontal line to...."*.  So it has to project all of the coordinates, then turn them into those wacky instructions.  **I'm SOOO glad someone else wrote that code.** This functionality is called a *path generator*.  The *path generator* line almost always looks just like this, and it always need to be *told what projection to use*.
+
 ```JS
 	var path = d3.geoPath() // in D3 version 3, it will look like d3.geo.path() - notice the difference!!!!
                      .projection(projection); // SET the projection we defined above to the path generator 
 ```
+
 **So, the path generator is kind of like projection for lines: line segments with [long,lat] coordinates goes in, projected path instructions in x,y space comes out**
 
 The next few lines do the same thing we did before: parse data from a GeoJSON-like format called [TopoJSON](https://github.com/topojson/topojson).  The TopoJSON format is similar to GeoJSON, but is specifically designed to reduce file size.  [You can grab the data here](https://github.com/Ryshackleton/d3_maptime/blob/master/data/world-topo-min.json).
+
 ```JS
       // send a JSON request to get the world boundaries  
       var worldBoundariesURL = "https://ryshackleton.github.io/d3_maptime/data/world-topo-min.json";
       d3.json(worldBoundariesURL, function(world) {
       });
 ```
+
 **For future reference:** Mike Bostock has a [great tutorial on how to process your own TopoJSON files from shape files and other datasets](https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c).  Most D3 examples you will see now use TopoJSON, but D3 can still read GeoJSON just fine.
 
 The next lines just make sure that the country boundaries are BELOW the earthquakes by inserting a `<g>`, or grouping element at top of the SVG instructions that we can put countries into. SVG renders each graphical element in top-down order, so for the country boundaries get rendered FIRST, then they need to be read by the SVG before the earthquakes (`<svg> <g name="countries-lay-me-out-first"/> <g name="earthquakes-lay-me-out-second"/> </svg>`).
@@ -735,7 +771,9 @@ The next lines just make sure that the country boundaries are BELOW the earthqua
                   .insert("g",":first-child") // insert a group element at the top of svg
                   .attr("id","country-boundaries"); // give the group an id for reference
 ```
+
 Now we select the grouping node `<g>` we just created, and append drawing paths to the group.  The code looks similar to the circle drawing code, except that we append a "path" instead of a circle, and then instead of setting "cx" and "cy", we set an attribute on the `<path>` called "d".  The `<d>` element contains that wacky set of line-drawing instructions: *"move to x,y, draw a line to x1,y1, ..."* that gets generated by D3's path generator.  So, the `.attr("d", path )` line lets us have d3 generate the path for each feature geometry (`path( d )` is called for every country feature).
+
 ```JS
         // Draw the world map boundaries on the <g> element
          g.selectAll("path")
@@ -747,6 +785,7 @@ Now we select the grouping node `<g>` we just created, and append drawing paths 
               .style("stroke-linejoin","round");
       });
 ```
+
 For a much better explanation of paths and path generators, see [this book section](http://chimera.labs.oreilly.com/books/1230000000345/ch12.html#_projections) and [the Command Line Cartography Tutorial](https://medium.com/@mbostock/command-line-cartography-part-1-897aa8f8ca2c).  This is a great way to launch into [Choropleth Maps](http://chimera.labs.oreilly.com/books/1230000000345/ch12.html#_choropleth).
 
 **Congratulations!** You built a web map in D3.js!  Thanks for coming.
