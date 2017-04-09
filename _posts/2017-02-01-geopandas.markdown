@@ -4,7 +4,7 @@ This [Maptime Meetup workshop](https://www.meetup.com/MaptimeSEA/) is adapted fr
 
 ## Python Preparations
 
-This workshop will rely on **conda** to set up the required Python 2.7 environment and packages. [See here](https://github.com/MaptimeSEA/geopandas-tutorial-maptime/blob/master/geopandas/install-conda.md) for details on how to get set up. All demonstration will be done on [Jupyter notebooks](http://jupyter.org). The `geopandasenv` Python conda environment you will create includes Jupyter.
+This workshop will rely on **conda** to set up the required Python 2.7 environment and packages. [See here](https://github.com/MaptimeSEA/geopandas-tutorial-maptime/blob/master/install-conda.md) for details on how to get set up. All demonstration will be done on [Jupyter notebooks](http://jupyter.org). The `geopandasenv` Python conda environment you will create includes Jupyter.
 
 ## Materials and Lessons
 
