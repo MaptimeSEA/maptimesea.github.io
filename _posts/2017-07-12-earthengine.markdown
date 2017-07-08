@@ -25,7 +25,6 @@ In fact Earth Engine also has a Python API which is better-suited for building a
 
 *Why use Earth Engine?*
 
-So *why not use another library like [Leaflet.js](http://leafletjs.com/)?* The short answer is that D3 will be advantageous when you really want to customize interactivity and dynamic visualization. The tradeoff is in ease-of-creation: D3 will take more time to customize the map to what you want. That said, there's really no reason you can't use both D3 and Leaflet together! Here is a great tutorial [example](https://bost.ocks.org/mike/leaflet/) using D3 to create dynamic overlays on a Leaflet map.
 
 ### What can I do with Earth Engine?
 
@@ -43,9 +42,11 @@ A planetary-scale platform for Earth science data & analysis
 
 ## Data
 Satellite Imagery Datasets:
--   Landsat Archives (4, 5, 7, 8)
-- 	Modis
-- 	Sentinel 1, 2
+- Landsat Archives (4, 5, 7, 8)
+- Modis
+- Sentinel 1, 2
+-
+
 Climate Datasets
 -		Precipitation
 -		
@@ -132,13 +133,26 @@ Check out [this simple example of code) inside the `function myFunction()`.
 
 ### Other Useful Earth Engine tutorials
 
+#### Google Materials
+[Google Earth Engine Developer's Guide](https://developers.google.com/earth-engine/):
+- [API Docs](https://developers.google.com/earth-engine/api_docs)
+- [API Tutorials](https://developers.google.com/earth-engine/tutorials)
+- [Earth Engine resources for Higher Education](https://developers.google.com/earth-engine/edu)
+
+[Earth Engine User Summit 2017 Proceedings](https://events.withgoogle.com/google-earth-engine-user-summit-2017/breakout-sessions/#content)
+> [Python API presentation](https://docs.google.com/presentation/d/1MVVeyCdm-FrMVRPop6wB3iyd85TAlwB-F9ygTQZ8S1w/pub?slide=id.g1e419debf0_1_205)
+> []
+
+[Earth Engine Developers Google Group](https://groups.google.com/forum/#!forum/google-earth-engine-developers)
+
+#### External Materials
+
 International Research Institute for Climate & Society *Health Applications*:
 - [Analyzing Precipitation Data](http://iri.columbia.edu/~pceccato/Google_Training_Health/CHIRPS_Precipitation.pdf)
 - [Analyzing MODIS data](http://iri.columbia.edu/~pceccato/Google_Training_Health/MODIS%20lst.pdf)
 - [Analyzing NDVI data](http://iri.columbia.edu/~pceccato/Google_Training_Health/NDVI.pdf)
 
 [Google Earth Engine for Dummies](https://slides.com/miguelangelmenarguez)
-
 
 
 ## Fin.
