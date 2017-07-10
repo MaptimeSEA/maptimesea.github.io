@@ -3,8 +3,13 @@ layout: tut
 title: "Google Earth Engine"
 ---
 
+## Welcome to Maptime Seattle!
+
+Maptime is a group dedicated to teaching and learning all things geospatial.
+
+
 ## Introduction
-[Earth Engine](https://earthengine.google.com/) is a powerful platform developed by Google.
+[Earth Engine](https://earthengine.google.com/) is *** a planetary-scale platform for Earth science data & analysis***
 
 **Remote Sensing Archives**
 - petabytes of data located on Google servers
@@ -17,35 +22,30 @@ title: "Google Earth Engine"
 **Server-side programming**
 - data is stored in the cloud
 
-
 We are going to be using the [Code Editor](https://code.earthengine.google.com/) which presents a simple access point to learning the Earth Engine platform. The Code Editor utilizes the Earth Engine JavaScript API to run scripts and functions to interact with Earth Engine-hosted data.
 
 *Earth Engine is not just another JavaScript library*
 In fact Earth Engine also has a Python API which is better-suited for building applications. Today, we are most interested in getting you started with Earth Engine by exploring some of the basic functionality. If you don't know JavaScript or any coding for that matter, don't worry. We'll walk you through what you need to know.
 
 *Why use Earth Engine?*
+Because you can! It is powerful and allows the analyst/developer to bring code to the data, which shortens the process of doing exploratory data analysis.
 
+### What can be done with Earth Engine?
 
-### What can I do with Earth Engine?
+Check out these examples of Earth Engine visualizations and applications:
 
-Check out these links for some examples of Earth Engine visualizations and applications:
+- [Global Forest Change](http://earthenginepartners.appspot.com/science-2013-global-forest)
 
-[Global Forest Change](http://earthenginepartners.appspot.com/science-2013-global-forest)
+- [Earth Engine Timelapse](https://earthengine.google.com/timelapse/)
 
-[Earth Engine Timelapse](https://earthengine.google.com/timelapse/)
+- [Climate Engine](http://climateengine.org/)
 
-[Climate Engine](http://climateengine.org/)
-
-
-# Earth Engine
-A planetary-scale platform for Earth science data & analysis
 
 ## Data
 Satellite Imagery Datasets:
 - Landsat Archives (4, 5, 7, 8)
-- Modis
+- MODIS
 - Sentinel 1, 2
--
 
 Climate Datasets
 -		Precipitation
@@ -54,11 +54,11 @@ Climate Datasets
 ## APIs
 
 JavaScript and Python APIs
-
-
 # Tutorial Time!
 
 ### What do I need for this tutorial?
+Click this link to join the Google Group which will facilitate sharing a code repository with you:
+https://goo.gl/TEPFbt
 
 
 ### What are we making?
@@ -76,7 +76,7 @@ We'll do this in steps:
 
 6.
 
-By the time we finish this tutorial,
+By the time we finish this tutorial, you will have the basics to
 
 
 ## Tips
