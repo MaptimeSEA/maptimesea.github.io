@@ -5,7 +5,7 @@ title: "Google Earth Engine"
 
 ## Welcome to Maptime Seattle!
 
-Maptime is a group dedicated to teaching and learning all things geospatial.
+Maptime is an organization dedicated to teaching and learning all things geospatial. Maptime offers a local mapping communities the opportunity to learn cutting-edge geospatial technologies
 
 
 ## Introduction
