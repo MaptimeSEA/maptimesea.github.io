@@ -5,77 +5,82 @@ title: "Google Earth Engine"
 
 ## Welcome to Maptime Seattle!
 
-Maptime is an organization dedicated to teaching and learning all things geospatial. Maptime offers a local mapping communities the opportunity to learn cutting-edge geospatial technologies.
+[Maptime](http://maptime.io/) is a community dedicated to teaching and learning all things geospatial. Maptime offers local mappers the opportunity to learn cutting-edge geospatial technologies.
+
+Maptime's mission is :
+```
+"to open the doors of cartographic possibility to anyone
+interested by creating a time and space for collaborative
+learning, exploration, and map creation using mapping tools
+and technologies."
+```
 
 ## Introduction
-[Earth Engine](https://earthengine.google.com/) is *** a planetary-scale platform for Earth science data & analysis***
+[Earth Engine](https://earthengine.google.com/) is ***a planetary-scale platform for Earth science data & analysis***
 
 **Remote Sensing Archives**
 - petabytes of data located on Google servers
 - *you don't need to download or extract any data!*
 
 **Distributed computational power**
-- CPU clusters are provided
-- Limits are managed by Google
+- CPU clusters provided / limits managed by Google
 
 **Server-side programming**
 - data is stored in the cloud
 
-We are going to be using the [Code Editor](https://code.earthengine.google.com/) which presents a simple access point to learning the Earth Engine platform. The Code Editor utilizes the Earth Engine JavaScript API to run scripts and functions to interact with Earth Engine-hosted data.
+We are going to use the [Code Editor](https://code.earthengine.google.com/) which presents a simple access point to learning the Earth Engine platform. The Code Editor utilizes the Earth Engine JavaScript API to run scripts and functions to interact with Earth Engine-hosted data.
 
-*Earth Engine is not just another JavaScript library*
-In fact Earth Engine also has a Python API which is better-suited for building applications. Today, we are most interested in getting you started with Earth Engine by exploring some of the basic functionality. If you don't know JavaScript or any coding for that matter, don't worry. We'll walk you through what you need to know.
+*Earth Engine is not just another JavaScript library.*
+
+In fact Earth Engine also has a Python API which is better-suited for building applications. Today, we want to help you get started with Earth Engine by exploring some of the basic functionality. If you don't know JavaScript or any coding for that matter, don't worry. We'll walk you through what you need to know.
 
 *Why use Earth Engine?*
-Because you can! It is powerful and allows the analyst/developer to bring code to the data, which shortens the process of doing exploratory data analysis.
-
-### What can be done with Earth Engine?
-
-Check out these examples of Earth Engine visualizations and applications:
-
-- [Global Forest Change](http://earthenginepartners.appspot.com/science-2013-global-forest)
-
-- [Earth Engine Timelapse](https://earthengine.google.com/timelapse/)
-
-- [Climate Engine](http://climateengine.org/)
+Because you can! It is powerful allowing you, the analyst/developer, to bring code to the data, which shortens the process of doing exploratory data analysis.
 
 
-## Data
+## [Datasets](https://earthengine.google.com/datasets/)
 Satellite Imagery Datasets:
 - Landsat Archives (4, 5, 7, 8)
 - MODIS
 - Sentinel 1, 2
 
 Climate Datasets
--		Precipitation
--		
+-	Precipitation
+-	Sea Surface Temperature
+- Ozone
 
 ## APIs
 
 JavaScript and Python APIs
+
+### A few Earth Engine JavaScript API terms:
+
+**variable**:		stored *thing* in memory
+
+**function**:		stored *operation*
+
+**asset**:		geospatial data; e.g. Feature, FeatureCollection / Image, ImageCollection
+
+**band**:		remotely-sensed data stores measured reflectance for different wavelength ranges in separate bands
+
+**reducer**:	a function which is mapped over all pixels in an Image or ImageCollection:	e.g. mean(), median()
+
+
+By the time we finish this tutorial, you will have the basics to start exploring with Earth Engine.
+
+
 # Tutorial Time!
 
 ### What do I need for this tutorial?
-Click this link to join the Google Group which will facilitate sharing a code repository with you:
-https://goo.gl/TEPFbt
+1. If you don't yet have one, please Create a Google account: https://goo.gl/KmaV3j
 
+2. Sign up for an Earth Engine account using your gmail account: https://goo.gl/qJgvcP
 
-### What are we making?
-We'll do this in steps:
+3. Open an Incognito window of Chrome
 
-1.
+4. Join the MaptimeSEA Earth Engine 101 Google Group with your gmail account: https://goo.gl/TEPFbt
 
-2.
-
-3.
-
-4.
-
-5.
-
-6.
-
-By the time we finish this tutorial, you will have the basics to
+5. Accept this shared code repository named maptimesea_earthengine101: https://goo.gl/g6xxTT Group with your gmail account: https://goo.gl/TEPFbt
 
 
 ## Tips
@@ -83,52 +88,21 @@ By the time we finish this tutorial, you will have the basics to
 * The learning curve can be pretty steep. Stay positive.  Ask lots of questions.
 * Start simple, add complexity piece by piece
 * Refer to [documentation]() / [tutorials]()
-* **Cannibalize code** wherever/whenever you can. D3 has [great examples](https://bl.ocks.org/) and most the code is freely accessible.
-* In this tutorial, **SOLUTIONS ARE PROVIDED AT THE END OF EVERY STEP** under headings like this:
-	### Or [clone this git repo](https://github.com/Ryshackleton/d3_maptime.git) to get all of the starter/solution files ahead of time
-
-## STEP 1:
-
-## STEP 2:
-
-## STEP 3:
-
-## STEP 4:
-
-**This is text**
+* **Cannibalize code** wherever/whenever you can. The [Earth Engine Developer Forum has great examples](https://groups.google.com/forum/#!forum/google-earth-engine-developers) and includes a lot of code.
 
 
-### 1st Challenge, 15 minutes:
+### What can be done with Earth Engine?
 
-#### In the [tutorial]
+Check out these examples of Earth Engine visualizations and applications:
+[Case Studies](https://earthengine.google.com/case_studies/)
 
- * radius: 20
- * fill: "darkred"
+- [Global Forest Change](http://earthenginepartners.appspot.com/science-2013-global-forest)
 
-**NEED A HINT? Check out the lines: `ee.ImageCollection.("");` and `ee.CenterObject();`.**  Paste those two lines into your script, then change the `"xxx"` and `xx` to `"xxx"` and `xx`.  If your web page is blank, check the Console for errors (Right click in the page, and "View Source", then find the "Console" tab).
+- [Earth Engine Timelapse](https://earthengine.google.com/timelapse/)
 
+- [Climate Engine](http://climateengine.org/)
 
-###
-
-Check out [this simple example of code) inside the `function myFunction()`.
-
-```JavaScript
-    // use d3 to add a new button in the body
-    ee.ImageCollection("body")
-      .append("button")
-      .on("click", myFunction) // link the myFunction function to the button click
-      .text("Run My Function"); // add some text to the button
-
-    function myFunction() {
-      // add your transitioning code here
-    }
-```
-
-### STEP 4:
-#### Copy and paste [the html below].
-
-### [4th Challenge Solution Here](http://github.com/jmasselink/)
-
+- [Aqua Monitor](http://aqua-monitor.appspot.com/)
 
 ### Other Useful Earth Engine tutorials
 
@@ -139,8 +113,7 @@ Check out [this simple example of code) inside the `function myFunction()`.
 - [Earth Engine resources for Higher Education](https://developers.google.com/earth-engine/edu)
 
 [Earth Engine User Summit 2017 Proceedings](https://events.withgoogle.com/google-earth-engine-user-summit-2017/breakout-sessions/#content)
-> [Python API presentation](https://docs.google.com/presentation/d/1MVVeyCdm-FrMVRPop6wB3iyd85TAlwB-F9ygTQZ8S1w/pub?slide=id.g1e419debf0_1_205)
-> []
+- [Python API presentation](https://docs.google.com/presentation/d/1MVVeyCdm-FrMVRPop6wB3iyd85TAlwB-F9ygTQZ8S1w/pub?slide=id.g1e419debf0_1_205)
 
 [Earth Engine Developers Google Group](https://groups.google.com/forum/#!forum/google-earth-engine-developers)
 
