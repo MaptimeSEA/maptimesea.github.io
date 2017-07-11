@@ -80,7 +80,7 @@ By the time we finish this tutorial, you will have the basics to start exploring
 
 4. Join the MaptimeSEA Earth Engine 101 Google Group with your gmail account: https://goo.gl/TEPFbt
 
-5. Accept this shared code repository named maptimesea_earthengine101: https://goo.gl/g6xxTT Group with your gmail account: https://goo.gl/TEPFbt
+5. Accept this shared code repository named maptimesea_earthengine101: https://goo.gl/g6xxTT
 
 
 ## Tips
