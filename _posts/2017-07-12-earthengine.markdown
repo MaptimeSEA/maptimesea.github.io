@@ -61,18 +61,18 @@ JavaScript and Python APIs
 
 **asset**:		geospatial data; e.g. Feature, FeatureCollection / Image, ImageCollection
 
-**band**:		remotely-sensed data stores measured reflectance for different wavelength ranges in separate bands
+**band**:		remotely-sensed data stores measured reflectance for different wavelength ranges in separate bands though the spatial  resolution and capture time are the same; e.g. Images are composed of bands
 
 **reducer**:	a function which is mapped over all pixels in an Image or ImageCollection:	e.g. mean(), median()
 
 
-By the time we finish this tutorial, you will have the basics to start exploring with Earth Engine.
+By the time we finish this tutorial, you will have the basics to start exploring data with Earth Engine.
 
 
 # Tutorial Time!
 
 ### What do I need for this tutorial?
-1. If you don't yet have one, please Create a Google account: https://goo.gl/KmaV3j
+1. If you don't yet have one, please create a Google account: https://goo.gl/KmaV3j
 
 2. Sign up for an Earth Engine account using your gmail account: https://goo.gl/qJgvcP
 
@@ -80,14 +80,13 @@ By the time we finish this tutorial, you will have the basics to start exploring
 
 4. Join the MaptimeSEA Earth Engine 101 Google Group with your gmail account: https://goo.gl/TEPFbt
 
-5. Accept this shared code repository named maptimesea_earthengine101: https://goo.gl/g6xxTT
+5. Accept this shared code repository named **maptimesea_earthengine101**: https://goo.gl/g6xxTT
 
 
 ## Tips
 
 * The learning curve can be pretty steep. Stay positive.  Ask lots of questions.
 * Start simple, add complexity piece by piece
-* Refer to [documentation]() / [tutorials]()
 * **Cannibalize code** wherever/whenever you can. The [Earth Engine Developer Forum has great examples](https://groups.google.com/forum/#!forum/google-earth-engine-developers) and includes a lot of code.
 
 
@@ -116,6 +115,9 @@ Check out these examples of Earth Engine visualizations and applications:
 - [Python API presentation](https://docs.google.com/presentation/d/1MVVeyCdm-FrMVRPop6wB3iyd85TAlwB-F9ygTQZ8S1w/pub?slide=id.g1e419debf0_1_205)
 
 [Earth Engine Developers Google Group](https://groups.google.com/forum/#!forum/google-earth-engine-developers)
+
+[Earth Engine + Jupyter Notebooks (UW GeoHackWeek 2016)](https://goo.gl/8jf7RU)
+- [Docker Image: docker-ee-datascience-notebook](https://hub.docker.com/r/tylere/docker-ee-datascience-notebook/)
 
 #### External Materials
 
