@@ -119,6 +119,8 @@ Check out these examples of Earth Engine visualizations and applications:
 
 #### External Materials
 
+[Remote Sensing of Environment journal](http://www.sciencedirect.com/science/article/pii/S0034425717302900): "Google Earth Engine: Planetary-scale geospatial analysis for everyone"
+
 International Research Institute for Climate & Society *Health Applications*:
 - [Analyzing Precipitation Data](http://iri.columbia.edu/~pceccato/Google_Training_Health/CHIRPS_Precipitation.pdf)
 - [Analyzing MODIS data](http://iri.columbia.edu/~pceccato/Google_Training_Health/MODIS%20lst.pdf)
