@@ -20,13 +20,14 @@ This week we will dive into the basics of GIS. Checkout the slide deck here. (Co
 
 ## Workshop
 
-You can find the needed for this workship here [here](https://github.com/christyheaton/MaptimeSea_092017).
+You can find the data needed for this workshop [here](https://github.com/christyheaton/MaptimeSea_092017).
 
 **Together we will:**
 * Open [QGIS](http://www.qgis.org/en/site/forusers/download.html). I recommend the latest (eg for new users) 64-bit version for your operating system.
 * Load [data](https://github.com/christyheaton/MaptimeSea_092017) related to the 2017 Total Solar Eclipse.
-* Learn how to find the projection, basic styling, and layer control.
+* Learn how to find projections, change layer styles, and layer control operations.
 * Install the OpenLayers plugin to get access to awesome basemaps.
+* Reproject data to get ready for processing.
 * Identify cities in the eclipse's path of totality using the clip tool.
 
 ## Want more?
