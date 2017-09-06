@@ -16,7 +16,7 @@ and technologies."
 ```
 
 ## Introduction
-This week we will dive into the basics of GIS. Checkout the slide deck here. (Coming soon)
+This week we will dive into the basics of GIS. Checkout the slide deck [here](/img/IntroToGIS_MaptimeSea_20170906.pdf).
 
 ## Workshop
 
@@ -27,7 +27,7 @@ You can find the data needed for this workshop [here](https://github.com/christy
 * Load [data](https://github.com/christyheaton/MaptimeSea_092017) related to the 2017 Total Solar Eclipse.
 * Learn how to find projections, change layer styles, and layer control operations.
 * Install the OpenLayers plugin to get access to awesome basemaps.
-* Reproject data to get ready for processing.
+* Reproject data to get it ready for processing.
 * Identify cities in the eclipse's path of totality using the clip tool.
 
 ## Want more?
