@@ -32,21 +32,33 @@ Today, we use Tableau to explore data with maps.
 ### Challenge 1
 The 'Price by ZipCode' sheet is attempting to compare the price of homes across different zipcodes. In what way does it do this well? In what ways is it doing it poorly? Spend some time trying to make it better.
 
-## Filters and Actions
-* Filters
+## Dashboards
+* Basic Dashboard creation
+* Dashboard Action
+* Dashboard Action Dialog
+
+### Challenge 2
+Together: Add the 'Actions: Bar Chart' sheet to the 'Actions: Dashboard' Dashboard. Add a Filter action to the dashboard, and then use the Dashboard > Actions dialog to create a filter action between the two sheets.
+
+Independent: Add the 'Actions: Date' sheet to the dashboard as well. Add a dashboard action that Filters only the 'Actions: Date' sheet when the user clicks either the map or the bar chart.
+
+Extra Challenge: Use the Layout tab on the left to start formatting the dashboard.
+
+## Filters
+* Filters Shelf
 * Filter Formatting
 * Pages Shelf
 
-## Dashboards
-* Basic Dashboard creation
-* Dashboard Filter
-* Filter controls
+### Challenge 3
+Together: Add a "Bedrooms" Filter to the "Filter: Distribution" Sheet. Make it appear on the 'Filter: Dashboard" dashboard, and apply to all sheets.
 
-### Challenge 2
-1. Add a filter for 'Bathrooms' to the 'Price Distribution' sheet, similar to the filter we added for 'Bedrooms'
-2. Make the filter show up on the ____ Dashboard
+Independent: Add a "Bedrooms" filter to the "Filter: Distribution" Sheet as well, and add it to the dashboard.
 
-## Dashboards 2
+Extra Challenge: Use the Layout tab to make the dashboard look nicer. Add some other filters to the dashboard. Go back to the 'Actions' dashboard and add some actions there as well.
+
+
+
+## Calculations
 * Dashboard actions Dialog
 
 ### Challenge 3
