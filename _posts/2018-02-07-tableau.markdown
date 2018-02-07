@@ -9,6 +9,10 @@ title: "Introduction to Tableau (2)"
 
 * Download workbook from [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/kagglehousing/DashboardAction). Download Workbook link is in the top corner of the workbook.
 
+* Download data [Zillow](http://files.zillowstatic.com/research/public/Neighborhood.zip): Find the link that says "Neighborhood" and click it to download.
+
+* Download [Zillow Neighbor Boundaries](https://www.zillow.com/howto/api/neighborhood-boundaries.htm): Find the link that says "Washington Neighborhood Boundaries" and click it.
+
 # About Tableau
 
 Tableau helps people see and understand data.
@@ -57,53 +61,60 @@ Independent: Add a "Bedrooms" filter to the "Filter: Distribution" Sheet as well
 Extra Challenge: Use the Layout tab to make the dashboard look nicer. Add some other filters to the dashboard. Go back to the 'Actions' dashboard and add some actions there as well.
 
 
-
 ## Calculations
-* Dashboard actions Dialog
+* Analysis > Create Calculated Field
+* Aggregation
+* Parameter
 
 ### Challenge 3
-* The Cost per sqft Dash tries to show how the cost per sqft changes depending on zip code. However, whenever it filters the data below, it is very jolting. Use the Dashboard > Actions menu to create a highlight action instead of a filter action.
+Together: Look at the 'Calculation: Price per Square Feet' sheet. Look at "calc sheet" field, and see how it changes as you change the "Lot or Living" parameter.
+
+Independent: It would be much better if the zip codes were colored by average cost per sq ft, to make a more unified message. Create a calculated field to compute price per sqft, and color the map using that instead.
+
+Extra Challenge: Add another option to the parameter and calculated field to also show price per bedroom.
 
 ## Calculated Fields
 * Analysis > Create Calculated Field
 * Parameters
 
-### Challenge 4
-* It would be much better if the zip codes were colored by average cost per sq ft, to make a more unified message. Create a calculated field to compute price per sqft, and color the map using that instead. Advanced: Also create a new sheet that displays the price per sqft, and create a filter action from the Map to the new sheet so that it displays the correct value for a selected zipcode.
-
 # Part 2: Mapping Specifically
 
-## Geographic Field Types
+## Geocoding
 
-* Automatically Recognized Fields: City, County, State
-* Not Recognized: Metro
+* Automatically Recognized/Not Recognized Fields
+* Right click > Geographic Role
 * Edit Locations, 'Ambiguous'
 * Geographic Hierarchies (Geometry Field)
-
-### Challenge 5
-* Create a State > Country > City hierarchy on the Zillow data.
-* Create a map of their Geometries, and filter down to just Seattle Neighborhoods
-
-
-## Aggregate Geometries???
-* Add Size Rank to the color shelf... Why is it all just one color?
 * Custom Territories
+* Geometry Fields
 
+### Challenge 4
+* Create a State > Country > City hierarchy on the Zillow data.
+* Create a of Geometries, and filter down to King county.
+* Take one of the concepts that you found most confusing and dig into it further.
 
 # Part 3: Data Prep
 
 * [Neighborhood Zillow Data](https://www.zillow.com/research/data/#bulk)
     * Click Neighborhood
-    * The dataset is Neighborhood_Zri_AllHomes.csv
 * [Neighborhood Boundaries](https://www.zillow.com/howto/api/neighborhood-boundaries.htm)
     * Click Washington Neighborhood Boundaries
 
 ## Bring in the data
-* Drag and Drop... Woo
+* Drag and Drop
 * Blending
 * Joins: Inner, Outer, Left, Right
 * Pivot
 
-# Conclusion
+### Challenge 5
+Together: 
+1. Drag the Washington Neighborhood boundaries to Tableau.
+2. Go to the Data Source tab, and select "add connection".
+3. Select 'Neighborhood_MedianRentalPrice_1Bedroom.csv'
+4. In the join, join on 'Region name' = 'Name', and 'County'
+5. Pivot all of the columns that are months
+6. Rename 'Pivot Field Names' to 'Month' and 'Pivot field values' to 'Median Rental Price'
+7. Add '2Bedroom.csv' to the pivot as well.
 
-Tableau is fun and easy, and as long as you are OK not connecting to databases and saving everything to the cloud it is free.
+Independent: Add more data sets to the pivot
+
