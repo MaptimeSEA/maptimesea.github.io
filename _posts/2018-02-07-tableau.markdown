@@ -7,7 +7,7 @@ title: "Introduction to Tableau (2)"
 
 * Do you have the most recent version of Tableau Public installed? [Click to download](https://public.tableau.com/en-us/s/download/thanks)
 
-* Download workbook from [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/kagglehousing/DashboardAction). Download Workbook link is in the top corner of the workbook.
+* Download workbook from [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/MapTime_0/IntroKaggle). Download Workbook link is in the top corner of the workbook.
 
 * Download data [Zillow](http://files.zillowstatic.com/research/public/Neighborhood.zip): Find the link that says "Neighborhood" and click it to download.
 
