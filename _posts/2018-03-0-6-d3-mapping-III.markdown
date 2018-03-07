@@ -236,7 +236,8 @@ You should be able to toggle the info button and mouse over the map to make sure
 
 <details>
  <summary><strong>ADVANCED: How to build your own bash script to do this</strong></summary>
-
+<p>
+  
 * Download and install [Node.js](https://nodejs.org/en/)
 * Install mapshaper globally on your computer (-g flag)
 
