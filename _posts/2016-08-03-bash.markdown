@@ -1,0 +1,273 @@
+---
+layout: tut
+title: "Introduction to Bash"
+---
+
+## Before we begin...
+
+* On a mac or unix based system (Ubuntu for example)? That's great, you have terminal access out of the box and you are ready to begin.
+* On a Windows machine? Get ready for an adventure. You'll need to install a unix based shell to follow along. Cygwin is a great choice. Let's get that installed, so we can keep up.
+
+# Command Line
+
+The command line is a way to operate your computer without a graphical user interface. Know how search, copy and move files from a finder window on your desktop? You can do all of that with written commands from the command line. Today we'll learn how.
+
+## Bash
+
+Where does Bash fit in? Well, it's one version of a command line. There are many. Why learn Bash then? Bash is commonly found on machines operating Unix based systems. Many of these machines are great for doing geo-stuff, building websides, webservices and processing data.
+
+During the session today, we'll learn how to:
+
+1. Access the command line
+1. Help!
+2. Navigation
+3. Make things
+4. Move things
+6. Get from the Internet
+7. Look at data
+8. Analyze data
+9. Alter data
+
+# Access
+
+Go to where you search for software on your computer. On a mac this will be spotlight. In windows this is the start menu. Search `terminal`. Pop that open.
+
+# Help!
+
+The Internet is chock full of advice on how to get the job done with Bash. Half the struggle is learning how to formulate the question. Stick with it.
+
+As you get comfortable on the command line, add `--help` as an argument to your command or do `man <command>` to see what's possible.
+
+If you leave today wanting more, checkout [BASH Programming - Introduction HOW-TO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html) and [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html) for logical next steps.
+
+# Navigation
+
+This is really important. Master a few simple commands and you'll know how to see what is around you and move from one filesystem location to another. This will be the foundation of what you do on the command line.
+
+Before we dive head first, let's spend a moment discussing file paths. Paths define the structure of your filesystem, you'll use them extensively in your quest for command line Fu. Conceptually, they are very similar to a tree. Each filesystem has a root, you can think of directories as branches, and files as leaves.
+
+The root of your filesystem is `/`
+
+`~/` is your users home, and is short for `/home/you/`
+
+As you'll come to see, things branch indefinitely from here.
+
+## ls
+
+`ls` shows you the contents of your current directory. When you first open your terminal, you're in your home directory, let's see what's there.
+
+```
+ls
+```
+
+That's great, but there's actually a lot of information available to us. Let's try:
+
+```
+ls -lh
+```
+
+What's the deal with `-lh`? Those are options that we pass to the `ls` command that change the output.
+
+`l` - use long listing format
+`h` - human readable
+
+There's a lot of information that we don't have time to get into right now. Try `man ls` if you feel like going down the rabbit hole.
+
+Note: you can list the contents of any directory by including the path in your ls command. For instance, `ls -lh /home/you/Desktop`
+
+## cd
+
+You can't sit still forever, at some point you'll want to move. `cd` will get you there:
+
+```
+cd Desktop
+```
+
+Note: many commands only require *relative paths*. In this case, the only path that matters is the one that takes you from where you are to where you're going. Contrast them to *absolute paths* which are defined from the root of the files system, for example `/home/you/Desktop`
+
+# Make things
+
+Here at Maptime we're all about making things.
+
+## mkdir
+
+Let's start by making a directory to hold our work during the tutorial.
+
+```
+mkdir bash-tutorial
+```
+
+Let's move into there:
+
+```
+cd bash-tutorial
+```
+
+What's in here?
+
+```
+ls
+```
+
+Nothing, we just made it. HELLO-helLO-HEllo...
+
+## touch
+
+Vessels were made to be filled...
+
+```
+touch original_file.txt
+```
+
+```
+ls -lh
+```
+
+Hey! Touch creates an empty file, I hate empty files. Let's make a file another way:
+
+```
+echo "this file will never be empty again" >original_file.txt
+```
+
+## mv
+
+Let's move this with a relative path...
+
+```
+mv original_file.txt ../
+```
+
+That moves it up one directory...
+
+```
+ls ../
+```
+
+See it there? Let's move it Back
+
+```
+mv ../original_file.txt .
+```
+
+### Get Things From the Internet
+
+Let's look at [Seattle Cultural Space Inventory|https://data.seattle.gov/Community/Seattle-Cultural-Space-Inventory/vsxr-aydq]
+
+We could just download the data from the website, or we could grab via the command line with `curl`.
+
+## curl
+
+```
+curl https://data.seattle.gov/api/views/vsxr-aydq/rows.csv?accessType=DOWNLOAD
+```
+
+Whoa, that's a lot of information. Let's put that into a file.
+
+```
+curl https://data.seattle.gov/api/views/vsxr-aydq/rows.csv?accessType=DOWNLOAD >culture-space.csv
+```
+
+# Look at Data
+
+Before we start, let's do some research. We need to know what we're looking at.
+
+## head
+
+```
+head culture-space.csv
+```
+
+This is a pretty good place to start. It shows you the first ten lines of the file, which in most cases is readable. As we can see, that first line is a header.
+
+```
+head -n1 culture-space.csv
+```
+
+That gives us just the first line. This is a pretty good place to start as we hone in to specific lines.
+
+## tr
+
+```
+head -n1 culture-space.csv | tr -s , \\t
+```
+
+Whoops, we just used our first pipe. `|` allows you to direct the [stdout](https://en.wikipedia.org/wiki/Standard_streams) of one command to the stdin of another command. We get the first line of culture-space.csv then send it to `tr` which replaces commas with tabs. Commas hurt my eyes, this makes the header more readable for me. We can assume that all subsequent lines will be split on the same columns.
+
+## tail
+
+```
+tail -n +1 culture-space.csv | wc -l
+```
+
+This is a lot like `head` except it starts from the end of the file. The `+1` tells it to read the last n `+1` lines of the file. Then we pipe to `wc -l`, which outputs the number of lines.
+
+So now we know what the columns are. We also know the number of records. 866 is more that we can realistically read.
+
+# Analyze Data
+
+So, let's say we're interested in neighborhoods. Which neighborhood has the most cultural centers?
+
+## cut
+
+```
+head culture-space.csv | cut -d, -f5
+```
+
+We isolate the output to column `-f5`. As we can see, we got neighborhoods. `-d,` tells cut to use commas as the column delimiter.
+
+## sort
+
+```
+head culture-space.csv | cut -d, -f5 | sort
+```
+
+This reorders `stdin` alphabetically. See the two Greenwoods? Pretty hard to spot.
+
+## uniq
+
+```
+head culture-space.csv | cut -d, -f5 | sort | uniq -c
+```
+
+We send in our sorted neighborhoods, and `uniq -c` outputs count-value pairs. From here we can that Greenwood is the only neighborhood with 2 cultural centers... But wait...
+
+```
+tail -n +1 culture-space.csv | cut -d, -f5 | sort | uniq -c
+```
+
+This runs the count over the full set of records... But that's not that useful either.
+
+ ```
+ tail -n +1 culture-space.csv | tr -s , \\t | cut -f5 | sort | uniq -c | sort -nr | head
+ ```
+
+ This adds `sort -nr`, which sorts as numbers in reverse. `head` closes it off to show us the top ten.
+
+# Alter Output
+
+Let's say we want to take a closer look at the centers in Belltown...
+
+## grep
+
+```
+tail -n +1 culture-space.csv | grep Belltown
+```
+
+This only outputs lines that contain the string "Belltown". That pretty good.
+
+```tail -n +1 culture-space.csv | grep Belltown >belltown.csv
+```
+
+Now we have the Belltown records in their own file.
+
+## awk
+
+```
+tail -n +1 culture-space.csv |  awk -F , '$5 == "Belltown"'
+```
+
+This only matches on records where the fifth column equals "Belltown".
+
+# Conclusion
+
+We can go a lot of places from here. Most of these tools have a long list of arguments that can be passed to alter their behavior.

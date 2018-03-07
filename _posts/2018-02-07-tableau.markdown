@@ -1,0 +1,120 @@
+---
+layout: tut
+title: "Introduction to Tableau (2)"
+---
+
+# Before we begin...
+
+* Do you have the most recent version of Tableau Public installed? [Click to download](https://public.tableau.com/en-us/s/download/thanks)
+
+* Download workbook from [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/MapTime_0/IntroKaggle). Download Workbook link is in the top corner of the workbook.
+
+* Download data [Zillow](http://files.zillowstatic.com/research/public/Neighborhood.zip): Find the link that says "Neighborhood" and click it to download.
+
+* Download [Zillow Neighbor Boundaries](https://www.zillow.com/howto/api/neighborhood-boundaries.htm): Find the link that says "Washington Neighborhood Boundaries" and click it.
+
+# About Tableau
+
+Tableau helps people see and understand data.
+
+It can be used to make really pretty visualizations, as [Jonni Walker](https://public.tableau.com/profile/jonni.walker#!/) does. 
+
+It can be used as way to disseminate reports that update frequently, as [Redfin](https://www.redfin.com/blog/data-center) does.
+
+It can be used for interactive maps [Brexit](https://public.tableau.com/profile/solbrigm#!/vizhome/BrexitResults/EUReferendumResults)
+
+Today, we use Tableau to explore data with maps.
+
+## Interacting with Tableau
+1. Download workbook from [Tableau Public](https://public.tableau.com/profile/solbrigm#!/vizhome/kagglehousing/DashboardAction)
+2. Open Workbook in Tableau Public
+3. Pause for definitions:
+    * Marks Card: Chart type
+    * Show Me
+    * Shelfs: Rows, Columns, Color, Size
+
+### Challenge 1
+The 'Price by ZipCode' sheet is attempting to compare the price of homes across different zipcodes. In what way does it do this well? In what ways is it doing it poorly? Spend some time trying to make it better.
+
+## Dashboards
+* Basic Dashboard creation
+* Dashboard Action
+* Dashboard Action Dialog
+
+### Challenge 2
+Together: Add the 'Actions: Bar Chart' sheet to the 'Actions: Dashboard' Dashboard. Add a Filter action to the dashboard, and then use the Dashboard > Actions dialog to create a filter action between the two sheets.
+
+Independent: Add the 'Actions: Date' sheet to the dashboard as well. Add a dashboard action that Filters only the 'Actions: Date' sheet when the user clicks either the map or the bar chart.
+
+Extra Challenge: Use the Layout tab on the left to start formatting the dashboard.
+
+## Filters
+* Filters Shelf
+* Filter Formatting
+* Pages Shelf
+
+### Challenge 3
+Together: Add a "Bedrooms" Filter to the "Filter: Distribution" Sheet. Make it appear on the 'Filter: Dashboard" dashboard, and apply to all sheets.
+
+Independent: Add a "Bedrooms" filter to the "Filter: Distribution" Sheet as well, and add it to the dashboard.
+
+Extra Challenge: Use the Layout tab to make the dashboard look nicer. Add some other filters to the dashboard. Go back to the 'Actions' dashboard and add some actions there as well.
+
+
+## Calculations
+* Analysis > Create Calculated Field
+* Aggregation
+* Parameter
+
+### Challenge 3
+Together: Look at the 'Calculation: Price per Square Feet' sheet. Look at "calc sheet" field, and see how it changes as you change the "Lot or Living" parameter.
+
+Independent: It would be much better if the zip codes were colored by average cost per sq ft, to make a more unified message. Create a calculated field to compute price per sqft, and color the map using that instead.
+
+Extra Challenge: Add another option to the parameter and calculated field to also show price per bedroom.
+
+## Calculated Fields
+* Analysis > Create Calculated Field
+* Parameters
+
+# Part 2: Mapping Specifically
+
+## Geocoding
+
+* Automatically Recognized/Not Recognized Fields
+* Right click > Geographic Role
+* Edit Locations, 'Ambiguous'
+* Geographic Hierarchies (Geometry Field)
+* Custom Territories
+* Geometry Fields
+
+### Challenge 4
+* Create a State > Country > City hierarchy on the Zillow data.
+* Create a of Geometries, and filter down to King county.
+* Take one of the concepts that you found most confusing and dig into it further.
+
+# Part 3: Data Prep
+
+* [Neighborhood Zillow Data](https://www.zillow.com/research/data/#bulk)
+    * Click Neighborhood
+* [Neighborhood Boundaries](https://www.zillow.com/howto/api/neighborhood-boundaries.htm)
+    * Click Washington Neighborhood Boundaries
+
+## Bring in the data
+* Drag and Drop
+* Blending
+* Joins: Inner, Outer, Left, Right
+* Pivot
+
+### Challenge 5
+Together: 
+1. Drag the Washington Neighborhood boundaries to Tableau.
+2. Go to the Data Source tab, and select "add connection".
+3. Select 'Neighborhood_MedianRentalPrice_1Bedroom.csv'
+4. In the join, join on 'Region name' = 'Name', and 'County'
+5. Pivot all of the columns that are months
+6. Rename 'Pivot Field Names' to 'Month' and 'Pivot field values' to 'Median Rental Price'
+7. Add '2Bedroom.csv' to the pivot as well.
+
+Independent: Add more data sets to the pivot
+

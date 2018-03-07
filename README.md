@@ -22,3 +22,17 @@ MaptimeSEA is the Seattle branch of the international [Maptime](http://maptime.i
 
 We are trying our best to post tutorials so anybody can learn from them. We'll be using [resources](http://maptime.io/lessons-resources/) from [MaptimeHQ](http://twitter.com/MaptimeHQ) as well as writing our own, which can be [viewed on the website](http://maptimesea.github.io/).
 
+# Updating this website
+
+Assumes you have `git@github.com:MaptimeSEA/maptimesea.github.io.git` cloned on your local machine.
+
+1. pull down all recent changes from `master`: `git pull origin master`
+2. checkout a new branch, `git checkout -b BRANCH-NAME`
+2. add a new file under `_posts/` with the proper date formatted file name `YYYY-MM-DD-NAME.markdown`
+3. add the proper YAML to the top of the new file (copy paste from another file)
+4. add all the stuff, make changes, do your thing
+5. add file to local git: `git add FILE-NAME.markdown`
+6. commit file with note: `git commit -m 'NOTE ABOUT CHANGES`
+7. push changes to new remote branch: `git push origin HEAD` (actually write the word HEAD in all caps)
+8. make a pull request from your branch into `master` on github.com
+
