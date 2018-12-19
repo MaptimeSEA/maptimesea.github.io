@@ -2,7 +2,7 @@
 
 This Code of Conduct has been pulled from citizencodeofconduct.org. Many thanks to them for the work they do, and for providing language for us to speak to a code of conduct for Maptime.
 
-A primary goal of Maptime is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+A primary goal of Maptime is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). We encourage learning through teaching, so presenters may not be subject matter experts. All organizers and presenters are volunteering their time and efforts. Attendees should manage expectations accordingly.
 
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
 
@@ -38,7 +38,7 @@ If a participant engages in unacceptable behavior, the organizers may take any a
 
 ## If You are Witness or Subject to Unacceptable Behavior
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a Maptime organizer as soon as possible: hello [at] maptime [dot] io.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a Maptime organizer as soon as possible: maptimesea [at] gmail [dot] com.
 
 Additionally, community organizers are available to help community participants engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
 
