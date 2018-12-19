@@ -52,7 +52,7 @@ We expect all community participants (contributors, paid or otherwise; sponsors;
 
 ## Contact
 
-seattle [at] maptime [dot] io
+maptimesea [at] gmail [dot] com
 
 ## License and attribution
 
