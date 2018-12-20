@@ -1,6 +1,6 @@
 # Code of Conduct
 
-This Code of Conduct has been pulled from citizencodeofconduct.org. Many thanks to them for the work they do, and for providing language for us to speak to a code of conduct for Maptime.
+This Code of Conduct has pulled from Maptime HQ's, which has been pulled from citizencodeofconduct.org. Many thanks to them for the work they do, and for providing language for us to speak to a code of conduct for Maptime.
 
 A primary goal of Maptime is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). We encourage learning through teaching, so presenters may not be subject matter experts. All organizers and presenters are volunteering their time and efforts. Attendees should manage expectations accordingly.
 
@@ -44,7 +44,7 @@ Additionally, community organizers are available to help community participants 
 
 ## Addressing Grievances
 
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Maptime HQ with a concise description of your grievance, and we will address it.
+If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Maptime Seattle with a concise description of your grievance, and we will address it.
 
 ## Scope
 
