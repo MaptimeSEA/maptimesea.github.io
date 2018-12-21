@@ -21,7 +21,7 @@ MaptimeSEA has a [Code of Conduct](/conduct/) for all our activities.  Please re
 
 **Twitter**. We also have a twitter account [@MaptimeSEA](http://twitter.com/MaptimeSEA) where you can follow our every move. Say hello to us!
 
-**Email**. Questions? Send us an email at `seattle@maptime.io` to get in touch.
+**Email**. Questions? Send us an email at `maptimesea@gmail.com` to get in touch.
 
 **Survey**. Our tutorials are structured around what you want to learn. Fill out our survey out even if you haven't attended a meeting to express what you're interested in learning! [bit.ly/maptimesea_survey](http://bit.ly/maptimesea_survey)
 
