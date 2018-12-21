@@ -16,13 +16,13 @@ Communities mirror the societies in which they exist, and positive action is ess
 
 ## Expected Behavior
 
-We expect Maptime participants to participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
+We invite Maptime participants to participate in an authentic, curious, and enthusiastic way. In doing so, you contribute to the health and longevity of this community.
 
-Exercise consideration and respect in your speech and actions.
-Attempt collaboration before conflict.
-Refrain from demeaning, discriminatory, or harassing behavior and speech.
-Be mindful of your surroundings and of your fellow participants.
-Alert Maptime leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
+- Exercise consideration and respect in your speech and actions.
+- Attempt collaboration before conflict.
+- Refrain from demeaning, discriminatory, or harassing behavior and speech.
+- Be mindful of your surroundings and of your fellow participants.
+- Alert Maptime leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
 
 ## Unacceptable Behavior
 
@@ -66,7 +66,7 @@ The following items are worth calling out as activities that are prohibited from
 
 - **Seeking volunteers to build your product.** Are you looking for free labor for your idea? You have come to the wrong place.
 
-**But wait, what if it’s an artist or nonprofit project and a lot of us really want to work on it?** Isn’t Maptime a great place to make that happen? Totally. If Maptime students decide that they want to work on a project for a good cause or an artist or someone who really doesn’t have any money, sure! As a Local Chapter we can decide among ourselves if we want to devote Maptime time to this project, or if the project needs to find its own meeting time. Seeking free consultation for your product or idea is prohibited; we recommend hiring experts for this kind of thing.  We do, however, encourage Maptimers to seek help on which open source tools might be applicable to personal projects.
+**But wait, what if it’s an artist or nonprofit project and a lot of us really want to work on it?** Isn’t Maptime a great place to make that happen? Totally. If Maptime participants decide that they want to work on a project for a good cause or an artist or someone who really doesn’t have any money, sure! As a Local Chapter we can decide among ourselves if we want to devote Maptime time to this project, or if the project needs to find its own meeting time. Seeking free consultation for your product or idea is prohibited; we recommend hiring experts for this kind of thing.  We do, however, encourage Maptimers to seek help on which open source tools might be applicable to personal projects.
 
 **The bottom line:** There is a gray area between doing something because you want to learn, and doing something under the guise of learning by building someone else’s product for free. In addition to spec- or deadline-driven work being a major fun ruiner when it comes to learning, using volunteer labor for profit undermines all of our ability to make a fair wage. It is important for everyone working in design and technology to support one another towards earning fair wages, and for people to respect Maptime’s intentions towards learning and community.
 
