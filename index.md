@@ -7,6 +7,8 @@ title: Maptime Seattle
 
 ![Seattle skyline](/img/4850319902_2613f2e28e_b.jpg)
 
+New website coming soon!
+
 MaptimeSEA is the Seattle branch of the international Maptime community. Together, we learn and explore mapping technologies through tutorials and other meetups. We organize and teach under these major principles:
 
 1. **No Map Left Behind**. You will never leave a meeting without completing the tutorial at hand. We try our best to make no assumptions of prior knowledge when introducing new technologies.
