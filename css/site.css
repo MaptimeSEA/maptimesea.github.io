@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa);
 body {
   padding:0; margin:0;
-  background-color:#fcd4a9;
+  background-color:#f9f9f9;
   font: 100 1em/1.7em "Comfortaa";
   color:#555;
 }
@@ -73,7 +73,7 @@ h2 {
 }
 h3, h4 { color:#888888; }
 blockquote {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Comfortaa', serif;
   font-size:1.8em;
   line-height:1.2em;
   color:#c0c0c0;
@@ -93,7 +93,7 @@ li code {
   padding: 2px 5px;
 }
 aside {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Comfortaa', serif;
   font-size:.9em;
   font-weight:400;
   line-height:1.4em;
