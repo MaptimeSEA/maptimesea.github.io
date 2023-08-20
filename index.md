@@ -3,7 +3,7 @@ layout: default
 title: Maptime Seattle
 ---
 
-![Seattle skyline](/img/maptime_seattle_logo.png)
+![MaptimeSEA logo](/img/maptime_seattle_logo.png)
 
 MaptimeSEA is the Seattle branch of the international Maptime community. Together, we learn and explore mapping technologies through tutorials and other meetups. We organize and teach under these major principles:
 
@@ -17,14 +17,14 @@ MaptimeSEA has a [Code of Conduct](/conduct/) for all our activities.  Please re
 
 **Meetup**. All of our meetings and events will be posted on [our meetup site](http://meetup.com/maptimeSEA). Here you can RSVP for upcoming meetings and ask questions of your fellow mappers.
 
-**Twitter**. We also have a twitter account [@MaptimeSEA](http://twitter.com/MaptimeSEA) where you can follow our every move. Say hello to us!
+**Mastodon**. We also have a Mastodon account [@MaptimeSEA](https://mastodon.social/@MaptimeSEA) where you can follow our every move. Say hello to us!
 
 **Email**. Questions? Send us an email at `maptimesea@gmail.com` to get in touch.
 
-**Survey**. Our tutorials are structured around what you want to learn. Fill out our survey out even if you haven't attended a meeting to express what you're interested in learning! [bit.ly/maptimesea_survey](http://bit.ly/maptimesea_survey)
+**Survey**. Our tutorials are structured around what you want to learn. Fill out our survey out even if you haven't attended a meeting to express what you're interested in learning! [bit.ly/maptimesea_survey](https://docs.google.com/forms/d/e/1FAIpQLSchKhJWcBP1Kp4_lYIyjol1ZCcjeYL0pWVgdysQ2VNF8f9b4g/viewform)
 
 # Our Tutorials
 
-We are trying our best to post tutorials so anybody can learn from them. We'll be using [resources](http://maptime.io/lessons-resources/) from [MaptimeHQ](http://twitter.com/MaptimeHQ) as well as writing our own.
-
 Interested in leading a tutorial? Great! Take a look at our [instructor guidelines](/guidelines) and send us a message.
+
+Otherwise, check out our past tutorials!
