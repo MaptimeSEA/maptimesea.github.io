@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa);
 body {
   padding:0; margin:0;
-  background-color:#f9f9f9;
+  background-color:#fcd4a9;
   font: 100 1em/1.7em "Comfortaa";
   color:#555;
 }
@@ -55,7 +55,7 @@ a:hover {
   border-bottom:1px solid steelblue;
 }
 h1, h2, h3, h4 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Comfortaa";
   line-height:1.2em;
 }
 h1, h2 {
