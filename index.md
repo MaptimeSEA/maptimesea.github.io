@@ -17,7 +17,7 @@ MaptimeSEA has a [Code of Conduct](/conduct/) for all our activities.  Please re
 
 **Meetup**. All of our meetings and events will be posted on [our meetup site](http://meetup.com/maptimeSEA). Here you can RSVP for upcoming meetings and ask questions of your fellow mappers.
 
-**Mastodon**. We also have a Mastodon account [mastodon.social/@MaptimeSEA)](https://mastodon.social/@MaptimeSEA) where you can follow our every move. Say hello to us!
+**Mastodon**. We also have a Mastodon account [(mastodon.social/@MaptimeSEA)](https://mastodon.social/@MaptimeSEA) where you can follow our every move. Say hello to us!
 
 **Email**. Questions? Send us an email at `maptimesea@gmail.com` to get in touch.
 
