@@ -21,7 +21,7 @@ MaptimeSEA has a [Code of Conduct](/conduct/) for all our activities.  Please re
 
 **Email**. Questions? Send us an email at `maptimesea@gmail.com` to get in touch.
 
-**Survey**. Our tutorials are structured around what you want to learn. Fill out our survey out even if you haven't attended a meeting to express what you're interested in learning! [bit.ly/maptimesea_survey](https://docs.google.com/forms/d/e/1FAIpQLSchKhJWcBP1Kp4_lYIyjol1ZCcjeYL0pWVgdysQ2VNF8f9b4g/viewform)
+**Survey**. Our tutorials are structured around what you want to learn. Fill out our survey out even if you haven't attended a meeting to express what you're interested in learning! [Fill out our survey!](https://docs.google.com/forms/d/e/1FAIpQLSchKhJWcBP1Kp4_lYIyjol1ZCcjeYL0pWVgdysQ2VNF8f9b4g/viewform)
 
 # Our Tutorials
 
