@@ -46,4 +46,4 @@ Harassment and other exclusionary behaviors are not acceptable. This includes, b
 - Sharing private content, such as emails sent privately or non-publicly, or unlogged forums.
 - Advocating for, or encouraging, any of the above behavior.
 
-This code is adapted from the CUGOS Code of [Conduct](https://cugos.org/code-of-conduct/).
+This code is adapted from the [CUGOS Code of Conduct](https://cugos.org/code-of-conduct/).
