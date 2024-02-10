@@ -26,8 +26,8 @@ We value professionalism in all interactions, and take responsibility for our ow
 
 Some behaviors that are not acceptable are (but are not limited to):
 
-- Disruption of sessions or events, including offering unsolicited corrections or heckling.
-- Woefully disrespecting our presenters by playing games, sleeping, or loudly chatting while a presenter is speaking.
+- Disruption of sessions or events, including excessive offering of unsolicited corrections or heckling.
+- Disrespecting our presenters by sleeping, gaming, or loudly chatting while a presenter is speaking.
 - Personal insults or discriminatory jokes and language, especially those using racist or sexist terms.
 - Offensive comments, excessive or unnecessary profanity.
 - Intimidation, violent threats or demands.
