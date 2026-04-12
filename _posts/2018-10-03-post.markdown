@@ -1,0 +1,34 @@
+---
+layout: tut
+title: "Intro to Open Source Routing with PostGIS & pgRouting"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/254009218/](https://www.meetup.com/maptimesea/events/254009218/)
+
+Have you seen those pretty maps of road networks? Like this one
+[https://tjukanov.org/roadsofamerica/](https://tjukanov.org/roadsofamerica/?)
+
+Well instead of the center of each US county, what if we had another question we wanted to ask? Like where are the nearest hospitals? Or where are the nearest fresh supermarkets? Or where are all the pizza places in the NY-Metro area? These questions can all be answered with routing!
+
+During this workshop we'll set up a local system so you can learn how to route and aggregate routes, and we'll go over some of the pitfalls that come with routing.
+
+What to bring:
+
+Please bring your laptop. Please also follow the installation instructions at the beginning of this tutorial: [https://arielsartistry.com/2018/08/01/pizza-map/](https://arielsartistry.com/2018/08/01/pizza-map/) continue until "Pre-Maptime Setup Stop." These instructions will go through installing PostgreSQL, PostGIS, pgRouting, osmconvert, and QGIS. They will also cover downloading an OpenStreetMap extract. We'll also have a database setup if you have any issues installing PostgreSQL on your machine (though please at least have QGIS installed).
+
+Target Audience:
+
+This workshop is open to anyone but you will probably get the most out of it if you have some familiarity with basic SQL and Python. The routing requests are written in the format of an SQL query, and we'll be using Python to aggregate multiple routes into one file. That said, you should still be able to get something on screen without prior knowledge of either SQL or Python.
+
+Where to go:
+
+From the SE corner of Union St and 6th Ave, enter Two Union Square (behind Butch Blum). Go up a few flights of escalators and continue strait past a series of elevators. You want the farthest set of elevators that go to the lower floors. Take the elevator to the 6th floor. Once there, look one way and you will see a sign for Floyd\|Snider. Do a 180 and you will see a set of frosted doors. Go through the frosted doors - they lead directly to our conference room. Note that there will be no signage other than a piece of paper on our conference room door. If you arrive after 6pm, you won't be able to get up the elevator without an escort. We'll post the number to call if you arrive late in a comment before the meeting.
+
+About your instructor:
+
+Ariel Kadouri is a recent graduate from the University of Washington with a degree in geography. He's a supporter of using free and open source GIS tools.
+
+[https://arielsartistry.com/](https://arielsartistry.com/)

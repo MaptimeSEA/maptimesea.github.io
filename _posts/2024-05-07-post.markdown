@@ -1,0 +1,74 @@
+---
+layout: tut
+title: "Webscraping Geospatial Data with Python/Beautiful Soup"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/300385852/](https://www.meetup.com/maptimesea/events/300385852/)
+
+Beautiful Soup, so rich and green,
+
+Waiting in a hot tureen!
+
+Who for such dainties would not stoop?
+
+Soup of the evening, beautiful Soup!
+
+Soup of the evening, beautiful Soup!
+
+Beau--ootiful Soo--oop!
+
+Beau--ootiful Soo--oop!
+
+Soo--oop of the e--e--evening,
+
+Beautiful, beautiful Soup!
+
+ --Lewis Carroll
+
+Many websites have geodata that's embedded in HTML, with no published API to retrieve the original underlying data. Beautiful Soup is a Python library for quick, simple extraction of data from HTML pages. At the end of this tutorial, you will know how to write a Python script to use Beautiful Soup to extract geographic data from web pages that you didn't write and don't control.
+
+We'll dip our toes into several areas:
+* Just enough Python to be able to install the Python packages you need and create the script.
+* The structure of an HTML document.
+* How to go spelunking in an HTML document to find the geographic information you're looking for, and build a simple script to extract it.
+* Some options for geocoding the information, and getting output in a usable format.
+
+If you know of a website containing geodata that you'd like to extract and use, bring the URL and we can look at how to attack it.
+
+Agenda:
+* Introduction to MaptimeSEA/ Code of Conduct (10 mins): We'll let you know about MaptimeSEA, upcoming GIS events, and the behavior we expect from you during this tutorial
+* Introducing web scraping with Python (10 mins): Introduction to Python/ web scraping
+* Hands on tutorial (90 min): We will dissect webpages, extract address data, geocode the data, and create a JSON file (or CSV, Shapefile, GeoJSON...)
+* Wrap-up (10 minutes): Final thoughts
+
+What to Bring:
+* Your (charged) laptop
+* Anything you need to be comfortable sitting in a chair for 2 hours!
+
+How to Prepare:
+Please install:
+Google Chrome,
+Anaconda, available at [https://www.anaconda.com/download](https://www.anaconda.com/download)
+A text editor you like: perhaps Emacs, Vim, VS Code, or TextEdit.
+
+Anaconda is a Python package management and Python installation. You
+might already have installed a different Python interpreter and
+package manager that you like, and it's perfectly fine to stick with
+that one. I'll use the Anaconda distribution for the tutorial, for the
+sake of simplifying the examples, but you can use a different Python
+setup if you prefer.
+
+I specify Google Chrome because of its support for inspecting
+internals of web pages. Safari, Firefox, and Edge offer these
+capabilities too. I'll be using Chrome for simplicity,
+
+Check: Launch the Anaconda-Navigator from the Applications folder on your Mac or the Start button on your Windows machine. If you can launch Anaconda-Navigator, you're ready to roll.
+
+Where to Go:
+* Meet at the southern entrance of the Pioneer Collective by 6 PM PST. The south entrance is located along 51st Street. A volunteer will let you in at 6. If you arrive after 6pm, you won't be able to access the building and your spot will be given to a person who is present at that time who did not RSVP. We'd hate to see that happen, so please be on time!
+
+About the instructor:
+* 👤Hal Mueller's software projects have used geodata for space-based radar analysis, animal habitat usage simulation, tree migration simulation, celestial navigation, historic site mapping, and ship tracking. He is currently an independent developer, creating 3D applications for the Apple Vision Pro headset.

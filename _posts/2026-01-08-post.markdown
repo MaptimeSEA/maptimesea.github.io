@@ -1,0 +1,48 @@
+---
+layout: tut
+title: "Style, Export, Publish: Your First Web Map with QGIS"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/312343949/](https://www.meetup.com/maptimesea/events/312343949/)
+
+In this session, we’ll walk through a fast, approachable workflow that starts with downloading Geofabrik OSM extracts and ends with an interactive web map you can share anywhere.
+
+We’ll use a prepared QGIS project with a folder structure that automatically loads and styles your data. Once your map looks great in QGIS, we’ll use the qgis2web plugin to export everything into a Leaflet or OpenLayers map—no coding required. Whether you’re brand-new to OSM or looking to streamline your personal mapping workflow, this night will give you a complete pipeline from data to web.
+
+Agenda:
+* Introduction to MaptimeSEA/Code of Conduct:
+* We’ll introduce MaptimeSEA, highlight upcoming GIS events, and review the behavior we expect during this tutorial.
+* Introduction to OSM Data, Geofabrik, and the QGIS Project Setup
+* A quick overview of OpenStreetMap and Geofabrik downloads, plus an explanation of the predefined folder structure and prepared QGIS project that automatically loads and styles your data.
+
+Hands-On Tutorial
+* Part 1: Downloading and Preparing Your OSM Data
+* * Students will download Geofabrik OSM extracts (as shapefiles) for any world region they’re interested in and place them into the provided folder structure so the QGIS project can recognize and load them.
+* Part 2: Exploring Your Styled Map in QGIS
+* * Open the prepared QGIS project to see your OSM layers automatically styled and organized. We’ll walk through layer visibility, symbology tweaks, labeling, and general map cleanup.
+* Part 3: Exporting Your Map to the Web with qgis2web
+* * Use the qgis2web plugin to export your styled QGIS project as a Leaflet or OpenLayers interactive map. We’ll explore the output files, discuss hosting options, and share tips for customizing the final web map.
+
+What to Bring:
+* Your (charged) laptop
+* A computer mouse
+* Anything you need to stay comfortable for a 2-hour session
+
+Getting There & Parking;
+* Paid public parking is available at the Swedish Cherry Hill parking garage (rates set by the facility operator and vary by hour). The entrance to this garage is located on 16th Ave between Cherry St and Jefferson St. You can also use many navigation apps (like google maps) to find parking even closer!
+* Street parking is also available up the hill to the east around 16th–17th Ave, where it’s often possible to find free spots without too much circling. From there, it’s roughly an 8–10 minute walk downhill toward 12th.
+* If you’re driving, please plan a little extra time to park and walk over so you don’t miss the introductions.
+
+How to Prepare:
+* QGIS Installation: Installing QGIS is a breeze, and the QGIS website has got you covered. Just follow their instructions to download the version that matches your computer's setup (Linux, Mac, or Windows). Any long-term release (LTR) of QGIS version 3.16 or newer will work. Here's the link to get started: [https://www.qgis.org/en/site/forusers/download.html](https://www.qgis.org/en/site/forusers/download.html)
+* * Download the Data: Please use [this link](https://www.terragis.net/docs/qgisweb/qgis_maptime_jan26.zip) to download data for this tutorial.
+
+Who Should Attend: Anyone curious about making maps with QGIS. No prior experience is required—whether you’re brand new to mapping or already comfortable with spatial tools, you’ll walk away with new skills.
+
+Where to Go: Meet at the HRDG 143 inside the John and Judy Harding Building (HRDG) on Seattle University's campus. The building is located at the intersection of E Columbia St and 13th Ave. Please arrive at the entrance along E Columbia St (coordinates: (47.6091667, -122.3158611)) so we can let you in if necessary :)
+
+Instructors:
+* 👤Karsten Vennemann is a GIS professional with a background in Geography and Soil Science. His work mostly focuses on GIS in the context of natural resources, sustainable development and social justice. In 2007 he started his own company, Terra GIS, based in Seattle. He teaches classes in Open Source GIS and a good portion of his consulting work involves creating and supporting Open Source based Web GIS solutions.

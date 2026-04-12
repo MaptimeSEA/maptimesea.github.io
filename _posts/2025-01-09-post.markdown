@@ -1,0 +1,35 @@
+---
+layout: tut
+title: "Your Story, Your Map: Open-Source Tools for Creative Portfolios"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/304988840/](https://www.meetup.com/maptimesea/events/304988840/)
+
+In this engaging workshop, we’ll explore how to use open-source tools to create maps that tell your unique story. Whether you’re looking to build a creative portfolio, highlight your personal or professional journey, or simply experiment with storytelling through maps, this session will provide the tools and guidance you need.
+Agenda:
+* Introduction to MaptimeSEA/Code of Conduct (10 mins):
+* Learn about MaptimeSEA, upcoming events, and the behavior we expect from participants during this session.
+* Introduction to Story Maps and Open-Source Tools (10 mins):
+* An overview of how maps can be used for storytelling, the basics of open-source mapping tools, and how they can bring your story to life.
+* Quick Example Showing Story Map Capabilities (15 mins):
+* A brief demonstration showcasing the creative and impactful potential of story maps, providing inspiration for your own project.
+* Hands-on Tutorial – Crafting Your Map (25 mins):
+* We’ll guide you step-by-step through creating a map using open-source tools. You’ll learn to add data, style your map, and bring your creative vision to life.
+* Your Turn – Build Your Portfolio Map (50 mins):
+* Work independently or collaboratively to create a personalized map that tells your story. Whether it’s a map of your travels, career milestones, or favorite local spots, we’ll help you craft something meaningful.
+*  Wrap-up (10 mins):
+* * Share your map with others (if you’d like), explore additional resources, and learn how to continue refining your mapping skills.
+
+What to Bring:
+* A charged laptop
+* Ideas or notes for your map-based story
+* Anything you need to stay comfortable during the 2-hour session
+
+How to Prepare:
+* Look through your resume or computer and pick out a particular project you want to show off
+
+About the Instructor:
+* 👤Marra Tripodi has been working in the public sector, specializing in environmental policy, since 2015. While GIS isn't her main focus, she leverages it alongside other tools to provide critical data and scientific analysis for managing natural resources and tackling pollution.

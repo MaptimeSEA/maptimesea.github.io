@@ -1,0 +1,37 @@
+---
+layout: tut
+title: "Web Mapping with Vector Tiles!"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/259565419/](https://www.meetup.com/maptimesea/events/259565419/)
+
+By coming to any Maptime Seattle event you agree to the following Code of Conduct: http://maptimesea.github.io/conduct/ Please read it! It is short (and strictly enforced). Please keep Maptime a safe and comfortable space for all by being conscious and respectful at all of our events. Thanks!
+
+For this edition of Maptime, we will introduce the concept of vector tiles and use its power to create a web map. We’ll have a combination of lecture, demonstration, and hands-on experience. We'll look at the following workflow:
+
+* Generating vector tiles with the Tippecanoe utility [https://github.com/mapbox/tippecanoe](https://github.com/mapbox/tippecanoe)
+* Styling vector tiles with the Maputnik editor [https://maputnik.github.io/editor/#11.41/47.6518/-122.3225](https://maputnik.github.io/editor/#11.41/47.6518/-122.3225)
+* Serving vector tiles with Tileserver-gl [https://github.com/klokantech/tileserver-gl](https://github.com/klokantech/tileserver-gl)
+* Creating web maps using the Mapbox-gl-js [https://www.mapbox.com/mapbox-gl-js/api/](https://www.mapbox.com/mapbox-gl-js/api/) API
+
+We'll have a hands-on exercise of bringing vector tiles into Maputnik editor to style them. We'll discuss the benefits of a Mapbox Studio workflow to style and create web maps.
+
+What to bring:
+Be sure to bring your laptop.
+
+Please register for a GitHub account [https://help.github.com/articles/signing-up-for-a-new-github-account/](https://help.github.com/articles/signing-up-for-a-new-github-account/) (if you don't have one already).
+
+Target Audience:
+
+Anyone interested in learning about vector tiles! This is a more advanced topic, so we'll assume some prior GIS and web mapping knowledge. We'll be discussing various vector tile workflows in order to provide a broad overview of vector tiles use in web maps.
+
+Where to go:
+
+From the SE corner of Union St and 6th Ave, enter Two Union Square (behind Butch Blum). Go up 2 flights of escalators, then continue strait passing 2 sets of elevators before you come to the farthest set that go to floors 4-22. Take the elevator to the 6th floor. Once there, look one way and you will see a sign for Floyd\|Snider. Do a 180 and you will see a set of frosted doors. Go through the frosted doors - they lead directly to our conference room. Note that there will be no signage other than a piece of paper on our conference room door. If you arrive after 6pm, you won't be able to get up the elevator without an escort. We'll post the number to call if you arrive late in a comment before the meeting, but PLEASE try to be on time as it is hectic to let people in after the meeting starts.
+
+About your instructor:
+
+Peter Keum is a senior GIS Specialist with the King County Wastewater Treatment Division.

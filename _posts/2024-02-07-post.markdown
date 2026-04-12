@@ -1,0 +1,45 @@
+---
+layout: tut
+title: "Spatial Data Science and Walkability Mapping with R"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/298511391/](https://www.meetup.com/maptimesea/events/298511391/)
+
+Join us for a dynamic session that opens new avenues to explore urban accessibility. Discover the capabilities of R's spatial analysis stack, where you'll craft interactive maps and map walkability using OpenStreetMap and R packages!
+Agenda:
+
+* Introduction to MaptimeSEA/ Code of Conduct (15 mins): We'll let you know about MaptimeSEA, upcoming GIS events, and the behavior we expect from you during this tutorial.
+* Introducing R for spatial data science (20 min): Introduction to the R “spatial analysis stack”
+* Hands on tutorial – building an interactive map (30 min): Using prepared data, run a spatial analysis workflow and create your own interactive map of Seattle
+* Mapping walkability with R and OpenStreetMap (45 min): We’ll explore OpenStreetMap, a rich resource for open source spatial analysis. Next, each participant will map walking (or biking) times to the destination of their choice using the r5r R package.
+* Wrap-up (10 minutes): Final thoughts and other tools for exploring accessibility around your city
+
+What to Bring:
+
+    Your (charged) laptop
+
+How to Prepare:
+* Setup instructions:
+* * Download and install R version 4.1 or higher (download page, top box)
+    RStudio is an integrated development environment for R that we will be using for the training. Download RStudio here
+* * For the travel time calculations, we will be calling a Java program from R. Download the Microsoft Java Development Kit 21 or OpenJDK 21
+* * For Windows users, it will be easiest to download the Microsoft JDK 21 via the MSI installer in the first link
+* * All users will have to set the JAVA_HOME environment variable after installing. For Windows users, you can set JAVA_HOME by selecting it in the MSI installer, or by setting it under System Properties > Advanced > Environment Variables. For Mac and Linux users: run "echo $SHELL" to determine your shell—if running bash, follow the instructions in the linked tutorial; if running zsh, add the "export JAVA_HOME..." line to your ~/.zshrc file instead of the ~/.bash_profile file mentioned in the tutorial.
+* * Open RStudio as an administrator and link it to your R installation (instructions)
+    Many of R's features are available in self-contained packages. In RStudio, run the following two lines of code in the "Console" window:
+* * Install standard R packages: install.packages(c('caret','data.table','devtools','ggplot2','rJava','mapview','viridis','sf','tidycensus'), dependencies = TRUE)
+* * Install the r5r travel time package: devtools::install_github("ipeaGIT/r5r", subdir = "r-package")
+* * You can check that your R and Java are linked up by running rJava::.jinit()
+* * Finally, download the tutorial data folder from Dropbox
+* * You're now ready to hit the ground running! If you run into any issues, we will have 10 minutes at the start of the tutorial to troubleshoot
+
+Who Should Attend: Anyone intrigued by Spatial Data Science and interested in mapping walkability using R. While some prior knowledge of GIS is beneficial, our workshop is designed to be informative for both enthusiasts and those new to the field.
+
+Where to Go: Go through the teal door in between Ester’s and Lucky Pho. We will be in a classroom with a sign on it. Please note: there is a flight of stairs up to the office with no elevator. Once you enter the building, the office suite is up the stairs and to the right. When you enter the office suite, the classroom we’ve rented will be across from you on a slight diagonal to the left.
+
+About the instructor:
+* 👤Nat Henry is a professional geographer and the director of Henry Spatial Analysis, a spatial analysis firm focused on health and urban sustainability. He has over a decade of experience in applied spatial statistics and geospatial software development. His past projects include research featured on the covers of Nature, The New York Times, and The Seattle Times.
+After the meeting: We will head to a brewery close to the venue (within a 15-min walk😉) to talk about all things mapping and meet fellow GIS enthusiasts! Feel free to bring a map or two that you'd be willing to share-- we love to see them😊

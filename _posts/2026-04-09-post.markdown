@@ -1,0 +1,67 @@
+---
+layout: tut
+title: "Standalone Web Maps, No Platform Required"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/313786117/](https://www.meetup.com/maptimesea/events/313786117/)
+
+This workshop will guide you through creating a web map of Te Ara Hura (The Wandering Path) on Waiheke Island, Auckland, New Zealand using open source data and tools.
+
+Key concepts / technologies:
+* [PMTiles](https://docs.protomaps.com/pmtiles/): because they work via HTTP, PMTiles (portable map tiles) do not require a map server to deliver tiled map data to your browser.
+* [Protomaps](https://protomaps.com/): is a global basemap stored in PMTiles that can be downloaded from a bounding box and customized to meet your needs.
+* [Overpass](https://overpass-turbo.eu/): is an API and querying language for OpenStreetMap that can be used to extract select data you want to use to add context and fidelity by styling them within your basemap
+* [GitHub Pages](https://docs.github.com/en/pages): provide a built-in web hosting platform for any Github repo. Provided your repo is under 1 GB of data, achievable for most project or site-level maps, this is all you need to host your map
+* [Maplibre GL JS](https://maplibre.org/maplibre-gl-js/docs/): is an open source, vector tile map rendering library for Javascript. It supports PMTiles and can be used to control how your data from PMTiles and other sources is rendered and displayed.
+
+By the end, you'll have a fully functional web map application that you can:
+* Use Git and Github to fork, clone and customize for your own projects
+* Host on GitHub Pages or any static hosting service
+* Share with others without requiring a server
+
+Agenda:
+Introduction to MaptimeSEA/Code of Conduct (10 minutes)
+We'll introduce MaptimeSEA, highlight upcoming mapping events, and review community expectations and the code of conduct.
+Hands-On Mapping Session (1 hour 40 minutes)
+
+1. [Get Set Up](https://mizmay.github.io/standalone_web_maps_foss4g2025/workshop/step-01/) - Create an account or log into Github, get set up on your local machine
+2. [Use Overpass to Create an OpenStreetMap Extract](https://mizmay.github.io/standalone_web_maps_foss4g2025/workshop/step-02/) - Extract Te Ara Hura trail data
+3. [Use Maplibre to Render Your Map](https://mizmay.github.io/standalone_web_maps_foss4g2025/workshop/step-03/) - Set up local server and create your first map
+4. [Initialize GitHub Pages to Display Your Map](https://mizmay.github.io/standalone_web_maps_foss4g2025/workshop/step-04/) - Deploy your map to the web
+5. [Define a Bounding Box and Download Reference Layers from Protomaps](https://mizmay.github.io/standalone_web_maps_foss4g2025/workshop/step-05/) - Download basemap tiles
+6. [Configure the Stylesheet](https://mizmay.github.io/standalone_web_maps_foss4g2025/workshop/step-06/) - Set up styling with local sprites and fonts
+7. [Add Terrain](https://mizmay.github.io/standalone_web_maps_foss4g2025/workshop/step-07/) - Visualize elevation and topography
+8. [Add Interactivity](https://mizmay.github.io/standalone_web_maps_foss4g2025/workshop/step-08/) - Add popups, controls, and interactive features
+
+Wrap-Up and Q&A (10 minutes)
+* Review what we've accomplished together
+* Next steps for continued mapping
+* Questions and discussion
+
+What to Bring:
+* Your (charged) laptop
+* A computer mouse (recommended for easier mapping)
+* Anything you need to stay comfortable for a 2-hour session
+
+Getting There & Parking;
+* Public Transport: Seattle University is accessible via several public transport modes. If you are taking the Link light rail, consider stopping at Capitol Hill Station then taking the Seattle Streetcar south to Broadway & Marion - the HRDG building is about a 10-minute walk to the east.
+* Paid Parking: Paid public parking is available at the Swedish Cherry Hill parking garage (rates set by the facility operator and vary by hour). The entrance to this garage is located on 16th Ave between Cherry St and Jefferson St. You can also use many navigation apps (like google maps) to find parking even closer!
+* Street Parking: Street parking is also available up the hill to the east around 16th–17th Ave, where it’s often possible to find free spots without too much circling. From there, it’s roughly an 8–10 minute walk downhill toward 12th.
+
+If you’re driving, please plan a little extra time to park and walk over so you don’t miss the introductions.
+
+How to Prepare:
+* To participate in this workshop and deploy your map, you'll need a GitHub account. You will use it to create your own copy, or fork, of the workshop repo, and learn how to work with it both on Github and on your local machine. Please follow the instructions here for details on getting set up: [https://mizmay.github.io/standalone_web_maps_foss4g2025/workshop/step-01/](https://mizmay.github.io/standalone_web_maps_foss4g2025/workshop/step-01/)
+
+Don't worry if you can't complete the prep work - we'll help everyone get set up at the beginning of the event!
+
+Who Should Attend:
+* Researchers, land managers, hobbyists, etc who need a modern web map- no prior mapping experience required!
+
+Where to Go: Meet at the HRDG 143 inside the John and Judy Harding Building (HRDG) on Seattle University's campus. The building is located at the intersection of E Columbia St and 13th Ave. Please arrive at the entrance along E Columbia St (coordinates: (47.6091667, -122.3158611)) so we can let you in if necessary :)
+
+Instructor:
+* 👤 Stephanie May is a Seattle-based cartographer, educator, and open-source community builder who has spent more than a decade active in the OpenStreetMap US community. She teaches Cartography and GIS at the University of Washington and is passionate about making geospatial tools accessible to engineers, hobbyists, and curious map-lovers alike. She serves on the MapLibre governing board — helping steer one of the most widely adopted open-source mapping libraries — and on the Cloud Native Geospatial editorial board. Her work focuses on empowering teams to self-host maps, avoid vendor lock-in, and build on a fully open, community-governed stack.

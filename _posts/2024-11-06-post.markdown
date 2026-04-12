@@ -1,0 +1,43 @@
+---
+layout: tut
+title: "Intro to OSM: Editing, Extracting, and More!"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/303998389/](https://www.meetup.com/maptimesea/events/303998389/)
+
+Join us for an exciting hands-on tutorial to explore OpenStreetMap (OSM) and learn how to contribute data using this open-source platform!
+
+In this session, we’ll guide you through the process of adding valuable data to OSM and extracting it to create a customized map. This is a great opportunity to learn about crowd-sourced mapping, its real-world applications, and how you can make an impact by contributing to OSM.
+
+Agenda:
+* Introduction to MaptimeSEA/Code of Conduct (15 mins):
+* We’ll introduce MaptimeSEA, highlight upcoming GIS events, and review the behavior we expect during this tutorial.
+* Introduction to OpenStreetMap (10 mins):
+* An overview of OpenStreetMap, its mission, and the kinds of data it supports. We’ll cover the basics of how data is contributed, as well as the importance of maintaining and updating the OSM database.
+* Hands-on Tutorial – Adding Data to OpenStreetMap (40 mins):
+* You’ll learn how to add data to OpenStreetMap. We’ll guide you through identifying missing features, editing the map, and submitting your changes.
+* Extracting Data (45 mins):
+* * Once the data is in OSM, we’ll show you how to extract it for use in other applications
+* Wrap-up (10 mins):
+* We’ll close with final thoughts, other resources for contributing to OSM, and how to continue improving the map in your local community.
+
+What to Bring:
+* Your (charged) laptop
+* A computer mouse (Drawing features using a trackpad is hard and often results in poor quality)
+* Anything you need to stay comfortable for a 2-hour session
+
+How to Prepare:
+* Make sure to sign up for an OpenStreetMap account before the session. You can do that here: OpenStreetMap Sign Up.
+* Take a look at learnosm.org. Especially how to use the iD editor at [https://learnosm.org/en/beginner/id-editor/](https://learnosm.org/en/beginner/id-editor/)
+
+Where to Go:
+* Meet at the southern entrance of the Pioneer Collective by 6 PM PST. A volunteer will be available to let you in until 6:10 PM. After that time, access will be restricted, and your spot may be given to another attendee on the waitlist. Please arrive on time!
+
+About the Instructors:
+* 👤 Clifford Snow is recognized as a legendary OpenStreetMap (OSM) contributor, as noted in Pascal Neis's "How Did You Contribute to OSM." He began contributing to OSM in May 2011 and played a key role in organizing the 2016 State of the Map US conference in Seattle. Currently, he serves as a member of the OSM Foundation's Data Working Group, where he helps moderate contributions to the platform. Prior to his work with OSM, Clifford pursued a diverse range of activities, including glassblowing, managing an art center, and working in telecom management.
+* 👤 Michael Kirk has been making decent software for a couple decades, but is still learning how to make a decent map. Lately he’s trying to do both with maps.earth, a google-maps like interface powered by open software and data.
+
+After the meeting: We will head to a brewery close to the venue to talk about all things mapping and meet fellow GIS enthusiasts! Feel free to bring a map or two that you'd be willing to share-- we love to see them😊

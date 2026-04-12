@@ -1,0 +1,25 @@
+---
+layout: tut
+title: "Creating Data from Imagery"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/252603676/](https://www.meetup.com/maptimesea/events/252603676/)
+
+What to expect:
+
+Open source software is great for displaying and querying spatial data, but it can also be used to create or derive new information. In this Maptime session, we will explore some of the options for using opens source software to create new data from freely available imagery. We'll look at a couple of data sources such as NAIP and Sentinel2, discuss the Semi-Automatic Classification plugin in QGIS and the , then combine free data and free software to classify landcover from imagery.
+
+What to bring:
+
+Please bring your laptop installed with the latest version of QGIS, the Semi-Automated Classification Plugin, and Orfeo Toolbox.
+
+Target Audience:
+
+Open to anyone! You will probably get the most out of this Meetup if you have at least some familiarity with QGIS, raster data, and digitizing simple polygons. But we will cover all the details, so complete beginners are also welcome!
+
+Where to go:
+
+To find us, take the elevator to the 6th floor of Two Union Square. Once on the 6th floor, if you look one direction you will see a sign for Floyd\|Snider. Do a 180 and you will see a set of frosted doors. Go through the frosted doors - they lead directly to our conference room. Please try to arrive between 5:30 and 6, and you should be able to come right up. We'll post more details the day of the event if needed.

@@ -1,0 +1,21 @@
+---
+layout: tut
+title: "✨ Hand Drawn Maps -- A December Tradition ✨"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/311965228/](https://www.meetup.com/maptimesea/events/311965228/)
+
+🗺️ In our hand-drawn maps tutorial, we'll create a Map Quilt of the City of Seattle and the surrounding area. We'll provide indexed quilt tiles with basic reference layers such as major roads and waterways, and your imagination will do the rest! We'll provide basic art supplies such as colored pencils, markers, crayons, etc, please feel free to bring any additional art supplies you'd like to use. At the end of our Meetup we'll assemble all of the completed tiles to generate a single giant Map Quilt! 🎨
+
+📣 Once our artistic masterpiece is complete, we'll pose for a group photo, and will share it with all attendees!
+
+🍻 Following the tutorial, we extend a warm welcome for you to stay and mingle with your fellow map enthusiasts. It's the perfect opportunity to indulge in spirited conversations about cartography, GIS, or any other topic that piques your interest. To make this post-tutorial gathering even more festive, we've got an ugly sweater competition lined up, so be sure to come with your most heinous winter apparel. ❄️
+
+What to Bring
+* 🏕️ We'll be crafting our map quilt inside a heated, well-lit space in the Old Stove Gardens brewery, and we encourage you to bring your own paints, markers, scissors, glue, rulers, and any art supplies you might want to use to craft your cartographic masterpiece!
+
+About the Instructor
+* 👤 Matt Stevenson is not just a seasoned professional in cartography, spatial analysis, web mapping, and GIS project management; he's also a passionate artist who loves to blend art into his GIS work and daily life wherever possible. With twenty-seven years of experience, Matt works primarily with government agencies and non-profits focused on conservation and restoration. His unique blend of technical expertise and artistic creativity brings a fresh and innovative perspective to the world of geospatial science and its applications.

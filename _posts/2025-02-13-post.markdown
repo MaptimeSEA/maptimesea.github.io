@@ -1,0 +1,68 @@
+---
+layout: tut
+title: "Bringing Maps to Life: The Intersection of 3D Printing and GIS"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/305613587/](https://www.meetup.com/maptimesea/events/305613587/)
+
+Learn how to combine cityscapes and topographic features in Blender, explore Blender GIS, and pick up tips for preparing STL files for printing.
+
+Agenda:
+* Introduction to MaptimeSEA/Code of Conduct:
+* We’ll introduce MaptimeSEA, highlight upcoming GIS events, and review the behavior we expect during this tutorial.
+* Introduction to 3D Printing and GIS
+* Hands-On Tutorials:
+* * Part 1: Creating 3D Topographic Maps:
+* * Generate topographic and bathymetric maps with TouchTerrain [https://touchterrain.geol.iastate.edu/](https://touchterrain.geol.iastate.edu/). Produce flat 3D maps of cityscapes using TouchMapper. [https://touch-mapper.org/en/](https://touch-mapper.org/en/)
+* * Part 2: Combining Cityscapes and Topographic Features in 3D:
+* * Introduction to Blender and Blender GIS
+* * Optional depending on time: Tips for repairing STL files for clean 3D prints.
+
+Wrap-up:
+* We’ll close with final thoughts and community resources for printing out your map products!
+
+What to Bring:
+* Your (charged) laptop
+* A computer mouse
+* Anything you need to stay comfortable for a 2-hour session
+
+How to Prepare:
+Required:
+* Install Blender
+* Go to [https://www.blender.org/download/](https://www.blender.org/download/)
+* Click Download Blender
+* Run the installer
+* You have now installed Blender!
+* Install BlenderGIS
+* Go to [https://github.com/domlysz/BlenderGIS](https://github.com/domlysz/BlenderGIS)
+* Click Code
+* Click Download as Zip
+* Open Blender
+* Click Edit
+* Click Preferences
+* Click the arrow drop down in the top right of the Preferences window
+* Click Install from Disk
+* Find and double click BlenderGIS-master.zip
+* You have now installed BlenderGIS!
+* Explore geographic areas that you will want to print out
+
+Optional:
+* This YouTube video gives a great overview of the first 3 methods:
+    [https://www.youtube.com/watch?v=7mBSc-pxRvk](https://www.youtube.com/watch?v=7mBSc-pxRvk)
+* For repairing STLs:
+    [https://www.autodesk.com/products/fusion-360/personal](https://www.autodesk.com/products/fusion-360/personal)
+* For getting really good topographic data:
+    [https://portal.opentopography.org/myopentopo](https://portal.opentopography.org/myopentopo) (get an API key)
+* Create 3D maps using LiDAR las data:
+    [https://github.com/solomonsealed/las2stl](https://github.com/solomonsealed/las2stl)
+
+Who Should Attend: Anyone intrigued by 3D printing and/or maps. While some prior knowledge of GIS is beneficial, our workshop is designed to be informative for both enthusiasts and those new to the field.
+
+Where to Go: Meet at the southern entrance of the Pioneer Collective by 6 PM PST. The south entrance is located along 51st Street.
+
+Instructors:
+* 👤 Lucas Bradley is a Software Developer and GIS enthusiast with a special interest in 3D printable maps. Through curiosity and discovery he has found ways to create beautiful topographic maps, cityscapes, and topographic cityscapes!
+* 👤 Marra Tripodi has been working in the public sector, specializing in environmental policy, since 2015. While GIS isn't her main focus, she leverages it alongside other tools to provide critical data and scientific analysis for managing natural resources and tackling pollution.

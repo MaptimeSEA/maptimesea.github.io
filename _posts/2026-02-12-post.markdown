@@ -1,0 +1,82 @@
+---
+layout: tut
+title: "Olympia, connected: Mapping for mobility in OpenStreetMap"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/312922643/](https://www.meetup.com/maptimesea/events/312922643/)
+
+Join us for a collaborative in-person mapping event where we'll work together to remotely map pedestrian infrastructure in Olympia, Washington, and contribute that data to OpenStreetMap! We'll gather in-person at Seattle University and use the browser-based Rapid editor to add sidewalks, crossings, curbs, and other features that impact pedestrian mobility, especially those who are blind/low-vision or people who are using wheelchairs, walkers, or other mobility devices.
+
+OpenStreetMap (OSM) is the world's largest open-source map database, created by volunteers like you. The pedestrian data we map will support accessibility routing applications and research. This event is perfect for beginner and intermediate mappers, so whether you're completely new to OSM or already have some mapping experience, you'll contribute meaningful accessibility data that makes a real difference in people's everyday lives.
+
+We'll use the Rapid editor, a user-friendly, web-based tool that runs right in your browser - no downloads or installations required! We'll work through tasks using a project on the OSM US Tasking Manager, allowing us to collaborate effectively and make sure we're covering the area with a coordinated, systematic approach. The Taskar Center for Accessible Technology (TCAT) at the University of Washington is co-hosting this event as part of our ongoing work to improve pedestrian accessibility data.
+
+Organizers: [MaptimeSEA](https://maptimesea.github.io/), [TCAT](https://tcat.cs.washington.edu/)
+
+Agenda:
+* Introduction to MaptimeSEA/Code of Conduct (10 minutes)
+* We'll introduce MaptimeSEA and TCAT, highlight upcoming mapping events, and review community expectations and the code of conduct.
+* Introduction to OpenStreetMap and Pedestrian Accessibility Mapping (15 minutes)
+* * What is OpenStreetMap, and why does pedestrian infrastructure data matter?
+* * Overview of the schema and key features we'll be mapping
+* * Introduction to the OSM US Tasking Manager
+
+* Getting Started with Rapid Editor (15 minutes)
+* * Overview of the Rapid editor interface (completely browser-based!)
+* * Creating or logging in to your OSM account
+* * Selecting a task in the Tasking Manager
+* * Basic editing workflow and saving your changes
+
+Hands-On Mapping Session (60 minutes)
+We'll work through mapping tasks together:
+* Mapping Crossings and Curbs - Identify and map crossings and curbs from aerial and street-level imagery
+* Mapping Sidewalks and Footways - Add sidewalks and connect them to the routable network
+* Adding Details - Surface types, tactile paving, and other accessibility-relevant attributes
+* Help will be available throughout - don't hesitate to ask questions!
+
+Wrap-Up and Q&A (10 minutes)
+* Review what we've accomplished together
+* Next steps for continued mapping
+* Questions and discussion
+
+What to Bring:
+* Your (charged) laptop with a modern web browser (Chrome, Firefox, Edge, or Safari)
+* A computer mouse (recommended for easier mapping)
+* Anything you need to stay comfortable for a 2-hour session
+
+Getting There & Parking;
+* Public Transport: Seattle University is accessible via several public transport modes. If you are taking the Link light rail, consider stopping at Capitol Hill Station then taking the Seattle Streetcar south to Broadway & Marion - the HRDG building is about a 10-minute walk to the east.
+* Paid Parking: Paid public parking is available at the Swedish Cherry Hill parking garage (rates set by the facility operator and vary by hour). The entrance to this garage is located on 16th Ave between Cherry St and Jefferson St. You can also use many navigation apps (like google maps) to find parking even closer!
+* Street Parking: Street parking is also available up the hill to the east around 16th–17th Ave, where it’s often possible to find free spots without too much circling. From there, it’s roughly an 8–10 minute walk downhill toward 12th.
+
+_If you’re driving, please plan a little extra time to park and walk over so you don’t miss the introductions._
+
+How to Prepare:
+* Create an OpenStreetMap Account: If you don't already have one, please create a free OSM account on [openstreetmap.org](https://www.openstreetmap.org/user/new) before the event. You'll need this to save your edits.
+* Optional - Join the OSM US Tasking Manager:
+1. Log in to the OSM US Tasking Manager at [tasks.openstreetmap.us](https://tasks.openstreetmap.us/) using your OSM account
+2. Join the OpenSidewalks Mappers Team at [tasks.openstreetmap.us/teams/27/membership](https://tasks.openstreetmap.us/teams/27/membership)
+
+No software installation required! We'll be using the Rapid editor, which runs entirely in your web browser. Just bring your laptop with a modern browser and you're all set.
+Don't worry if you can't complete the prep work - we'll help everyone get set up at the beginning of the event!
+
+Who Should Attend: This event is designed primarily for beginner and intermediate mappers. Whether you're:
+* Brand new to OpenStreetMap and want to learn how to contribute
+* Have mapped a few things before and want to build your skills
+* Curious about accessibility and urban planning
+* Interested in using technology to make cities more navigable
+* Someone who cares about mobility equity and disability rights
+
+You'll walk away with practical mapping skills and the knowledge that you've contributed to making our built environment more accessible for everyone. No prior mapping experience required!
+
+Where to Go: Meet at the HRDG 143 inside the John and Judy Harding Building (HRDG) on Seattle University's campus. The building is located at the intersection of E Columbia St and 13th Ave. Please arrive at the entrance along E Columbia St (coordinates: (47.6091667, -122.3158611)) so we can let you in if necessary :)
+
+Instructors:
+* 👤 Amy Bordenave is a Mapping Program Specialist for the Taskar Center for Accessible Technology (TCAT) at the University of Washington. In her role at TCAT over the past year, Amy has focused on expanding pedestrian accessibility mapping efforts and building community around accessible transportation data.
+
+Amy started editing OpenStreetMap in February 2024 and has since made over half a million edits to OSM. She is deeply involved in the OpenStreetMap community, serving as a core member of the OpenStreetMap US Pedestrian Working Group, where she helps develop and document standards and best practices for mapping pedestrian infrastructure.
+
+Amy is passionate about using open data and collaborative mapping to improve mobility and independence, especially for people with disabilities. Her work combines technical mapping expertise with a commitment to community engagement and education, making pedestrian accessibility mapping accessible to mappers of all skill levels.

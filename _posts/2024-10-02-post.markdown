@@ -1,0 +1,33 @@
+---
+layout: tut
+title: "Mapping UAPs/UFOs"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/303025132/](https://www.meetup.com/maptimesea/events/303025132/)
+
+Join us for a spooky mapping tutorial where we perform a spatial analysis on UFO/UAP sightings! Get ready to conduct a spatial experiment using the open source data provided by the National UFO Reporting Center (NUFORC). Learn about spatial regression and how GIS can be used as a statistical tool to describe phenomena of many kinds... not just the 3rd ;\)
+
+Agenda:
+* Introduction to MaptimeSEA/ Code of Conduct (10 mins): We'll let you know about MaptimeSEA, upcoming GIS events, and the behavior we expect from you during this tutorial
+* Introduction to the UAP Phenomenon (30 min)
+* NUFORC Mapping Tutorial (1 hr 10 min)
+* Wrap-up (10 minutes): Final thoughts
+
+What to Bring:
+* Your (charged) laptop
+* Anything you need to be comfortable sitting in a chair for 2 hours!
+
+How to Prepare:
+
+* Data Download: Please download the tutorial data by following this link to our Google Drive folder: [https://drive.google.com/drive/folders/1KYLQxhcmwulrdyBhb5aUyj1_YZSxYtCp?usp=drive_link](https://drive.google.com/drive/folders/1KYLQxhcmwulrdyBhb5aUyj1_YZSxYtCp?usp=drive_link)
+* QGIS Installation: Installing QGIS is a breeze, and the QGIS website has got you covered. Just follow their instructions to download the version that matches your computer's setup (Linux, Mac, or Windows). Any long-term release (LTR) of QGIS version 3.16 or newer will work. Here's the link to get started: [https://www.qgis.org/en/site/forusers/download.html](https://www.qgis.org/en/site/forusers/download.html)
+
+Who Should Attend: Anyone intrigued by Spatial Data Science. While some prior knowledge of GIS is beneficial, our workshop is designed to be informative for both enthusiasts and those new to the field.
+Where to Go: Meet at the southern entrance of the Pioneer Collective by 6 PM PST. The south entrance is located along 51st Street.
+About the instructors:
+* 👤 Matt Stevenson is an expert in cartography, spatial analysis, web mapping, and GIS project management. With twenty-five years of experience, Matt works primarily with government agencies and non-profits focused on conservation and restoration.
+* 👤 Diana Bonnarens currently uses GIS to aid in planning efforts at the Washington State Department of Transportation. Diana has a Master's in Geographic Information Science and Technology from USC's Spatial Science Institute and a Bachelor of Science in Geology from UW. This background has shaped her interest in remote sensing and cartography.
+After the meeting: We will head to a brewery close to the venue to talk about all things mapping and meet fellow GIS enthusiasts! Feel free to bring a map or two that you'd be willing to share-- we love to see them😊

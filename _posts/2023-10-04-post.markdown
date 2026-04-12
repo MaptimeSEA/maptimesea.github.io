@@ -1,0 +1,39 @@
+---
+layout: tut
+title: "The Science and Art of LiDAR"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/295831668/](https://www.meetup.com/maptimesea/events/295831668/)
+
+Immerse yourself in the fascinating world of LiDAR technology during an engaging workshop that promises to enlighten and empower. Our session will span a multitude of applications, from environmental science to cutting-edge modern technology.
+Agenda:
+
+* Introduction to MaptimeSEA/ Code of Conduct (15 mins): We'll let you know about MaptimeSEA, upcoming GIS events, and the behavior we expect from you during this tutorial.
+* Introduction to LiDAR (15 mins): We'll provide an overview of LiDAR and highlight its pivotal role in various domains. Discover how LiDAR-generated data can unravel the secrets of delicate riparian ecosystems, empower sustainable forestry management, and optimize urban landscapes.
+* Hands-on Visualization (30 mins): Get ready for a hands-on experience! We'll guide you through the visualization of LiDAR point clouds using CloudCompare, a powerful open source tool.
+* Tutorial (50-60 mins): The second tutorial features the creation of a de-trended river map with a Relative Elevation Model using publicly available LiDAR data and QGIS, an open-source GIS software.
+
+What to Bring:
+* Your laptop
+* A pair of headphones compatible with your laptop
+* Enthusiasm for learning and exploring LiDAR technology
+
+How to Prepare:
+
+* LiDAR Data Download: Our presenters have generously bundled up some LiDAR data for you. I'd suggest saving it somewhere handy. Personally, I've created a special MaptimeSEA tutorial folder on my desktop for easy access. You can snag the LiDAR data using this link before the tutorial: [https://drive.google.com/file/d/1c2_KWkotvuapbbctrJZxxm4gmDmrmANn/view](https://drive.google.com/file/d/1c2_KWkotvuapbbctrJZxxm4gmDmrmANn/view)
+
+* QGIS Installation: Installing QGIS is a breeze, and the QGIS website has got you covered. Just follow their instructions to download the version that matches your computer's setup (Linux, Mac, or Windows). Any long-term release (LTR) of QGIS version 3.16 or newer will work. Here's the link to get started: [https://www.qgis.org/en/site/forusers/download.html](https://www.qgis.org/en/site/forusers/download.html)
+
+Who Should Attend: Anyone intrigued by the world of LiDAR! While some prior knowledge of GIS and remote sensing is beneficial, our workshop is designed to be informative for both enthusiasts and those new to the field.
+
+Where to Go: Meet at the southern entrance of the Pioneer Collective by 6 PM PST. The south entrance is located along 51st Street. A volunteer will let you in at 6. If you arrive after 6pm, you won't be able to access the building and your spot will be given to a person who is present at that time who did not RSVP. We'd hate to see that happen, so please be on time! For those who show up late, you may still be able to participate virtually. We are working to add streaming capabilities to this event and a sign will be posted on the entrance with more information.
+
+About the Instructors:
+* 👤 Caileigh Shoot specializes in using remote sensing and GIS to solve problems and answer questions about earth's natural resources. With a background in LiDAR, hyperspectral and multispectral imaging, and drones/UAVs, Caileigh currently works as a Forest Carbon Analyst at Weyerhaeuser, the largest private forest owner in the US.
+* 👤 Matt Stevenson is an expert in cartography, spatial analysis, web mapping, and GIS project management. With twenty-five years of experience, Matt works primarily with government agencies and non-profits focused on conservation and restoration. He's a proficient user of LiDAR for various purposes, including riparian vegetation change detection, stream shading analysis, and forest characterization.
+
+After the meeting:
+Everyone signed up for our Meetup emails will receive a link to the recording and a survey for feedback!

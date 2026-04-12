@@ -1,0 +1,31 @@
+---
+layout: tut
+title: "Mapping and Visualizing Data with Free Tableau"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/257991330/](https://www.meetup.com/maptimesea/events/257991330/)
+
+By coming to any Maptime Seattle event you agree to the following Code of Conduct: [http://maptimesea.github.io/conduct/](http://maptimesea.github.io/conduct/) Please read it! It is short (and strictly enforced).
+
+What we'll do
+
+This workshop will be an introduction to making interactive graphics and maps in Tableau [https://www.tableau.com/](https://www.tableau.com/). We will bring spatial data stored in a shapefile together with tabular data stored in csvs, and create compelling interactive dashboards using Tableau's free offering.
+
+What to bring
+
+Be sure to bring laptop with Tableau Public (or Tableau Desktop, if you have access to that) installed.
+
+* Download Tableau Public from: [https://public.tableau.com/en-us/s/download/thanks](https://public.tableau.com/en-us/s/download/thanks)
+* Download the shapefiles we will use
+* Download the tabular data we will use
+
+Where to go
+
+From the SE corner of Union St and 6th Ave, enter Two Union Square (behind Butch Blum). Go up 2 flights of escalators, turn right at the huge brick wall after the last elevator and then left to the elevator areas. You want the farthest set of elevators that go to floors 4-22. Take the elevator to the 6th floor. Once there, look one way and you will see a sign for Floyd\|Snider. Do a 180 and you will see a set of frosted doors. Go through the frosted doors - they lead directly to our conference room. Note that there will be no signage other than a piece of paper on our conference room door. If you arrive after 6pm, you won't be able to get up the elevator without an escort. We'll post the number to call if you arrive late in a comment before the meeting.
+
+About your Instructor
+
+Mary Solbrig was formerly a Technical Support Engineer and GIS Data Engineer at Tableau. She loves teaching, and used to spend hours each week in college teaching people how to operate a nuclear reactor. She looks forward to teaching you about maps and Tableau!

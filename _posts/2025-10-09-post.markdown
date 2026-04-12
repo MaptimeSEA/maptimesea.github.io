@@ -1,0 +1,62 @@
+---
+layout: tut
+title: "Hexed in the Forest: An Intro to H3 Mapping"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/311155764/](https://www.meetup.com/maptimesea/events/311155764/)
+
+This workshop will introduce participants to H3, an open-source hierarchical spatial indexing system used in mapping, by exploring iNaturalist mushroom data in Washington. We’ll be working in Python, using packages like h3-py and GeoPandas to analyze and visualize mushroom observations.
+
+Agenda:
+* Introduction to MaptimeSEA/Code of Conduct:
+* We’ll introduce MaptimeSEA, highlight upcoming GIS events, and review the behavior we expect during this tutorial.
+* Introduction to Mushrooms, iNaturalist, and H3
+* A quick primer on the iNaturalist mushroom dataset and an introduction to H3, an open-source hierarchical spatial indexing system, with examples of how it can be used in Python for spatial analysis.
+
+Hands-On Tutorial
+* Part 1: Summarizing Mushrooms with H3 in Python
+* * Use the h3-py package to aggregate mushroom data into hexagons across Washington, and learn how to pair this with GeoPandas for efficient geospatial workflows.
+* Part 2: Visualizing Mushroom Hotspots
+* * Create spooky seasonal maps to highlight mushroom-rich areas, and experiment with different visualization techniques.
+
+What to Bring:
+* Your (charged) laptop
+* A computer mouse
+* Anything you need to stay comfortable for a 2-hour session
+
+How to Prepare:
+* We’ll be using Python and Jupyter Notebook during this class. Please make sure you have everything installed before the session so you’re ready to follow along.
+* Install Python
+* Python is the programming language we’ll use.
+* Follow the instructions here: [https://wiki.python.org/moin/BeginnersGuide/Download](https://wiki.python.org/moin/BeginnersGuide/Download)
+* Choose the link for your operating system (Windows, Mac, or Linux).
+* Install Pip
+* Pip is Python’s package manager (it lets you install extra tools, like Jupyter).
+* Follow the instructions here: [https://pip.pypa.io/en/stable/getting-started/](https://pip.pypa.io/en/stable/getting-started/)
+* Look for the steps that match your operating system.
+* You don’t need to install any packages right now, but it’s helpful to glance at the “Install a package” section—it shows you how pip works.
+* Install Jupyter Notebook
+* Jupyter Notebook is the environment where you’ll write and run Python code in the tutorial.
+* * Instructions: [https://jupyter.org/install](https://jupyter.org/install)
+* * * You’ll be using pip (from the previous step) to install it.
+
+Once installed, you can test your setup by opening a terminal (or Command Prompt on Windows) and typing:
+
+    jupyter notebook
+
+If everything worked, a browser window should open with the Jupyter interface.
+
+Bookmark this link:
+* [https://github.com/amschechter/Maptime_Tutorial/blob/master/Autumn_Data_Tutorial.ipynb](https://github.com/amschechter/Maptime_Tutorial/blob/master/Autumn_Data_Tutorial.ipynb)
+
+👉If you run into trouble with installation, don’t panic! Many issues can be solved by carefully rereading the instructions or searching for the exact error message online (for example, adding a directory to your PATH). Give troubleshooting a quick try on your own first—it’s a great way to build confidence. If you’re still stuck, we’ll spend about 15 minutes at the start of class helping with the most common problems.
+
+Who Should Attend: Anyone curious about mushrooms, maps, or both! No prior experience is required—whether you’re brand new to mapping or already comfortable with spatial tools, you’ll walk away with new skills.
+
+Where to Go: Meet at the Stuart T. Rolfe Community Room inside the Advancement & Alumni Building (ADAL) on Seattle University's campus. The building is located at the intersection of 12th Ave and E Marion St.
+
+Instructors:
+* 👤Aaron Schechter is a data enthusiast who loves turning public datasets into engaging visualizations that reveal patterns in the world around us. His recent projects explore creative ways of mapping and storytelling with open data, combining technical curiosity with a passion for learning. When he’s not experimenting with new tools and techniques, Aaron shares his work through his website.

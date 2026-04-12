@@ -1,0 +1,23 @@
+---
+layout: tut
+title: "Challenges and Opportunities in GIS- A Conversation with Dr. Michael Goodchild"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/311397724/](https://www.meetup.com/maptimesea/events/311397724/)
+
+In this joint event hosted by Seattle University and MaptimeSEA, Dr. Michael F. Goodchild will explore the evolving landscape of geographic information science: where it’s been, where it’s going, and how local communities can participate in and benefit from spatial data. Key themes will include the rise and implications of _volunteered geographic information_ (VGI)—how non‐experts contribute to mapping and spatial datasets; methodological and ethical challenges around data quality, privacy, and representation; and how advances in GIScience are opening new opportunities for research, policy, and community empowerment.
+
+Attendees will come away with:
+* An understanding of the historical development of GIScience, and how concepts like VGI reshaped what mapping looks like today.
+* Insight into the technical, social, and ethical issues involved in volunteered spatial data: its strengths, limitations, and how we can use it responsibly.
+* Ideas about how institutions, researchers, and community groups in the Seattle area (or elsewhere) can leverage open spatial data and participatory mapping—and what the future holds for geographic information in an increasingly interconnected world.
+
+**Who Should Attend**: This event is for anyone curious about the past, present, and future of geographic information science, from students and early-career professionals to seasoned GIS practitioners. Community members, data enthusiasts, and citizen scientists interested in open mapping and local applications are also encouraged to attend.
+
+**Where to Go**: Meet at the Casey Commons Room on the fifth floor inside the Casey Building (CASY) on Seattle University's campus. The building can be found on [Seattle University's map](https://www.seattleu.edu/map/) on the west side of the campus.
+
+**Instructors**:
+* 👤Michael F. Goodchild is Professor Emeritus of Geography at the University of California, Santa Barbara. He received his BA degree from Cambridge University in Physics in 1965 and his PhD in Geography from McMaster University in 1969. His research and teaching interests focus on geographic information science, including uncertainty in geographic information, discrete global grids, and volunteered geographic information. He was an elected member of the US National Academy of Sciences in 2002, and Foreign Member of the Royal Society and Corresponding Fellow of the British Academy in 2010. He has published over 600 books and articles.
