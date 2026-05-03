@@ -1,0 +1,32 @@
+---
+layout: tut
+title: "Hand Drawn Maps - A December Tradition!"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/266652374/](https://www.meetup.com/maptimesea/events/266652374/)
+
+Matt Stevenson [http://www.coregis.net/](http://www.coregis.net/) will lead us in this annual mapping local tradition.
+
+Put down your cell phones. Put away those databases and laptops. Time to make maps the old fashioned way. Once again we are going to pull back on the technical work for our December meetup by drawing our own maps!
+
+This year we will make hand-drawn hillshade maps of mountainous landscapes in Washington. We will begin with an overview of techniques developed before the dawn of digital mapping, and show examples from Swiss cartographer Eduard Imhoff and others. We will provide graphite pencils, paper, blending tools and some digitally-derived references.
+
+This year's session was inspired by Sarah Bell's presentation at NACIS (North American Cartographic Information Society) in October of this year, you can check it out here:
+
+[https://youtu.be/A9rxd-FDx9E](https://youtu.be/A9rxd-FDx9E)
+
+And here is a link to her blog post with a more detailed explanation, including time-lapse videos:
+
+[https://petrichor.studio/2018/10/22/drawing-hillshade-shaded-relief-with-time-lapse-video-demos/
+](https://petrichor.studio/2018/10/22/drawing-hillshade-shaded-relief-with-time-lapse-video-demos/)
+
+Given the two-hour time constraint, we will concentrate on black-and-white hillshading, but will have some colored pencils available for speedy cartographers who want to add hypsometric tinting to their map.
+
+What to bring:
+
+Bring your creativity and sense of adventure, and we'll provide basic art supplies, chocolate, holiday music, and a convivial gathering! But we can't promise we'll have all the bells and whistles, so please bring your favorite drawing & coloring supplies to ensure we have enough to go around!
+
+Lastly, be sure to wear your ugly holiday sweater!

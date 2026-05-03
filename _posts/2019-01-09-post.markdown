@@ -1,0 +1,30 @@
+---
+layout: tut
+title: "Google Earth Enterprise"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/257005934/](https://www.meetup.com/maptimesea/events/257005934/)
+
+
+
+By coming to any Maptime Seattle event you agree to the following Code of Conduct: [http://maptimesea.github.io/conduct/](http://maptimesea.github.io/conduct/) Please read it! It is short (and strictly enforced).
+
+This month, we'll learn the basics of setting up Google Earth Enterprise, an open source geospatial application which provides the ability to build and host custom 3D globes and 2D maps.
+
+Please RSVP if and only if you are actually going to come: Security mandates visitors wear printed badges that will need to be prepared beforehand.
+
+What to bring:
+A laptop with at least 2 cores, 4GB of memory, and 20GB of free disk space. We'll be installing VirtualBox to run an Ubuntu 16.04 image.
+
+Target Audience:
+Anyone interested in setting up a server to host global-scale vector, imagery, and heightfield terrain data. At the end of this tutorial, you will have learned how to start Google Earth Server, build your own database, and view it in Google Earth.
+
+Where to go:
+Google Offices in Fremont, Seattle: 651 N 34th St, Seattle, WA 98103
+This is the South building. The entrance is faces a crosswalk on N Northlake Way. You want the side with 6 stairs going up, NOT the side with the vertical "Google" sidewalk sign.
+
+About your instructor:
+Joshua Schpok is a software engineer on Google Maps.

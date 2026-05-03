@@ -1,0 +1,24 @@
+---
+layout: tut
+title: "Editing OpenStreetMap using JOSM"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/255490920/](https://www.meetup.com/maptimesea/events/255490920/)
+
+This month, we'll learn how to import and edit OpenStreetMap with JOSM. If you haven't heard of OpenStreetMap (OSM), no worries. OSM is a wiki style map of the world. As the name implies, it's based entirely on open data curated by people around the world. Let's join them!
+
+What to bring:
+Be sure to bring your laptop! Please create a OpenStreetMap account prior to the class [https://www.openstreetmap.org/user/new](https://www.openstreetmap.org/user/new).
+You should also install JOSM [https://josm.openstreetmap.de/](https://josm.openstreetmap.de/) by downloading the josm.jnlp file, the recommended method.
+
+Target Audience:
+This tutorial is tailored to beginners - you do not need to know OSM or how to run a GIS. Just be someone who wants to contribute to the wonderful world of OpenStreetMap!
+
+Where to go:
+From the SE corner of Union St and 6th Ave, enter Two Union Square (behind Butch Blum). Go up 2 flights of escalators, turn right at the huge brick wall after the last elevator and then left to the elevator areas. You want the farthest set of elevators that go to floors 4-22. Take the elevator to the 6th floor. Once there, look one way and you will see a sign for Floyd|Snider. Do a 180 and you will see a set of frosted doors. Go through the frosted doors - they lead directly to our conference room. Note that there will be no signage other than a piece of paper on our conference room door. If you arrive after 6pm, you won't be able to get up the elevator without an escort. We'll post the number to call if you arrive late in a comment before the meeting.
+
+About your instructor:
+Joel Masselink is a geospatial analyst and geographer who works with a range of geospatial tools and data. He loves exploring open source tools and open datasets. He's an active OpenStreetMap contributor and also a member of the conservation GIS community.

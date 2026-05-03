@@ -1,0 +1,44 @@
+---
+layout: tut
+title: "Census Data for Beginners: Using R & QGIS to explore census data"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/299661709/](https://www.meetup.com/maptimesea/events/299661709/)
+
+Join us to learn how to quickly and easily download census data using R!
+
+The census data website can be confusing to navigate and there's not always an intuitive way to download tables in a format that makes for easy analysis. The tidycensus package from Walker Data provides an incredibly quick and easy way to access and download the data. We'll discuss some nuances of census data, view the tables available, make a map together, and then allow time for each participant to make a map of any census table they are interested in.
+
+Agenda:
+
+* Introduction to MaptimeSEA/ Code of Conduct (15 mins): We'll let you know about MaptimeSEA, upcoming GIS events, and the behavior we expect from you during this tutorial.
+* Introducing census data with R (10 mins): Introduction of R libraries to analyze census data. We'll also discuss some nuances of how census data is gathered, how census geographies work, and common mistakes when analyzing census data.
+* Hands on tutorial – building an interactive map (20 min): We'll download data and make a map based on standard census data, such as race, income, and population.
+* Select your own census data to map (30 min): We'll look at all of the available census data and each participant can choose variables to map. Common variables include travel time to work, age, educational achievement, income levels, health insurance overage, and more.
+* Wrap-up (10 minutes): Final thoughts and other tools for exploring accessibility around your city
+
+What to Bring:
+* Your (charged) laptop
+* Anything you need to be comfortable sitting in a chair for 2 hours!
+
+How to Prepare:
+Setup instructions for R:
+* Download and install R version 4.1 or higher (download page, top box)
+* RStudio is an integrated development environment for R that we will be using for the training. Download RStudio here
+* Open RStudio as an administrator and link it to your R installation (instructions)
+* Many of R's features are available in self-contained packages. In RStudio, run the following two lines of code in the "Console" window:
+* Install standard R packages: install.packages(c('tidyverse','tidycensus','sf'), dependencies = TRUE)
+
+Setup instructions for QGIS:
+
+* Installing QGIS is a breeze, and the QGIS website has got you covered. Just follow their instructions to download the version that matches your computer's setup (Linux, Mac, or Windows). Any long-term release (LTR) of QGIS version 3.16 or newer will work. Here's the link to get started: [https://www.qgis.org/en/site/forusers/download.html](https://www.qgis.org/en/site/forusers/download.html)
+
+Where to Go:
+
+* Meet at the southern entrance of the Pioneer Collective by 6 PM PST. The south entrance is located along 51st Street. A volunteer will let you in at 6. If you arrive after 6pm, you won't be able to access the building and your spot will be given to a person who is present at that time who did not RSVP. We'd hate to see that happen, so please be on time!
+
+About the instructor:
+* 👤Lisa Enns has over 15 years of experience that makes her qualified to provide spatial data analysis and visualization services. Lisa is proficient in ArcGIS Pro and Online, QGIS, Tableau, Tableau Server, SQL, Excel, Adobe Illustrator and InDesign. Her extensive GIS experience includes network analysis, complex heatmaps, and bicycle ridership forecasts. After completing the analysis, she produces maps, infographics, and reports for key stakeholders, subject matter experts, leaders, and the public. She uses data storytelling best practices to communicate results in a clear and effective manner.

@@ -1,0 +1,33 @@
+---
+layout: tut
+title: "Intro to Spatial Analysis and Maps with Python"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/248738193/](https://www.meetup.com/maptimesea/events/248738193/)
+
+Yes, you read that right - we are having 2 workshops in April!
+
+Intro:
+
+In this workshop, we will introduce Python as a spatial problem solving and data visualization tool. To demonstrate the power of Python for spatial analysis, we will solve a spatial problem and make a beautiful map of our results. We will be using a library called GeoPandas [http://geopandas.org](http://geopandas.org), which adds a spatial geometry data type to Pandas (high-performance, easy-to-use "tabular" data structures and data analysis tools) and enables spatial operations on these types, using shapely [https://github.com/Toblerity/Shapely](https://github.com/Toblerity/Shapely). Come learn it with us!
+
+Note: A longer version of this tutorial will be presented at PyCon 2018. [https://us.pycon.org/2018/schedule/tutorials/](https://us.pycon.org/2018/schedule/tutorials/)
+
+What to bring:
+
+Be sure to bring your laptop! We'll post more detailed setup instructions before the event.
+
+Target Audience:
+
+This workshop assumes a basic understanding of the Python programming language and vector data processing.
+
+Where to go:
+
+Floyd|Snider is located on the 6th floor of One Union Square (intersection of Union and 6th ave) downtown. There is some construction going on so we'll post final instructions before the event.
+
+About your instructor:
+
+Christy Heaton is a GIS/Data Analyst at Floyd|Snider and an experienced GIS and Python instructor.

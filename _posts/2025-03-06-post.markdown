@@ -1,0 +1,28 @@
+---
+layout: tut
+title: "Drone to Mapping: Harnessing drone technology for GIS mapping"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/306352169/](https://www.meetup.com/maptimesea/events/306352169/)
+
+This meetup aims to help participants gain foundational knowledge in using drones to create maps. It will cover essential topics, including the necessary hardware (drones, cameras, GPS), software processing (open-source/free mapping tools, commercial software), relevant regulations (airspace rules, certification), and a step-by-step workflow for capturing, processing, and visualizing geospatial data. By the end of this meetup, participants will understand the basics of drone hardware and learn how to use software to process collected data for generating aerial imagery with affordable drones and low-cost or free software.
+
+Please note that this lecture-based workshop does not include hands-on activities.
+
+What to Bring:
+* A charged laptop
+* A notepad and pen
+* Anything you need to stay comfortable during the 2-hour session
+
+How to Prepare:
+* RSVP to ensure you've got a spot
+
+Sample Data URL Below:
+* [https://docs.google.com/document/d/1uMG8OBQBKQIxQdBzcuffjD5sFsG-YXGXZDeW6-cuO5s/edit?tab=t.0](https://docs.google.com/document/d/1uMG8OBQBKQIxQdBzcuffjD5sFsG-YXGXZDeW6-cuO5s/edit?tab=t.0)
+
+About the Instructor:
+* 👤Peter Keum - GISP, King County Wastewater Treatment Drone Program Lead/GIS Analyst
+Peter has over 25 years of experience as a GIS Analyst with King County Wastewater Treatment and has been a drone enthusiast for the past 10 years. He also co-chairs and facilitates the monthly WAGISA (WA GIS Association) DroneSIG (Special Interest Group).

@@ -12,8 +12,6 @@ MaptimeSEA is the Seattle branch of the international [Maptime](http://maptime.i
 
 **Meetup**. All of our meetings and events will be posted on [our meetup site](http://meetup.com/maptimeSEA). Here you can RSVP for upcoming meetings and ask questions of your fellow mappers.
 
-**Twitter**. We also have a twitter account [@MaptimeSEA](http://twitter.com/MaptimeSEA) where you can follow our every move. Say hello to us!
-
 **Email**. Questions? Send us an email at `maptimesea@gmail.com` to get in touch.
 
 **Survey**. Our tutorials are structured around what you want to learn. Fill out our survey out even if you haven't attended a meeting to express what you're interested in learning! [bit.ly/maptimesea_survey](http://bit.ly/maptimesea_survey)

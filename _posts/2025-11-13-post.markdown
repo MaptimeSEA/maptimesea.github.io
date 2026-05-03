@@ -1,0 +1,23 @@
+---
+layout: tut
+title: "Styling Vector Basemaps"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/311691132/](https://www.meetup.com/maptimesea/events/311691132/)
+
+This is an introductory tutorial on web maps and vector tile basemaps. You’ll learn what vector tiles are, some easy ways of styling and personalizing them, and how to include your custom basemap in a web map. You’ll have a chance to be creative and share your custom map!
+
+Technologies used: Maputnik, MapTiler, MapLibre GL JS
+
+What to Bring:
+* Your (charged) laptop
+* A computer mouse
+* Anything you need to stay comfortable for a 2-hour session
+
+Who Should Attend: Anyone curious about web mapping! No prior experience is required—whether you’re brand new to mapping or already comfortable with spatial tools, you’ll walk away with new skills.
+
+Instructor:
+* 👤 Fred Lott is a Senior GIS Developer at King County with a background in water resources and a passion for building tools that make spatial data more accessible and understandable.

@@ -1,0 +1,33 @@
+---
+layout: tut
+title: "Hand Drawn Maps - A December Tradition!"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/256243275/](https://www.meetup.com/maptimesea/events/256243275/)
+
+What to expect:
+
+Put down your computers. Put away those bytes and cell phones. Time to make maps the old fashioned way. Once again we are going to pull back on the technical work for our December meetup by drawing our own maps!
+
+This year we will make Exquisite Maps--an adaptation of the Exquisite Corpse, an old method for collectively assembling images. Typically this approach is used as follows: a sheet of paper is folded one or more times. The first artist draws a picture on the portion of the sheet they can see, and extends some parts of their drawing just past the fold line, so when they pass the sheet, the next artist sees a mostly blank page with only a handful of lines on one edge, and has no idea what those lines are connected to. The results are usually unexpected, always interesting, and often pretty hilarious.
+
+For our session, we have developed a list of 30 map prompts. We will use 11x17 sheets folded into thirds , and each participant will draw 1/3 of three different maps over the course of three 30 minute sessions. At the end of each session, you will pass your partially completed map to the person on your right, and will receive a blank sheet with a prompt (such as "North Pole" or "Road Trip!") on a post-it note from the person on your left. After the third session we will assemble all of your Exquisite Maps to create a single seamless tapestry of cartographic creativity.
+
+Take a look at Danielle Dai's hand-drawn map inspiration repository to get the creative juices flowing. [https://github.com/ddai/hand-drawn-maps](https://github.com/ddai/hand-drawn-maps)
+
+What to bring:
+
+Bring your creativity and sense of adventure, and we'll provide paper, some colored pencils & markers--and maybe even some chocolate! But we can't promise we'll have all the bells and whistles, so please bring your favorite drawing & coloring supplies to ensure we have enough to go around!
+
+Lastly, be sure to wear your ugly holiday sweater!
+
+Where to go:
+
+From the SE corner of Union St and 6th Ave, enter Two Union Square (behind Butch Blum). Go up 2 flights of escalators, turn right at the huge brick wall after the last elevator and then left to the elevator areas. You want the farthest set of elevators that go to floors 4-22. Take the elevator to the 6th floor. Once there, look one way and you will see a sign for Floyd\|Snider. Do a 180 and you will see a set of frosted doors. Go through the frosted doors - they lead directly to our conference room. Note that there will be no signage other than a piece of paper on our conference room door. If you arrive after 6pm, you won't be able to get up the elevator without an escort. We'll post the number to call if you arrive late in a comment before the meeting.
+
+About your instructor:
+
+Matt Stevenson is a GIS consultant and inveterate sketcher, among other things. You can learn more about his GIS and cartography work at [http://www.coregis.net/](http://www.coregis.net/) and see some of his artwork at [https://www.instagram.com/matthew.r.stevenson/](https://www.instagram.com/matthew.r.stevenson/)

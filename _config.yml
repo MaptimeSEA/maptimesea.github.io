@@ -13,6 +13,6 @@ highlighter: pygments
 
 permalinks: /tutorial-:title
 
-markdown: redcarpet 
-redcarpet:   
+markdown: kramdown 
+kramdown:   
   extensions: ["strikethrough"]

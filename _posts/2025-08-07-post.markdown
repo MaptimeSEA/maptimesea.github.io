@@ -1,0 +1,46 @@
+---
+layout: tut
+title: "Generate a Seattle Map Logo with QGIS"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/308937311/](https://www.meetup.com/maptimesea/events/308937311/)
+
+Get inspired and unleash your creativity during this special bonus virtual tutorial designed to help you prepare a submission for our MaptimeSEA logo competition! With the submission deadline coming up on October 1st, this session aims to make creating and sharing your logo ideas more accessible and fun.
+
+We’ll cover a range of cartographic workflows in QGIS that can help bring your design to life and can also be applied to many other creative mapping projects.
+
+Agenda:
+* Introduction to MaptimeSEA / Code of Conduct (15 mins): We’ll introduce MaptimeSEA, share upcoming events, and go over expectations for respectful participation during this virtual session.
+* Finding Data & Fonts (20 mins): We’ll walk through where to find useful data for your design, tips on selecting the perfect font to match your style, and how to incorporate these elements seamlessly into your work.
+* Hands-on Workflow in QGIS (40–50 mins): A guided, step-by-step demonstration in QGIS, perfect for beginners. * We’ll cover the basics to get you started and show how to put everything together into a polished layout ready for submission.
+* Adding Texture & Sizing Your Layout (30 mins): Learn how to add texture to your layout to make your logo stand out, and how to size your design based on the final product you have in mind (sticker, button, social media, etc.).
+
+What to Bring:
+* Your laptop
+* A reliable internet connection
+ * QGIS installed and ready to go
+ * Your creative energy
+
+How to Prepare:
+* Add the Event to Your Calendar: https://calendar.app.google/hmdG8HuQzbHGtfmd8
+* Data Download: [https://drive.google.com/file/d/14bWYZOQCCj5Y048QJeNYqmeqg1wOclCm/view?usp=sharing](https://drive.google.com/file/d/14bWYZOQCCj5Y048QJeNYqmeqg1wOclCm/view?usp=sharing)
+* QGIS Installation: Installing QGIS is a breeze, and the QGIS website has got you covered. Just follow their instructions to download the version that matches your computer's setup (Linux, Mac, or Windows). Any long-term release (LTR) of QGIS version 3.16 or newer will work. Here's the link to get started: [https://www.qgis.org/en/site/forusers/download.html](https://www.qgis.org/en/site/forusers/download.html)
+* Set Up Your Workspace: Make sure your workspace is comfortable and you have space to follow along with the tutorial.
+
+Who Should Attend:
+* Anyone interested in design, cartography, or curious about using QGIS to create graphics. Whether you’re submitting to the logo competition or just looking to build new skills, all levels are welcome!
+
+Where to Go:
+* This tutorial will take place virtually on Google Meet. Here are the details:
+* Generate a Seattle Map Logo with QGIS
+* Thursday, August 7 · 6:00 – 8:00pm
+* Time zone: America/Los_Angeles
+* Google Meet joining info
+* Video call link: https://meet.google.com/nhg-urpt-svm
+
+About the Instructors:
+* 👤 Diana Bonnarens (she/her) supports strategic planning at the Washington State Department of Transportation, where she applies GIS to analyze and guide long-term facility needs. She holds a Master’s in Geographic Information Science and Technology from USC’s Spatial Sciences Institute and a B.S. in Geology from the University of Washington, fueling her enthusiasm for remote sensing, cartography, and spatial storytelling. Diana relaunched and currently leads MaptimeSEA, helping to foster an inclusive, hands-on mapping community in the Seattle area.
+* 👤 Stirling Scott (she/her) is a GIS Technician at Puget Sound Energy with a B.A. in geography and an academic background in leveraging GIS for environmental conservation and urban planning. She has been a lead organizer of MaptimeSEA for 2 years and is passionate about building community and breaking down barriers to access GIS technology.

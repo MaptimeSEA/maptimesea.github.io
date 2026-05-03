@@ -1,0 +1,21 @@
+---
+layout: tut
+title: "✨ Hand Drawn Maps- A December Tradition ✨"
+---
+
+Maptime brings experts, beginners, and the curious together all for the sake of spatial learning. Our goal for the Seattle branch of maptime is to connect geospatial professionals with those who desire to learn more about maps and spatial data.
+
+#### Meetup link:
+[https://www.meetup.com/maptimesea/events/297181035/](https://www.meetup.com/maptimesea/events/297181035/)
+
+🗺️ In our hand-drawn maps tutorial, we'll explore the whimsical world of fantasy cartography. Our canvas will be the map of Washington counties, where we'll bring to life one-of-a-kind physical and cultural features. Embrace your creativity and remember, wrong answers are the way to go! 🎨
+
+📣 Once your artistic masterpiece is complete, county representatives will pitch their lands, explaining why everyone should choose their fantastical domain as the ultimate place to live. 🏰
+
+🍻 Following the tutorial, we extend a warm welcome for you to stay and mingle with your fellow map enthusiasts. It's the perfect opportunity to indulge in spirited conversations about cartography, GIS, or any other topic that piques your interest. To make this post-tutorial gathering even more festive, we've got an ugly sweater competition lined up, so be sure to come with your most heinous winter apparel. ❄️
+
+What to Bring
+* 🏕️ Although we've got cozy tents and heaters to shield you from the elements, please remember to dress warmly, as we'll be meeting outside.
+
+About the Instructor
+* 👤 Matt Stevenson is not just a seasoned professional in cartography, spatial analysis, web mapping, and GIS project management; he's also a passionate artist who loves to blend art into his GIS work and daily life wherever possible. With twenty-five years of experience, Matt works primarily with government agencies and non-profits focused on conservation and restoration. His unique blend of technical expertise and artistic creativity brings a fresh and innovative perspective to the world of geospatial science and its applications.
