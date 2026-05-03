@@ -23,8 +23,8 @@ MaptimeSEA has a [Code of Conduct](/conduct/) for all our activities.  Please re
 
 **Survey**. Our tutorials are structured around what you want to learn. Fill out [our survey](https://docs.google.com/forms/d/e/1FAIpQLSchKhJWcBP1Kp4_lYIyjol1ZCcjeYL0pWVgdysQ2VNF8f9b4g/viewform) even if you haven't attended a meeting to express what you're interested in learning!
 
-# Our Tutorials
+# Our Events
 
-Interested in leading a tutorial? Great! Take a look at our [instructor guidelines](/guidelines) and send us a message.
+Interested in running a tutorial or event? Great! Take a look at our [instructor guidelines](/guidelines) and send us a message.
 
-Otherwise, check out our past tutorials!
+Otherwise, check out our past meetups!
