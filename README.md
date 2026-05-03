@@ -1,4 +1,4 @@
-#[Maptime Seattle](http://maptimesea.github.io)
+# [Maptime Seattle](http://maptimesea.github.io)
 
 ![Seattle skyline](img/4850319902_2613f2e28e_b.jpg)
 
@@ -8,7 +8,7 @@ MaptimeSEA is the Seattle branch of the international [Maptime](http://maptime.i
 1. **Free**. All of our meetings are free.
 1. **Powered by interest**. We teach what people want to learn. Our curriculum is ever-evolving and intended to focus on what's newest and most prevalent to *right now*.
 
-#Stay Connected
+## Stay Connected
 
 **Meetup**. All of our meetings and events will be posted on [our meetup site](http://meetup.com/maptimeSEA). Here you can RSVP for upcoming meetings and ask questions of your fellow mappers.
 
@@ -16,11 +16,11 @@ MaptimeSEA is the Seattle branch of the international [Maptime](http://maptime.i
 
 **Survey**. Our tutorials are structured around what you want to learn. Fill out our survey out even if you haven't attended a meeting to express what you're interested in learning! [bit.ly/maptimesea_survey](http://bit.ly/maptimesea_survey)
 
-#Our Tutorials
+## Our Tutorials
 
 We are trying our best to post tutorials so anybody can learn from them. We'll be using [resources](http://maptime.io/lessons-resources/) from [MaptimeHQ](http://twitter.com/MaptimeHQ) as well as writing our own, which can be [viewed on the website](http://maptimesea.github.io/).
 
-# Updating this website
+## Updating this website
 
 Assumes you have `git@github.com:MaptimeSEA/maptimesea.github.io.git` cloned on your local machine.
 
@@ -34,3 +34,7 @@ Assumes you have `git@github.com:MaptimeSEA/maptimesea.github.io.git` cloned on 
 7. push changes to new remote branch: `git push origin HEAD` (actually write the word HEAD in all caps)
 8. make a pull request from your branch into `master` on github.com
 
+## Building and running locally
+1. [Install ruby and jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+2. `bundle install`
+3. `bundle exec jekyll serve` to build the site and start a local server

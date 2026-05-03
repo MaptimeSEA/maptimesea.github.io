@@ -5,8 +5,9 @@ title: "Spatial Analysis with PostGIS"
 
 In this session we'll get acquainted with pgAdmin and do some spatial analysis with a PostGIS Database. 
 
-Thank you to [Clayton Parker Coleman] (https://github.com/parkercoleman) for providing this tutorial!
+Thank you to [Clayton Parker Coleman](https://github.com/parkercoleman) for providing this tutorial!
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iY8eXAjjp_Y?si=Xwl_62-J0NvjLWnf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Connect to the database
 

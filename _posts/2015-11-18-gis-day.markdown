@@ -1,0 +1,10 @@
+---
+layout: tut
+title: "GIS Day 2015"
+---
+
+Christy Heaton and Andrew Powers gave a presentation at the University of Washington's GIS Day.
+
+Check out the [slides](/presentations/GIS_Day_2015_Presentation.pdf) or a recording of the presentation below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c5BkiGEv1eA?si=HaQUAAOCz51_hSAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
